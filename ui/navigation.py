@@ -11,31 +11,17 @@ from ui.pages import (
     settings,
 )
 
-
-PAGES = {
-    "Dashboard": dashboard.render,
-    "Chat with Agent": chat.render,
-    "Discover": discover.render,
-    "My Profile": profile.render,
-    "Documents": documents.render,
-    "Applications": applications.render,
-    "Roadmap": roadmap.render,
-    "Settings": settings.render,
-}
-
-
 def render_navigation():
+    pages = {
+        "Dashboard": dashboard.render,
+        "Chat with Agent": chat.render,
+        "Discover": discover.render,
+        "My Profile": profile.render,
+        "Documents": documents.render,
+        "Applications": applications.render,
+        "Roadmap": roadmap.render,
+        "Settings": settings.render,
+    }
 
-    page_names = list(PAGES.keys())
-
-    selected_page = st.sidebar.radio(
-        "Navigation",
-        page_names,
-        index=page_names.index(
-            st.session_state.current_page
-        ),
-    )
-
-    st.session_state.current_page = selected_page
-
-    PAGES[selected_page]()
+    choice = st.sidebar.radio("Navigate", list(pages.keys()))
+    pages[choice]()

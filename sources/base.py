@@ -1,7 +1,5 @@
 from abc import ABC, abstractmethod
-
 from models.opportunity import Opportunity
-
 
 class BaseSource(ABC):
     name: str = "Unknown Source"

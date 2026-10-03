@@ -1,15 +1,11 @@
 from llm.base import BaseLLM
 
-
 class FallbackLLM(BaseLLM):
+    name = "fallback"
 
-    def generate(
-        self,
-        prompt: str,
-        system_prompt: str = "",
-    ) -> str:
-
+    async def generate(self, prompt: str, system: str = "") -> str:
         return (
-            "LLM provider is currently unavailable. "
-            "Opportune AI is operating in fallback mode."
+            "No LLM provider is configured or available. "
+            "Opportune AI can still use structured discovery, matching, "
+            "documents, and application tracking."
         )

@@ -1,44 +1,24 @@
+import asyncio
 import streamlit as st
-
-from llm.manager import LLMManager
+from agents.chat_agent import ChatAgent
 
 
 def render():
+    st.header('💬 Chat with Agent')
+    st.caption('With an LLM configured, the agent can answer questions and safely update your profile, skills, documents, and application tracker when you explicitly ask it to.')
 
-    st.header("Chat with Agent")
+    for role, content in st.session_state.messages:
+        with st.chat_message(role):
+            st.write(content)
 
-    st.write(
-        "Ask Opportune AI about jobs, internships, "
-        "scholarships, master's programs, or research."
-    )
-
-    for message in st.session_state.chat_messages:
-
-        with st.chat_message(message["role"]):
-            st.write(message["content"])
-
-    prompt = st.chat_input(
-        "What opportunity are you looking for?"
-    )
-
+    prompt = st.chat_input('Ask about opportunities, CVs, profile, applications, or say “add Python to my profile”.')
     if prompt:
-
-        st.session_state.chat_messages.append(
-            {
-                "role": "user",
-                "content": prompt,
-            }
-        )
-
-        manager = LLMManager()
-
-        response = manager.generate(prompt)
-
-        st.session_state.chat_messages.append(
-            {
-                "role": "assistant",
-                "content": response,
-            }
-        )
-
-        st.rerun()
+        st.session_state.messages.append(('user', prompt))
+        with st.chat_message('user'):
+            st.write(prompt)
+        with st.chat_message('assistant'):
+            response, changed = asyncio.run(ChatAgent().respond(prompt))
+            st.write(response)
+            if changed:
+                st.success('Change applied to your Opportune AI data.')
+            st.session_state.messages.append(('assistant', response))

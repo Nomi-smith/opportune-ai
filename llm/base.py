@@ -1,12 +1,8 @@
 from abc import ABC, abstractmethod
 
-
 class BaseLLM(ABC):
+    name = "unknown"
 
     @abstractmethod
-    def generate(
-        self,
-        prompt: str,
-        system_prompt: str = "",
-    ) -> str:
+    async def generate(self, prompt: str, system: str = "") -> str:
         raise NotImplementedError

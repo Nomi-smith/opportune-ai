@@ -1,38 +1,16 @@
 import streamlit as st
-
+from database.db import list_applications, list_documents
 
 def render():
+    st.header("📊 Dashboard")
+    applications = list_applications(1)
+    documents = list_documents(1)
 
-    st.header("Dashboard")
-
-    col1, col2, col3, col4 = st.columns(4)
-
-    with col1:
-        st.metric("New Matches", "0")
-
-    with col2:
-        st.metric("Saved", "0")
-
-    with col3:
-        st.metric("Applications", "0")
-
-    with col4:
-        st.metric("Upcoming Deadlines", "0")
-
-    st.divider()
-
-    st.subheader("Welcome to Opportune AI")
-
-    st.write(
-        """
-        Your personal opportunity and application intelligence agent.
-
-        Start by completing your profile. Once your profile is ready,
-        Opportune AI will be able to search for opportunities and
-        determine which ones match your background.
-        """
-    )
+    col1, col2 = st.columns(2)
+    col1.metric("Tracked applications", len(applications))
+    col2.metric("Saved documents", len(documents))
 
     st.info(
-        "Next step: complete your profile."
+        "Use Discover to find opportunities, Profile to provide your background, "
+        "Documents to upload your master CV, and Applications to track progress."
     )

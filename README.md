@@ -1,42 +1,9 @@
-# Opportune AI
+# Opportune AI — Gemini 3.8 / Google Search Fix
 
-Personal Opportunity & Application Intelligence Agent.
+The previous build was calling `gemini-2.5-flash`. New Gemini API projects/users can be restricted from that model. This patch changes the LLM and Google Search grounding source to `gemini-3.8-flash`.
 
-Opportune AI helps users discover, verify, understand, and prepare applications for:
+Google Search grounding remains implemented through Gemini's official `google_search` tool, and grounded URLs are fetched for opportunity extraction.
 
-- Jobs
-- Internships
-- Master's programs
-- Scholarships
-- Research opportunities
-- Professors and research labs
+Apply these files over the existing project. Do not replace `.env` or `opportune.db`.
 
-## Core Philosophy
-
-Opportune AI is designed around:
-
-- Multiple data sources
-- Free-first APIs
-- Public web discovery
-- Official-source verification
-- Eligibility matching
-- Financial analysis
-- Application preparation
-- Evidence-based results
-- Human review before submission
-
-## Tech Stack
-
-- Python
-- Streamlit
-- SQLite
-- Pydantic
-- Async HTTP
-- Multiple LLM providers
-
-## Development
-
-Create a virtual environment:
-
-```bash
-python -m venv .venv
+Restart Streamlit after copying the files.

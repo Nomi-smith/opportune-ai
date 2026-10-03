@@ -1,39 +1,20 @@
 import hashlib
+import re
 
-from models.opportunity import Opportunity
+def _key(item):
+    raw = "|".join([
+        re.sub(r"\W+", " ", (item.title or "").lower()).strip(),
+        re.sub(r"\W+", " ", (item.organization or "").lower()).strip(),
+        (item.country or "").lower().strip(),
+    ])
+    return hashlib.sha1(raw.encode("utf-8")).hexdigest()
 
-
-def create_opportunity_key(
-    opportunity: Opportunity,
-) -> str:
-
-    parts = [
-        opportunity.title.lower().strip(),
-        opportunity.organization.lower().strip(),
-        (opportunity.country or "").lower().strip(),
-    ]
-
-    raw = "|".join(parts)
-
-    return hashlib.sha256(
-        raw.encode("utf-8")
-    ).hexdigest()
-
-
-def deduplicate_opportunities(
-    opportunities: list[Opportunity],
-) -> list[Opportunity]:
-
-    unique = {}
-    
-    for opportunity in opportunities:
-
-        key = create_opportunity_key(
-            opportunity
-        )
-
-        if key not in unique:
-            opportunity.id = key
-            unique[key] = opportunity
-
-    return list(unique.values())
+def deduplicate_opportunities(items):
+    seen = set()
+    output = []
+    for item in items:
+        key = _key(item)
+        if key not in seen:
+            seen.add(key)
+            output.append(item)
+    return output

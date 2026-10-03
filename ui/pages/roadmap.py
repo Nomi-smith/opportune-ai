@@ -1,22 +1,18 @@
 import streamlit as st
-
+from database.db import list_applications
 
 def render():
+    st.header("🗺️ Roadmap")
 
-    st.header("Application Roadmap")
+    rows = list_applications(1)
 
-    st.write(
-        """
-        Your personalized application roadmap will appear here.
+    if not rows:
+        st.info("No applications tracked yet.")
+        return
 
-        It will eventually include:
-
-        • Eligibility requirements
-        • Missing documents
-        • Language tests
-        • Application deadlines
-        • Application steps
-        • Financial requirements
-        • Next actions
-        """
-    )
+    for row in rows:
+        st.write(f"### {row['title']}")
+        st.write(f"Status: **{row['status']}**")
+        st.write(
+            f"Next action: **{row['next_action'] or 'Review requirements'}**"
+        )
