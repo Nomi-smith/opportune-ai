@@ -1,6 +1,6 @@
 import re
 
-from intelligence.skill_taxonomy import extract_skills, merge_skills, normalize_text
+from intelligence.skill_taxonomy import extract_skills, merge_skills, normalize_text, skill_aliases
 
 
 def _section(text: str, headings: list[str], max_lines: int = 80) -> str:
@@ -244,3 +244,67 @@ def _unique_list(values):
             seen.add(key)
             out.append(value)
     return out
+
+
+
+_PROJECT_CLUTTER = {
+    'relevant coursework', 'coursework', 'freelance experience', 'leadership',
+    'leadership experience', 'professional experience', 'work experience',
+    'experience', 'skills', 'technical skills', 'education', 'certifications',
+}
+
+
+def clean_project_clutter(projects) -> list[dict]:
+    """Drop unmistakable CV section headings/coursework lists that were stored as projects."""
+    cleaned = []
+    for item in projects or []:
+        if isinstance(item, str):
+            item = {'title': item[:120], 'description': item}
+        if not isinstance(item, dict):
+            continue
+        title = str(item.get('title', '') or '').strip()
+        desc = str(item.get('description', '') or '').strip()
+        low = title.casefold()
+        if not title and not desc:
+            continue
+        if low in _PROJECT_CLUTTER or low.startswith('project from cv'):
+            continue
+        if '\u2022' in title and low.startswith(('algorithms', 'database systems', 'software engineering')):
+            continue
+        cleaned.append({'title': title, 'description': desc})
+    return cleaned
+
+
+def _in_text(needle: str, haystack_norm: str) -> bool:
+    needle = normalize_text(needle)
+    if not needle:
+        return False
+    pattern = r'(?<![a-z0-9])' + re.escape(needle).replace(r'\ ', r'\s+') + r'(?![a-z0-9])'
+    return bool(re.search(pattern, haystack_norm))
+
+
+def ground_new_llm_facts(updated: dict, previous: dict, cv_text: str) -> dict:
+    """Keep LLM-added skills/projects only when the CV text itself supports them.
+
+    Anything that was already in the profile is untouched. A newly added skill must appear
+    (or one of its aliases must) in the CV; a newly added project must have a title found
+    in the CV and must not be a section heading.
+    """
+    result = dict(updated)
+    cv_norm = normalize_text(cv_text)
+    prev_skills = set(merge_skills(previous.get('skills', [])))
+    kept = []
+    for skill in merge_skills(updated.get('skills', [])):
+        if skill in prev_skills or any(_in_text(a, cv_norm) for a in skill_aliases(skill)):
+            kept.append(skill)
+    result['skills'] = kept
+
+    prev_keys = {_project_key(str(p.get('title') or p.get('description', '')[:120]))
+                 for p in (previous.get('projects') or []) if isinstance(p, dict)}
+    projects = []
+    for proj in clean_project_clutter(updated.get('projects', [])):
+        key = _project_key(proj['title'] or proj['description'][:120])
+        if key in prev_keys or (proj['title'] and normalize_text(proj['title']) in cv_norm):
+            projects.append(proj)
+    result['projects'] = projects
+    return result

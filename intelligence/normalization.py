@@ -14,8 +14,20 @@ def clean_text(value):
     return text
 
 
+_SITE_SUFFIX = re.compile(r"^(.{15,}?)_(?=[A-Z])[^_]{4,}$")
+
+
+def clean_title(value):
+    """Drop scraped site suffixes such as 'Scholarship Application (2026)_Embassy of ... in the USA'."""
+    text = clean_text(value) or ""
+    m = _SITE_SUFFIX.match(text)
+    if m:
+        text = m.group(1)
+    return text.strip(" _-|\u2013\u2014")
+
+
 def normalize_opportunity(item: Opportunity) -> Opportunity:
-    item.title = clean_text(item.title)
+    item.title = clean_title(item.title)
     item.organization = clean_text(item.organization)
     item.description = clean_text(item.description)
     item.country = clean_text(item.country)

@@ -72,13 +72,15 @@ class ArbeitnowSource(BaseSource):
     API_URL = "https://www.arbeitnow.com/api/job-board-api"
 
     async def search(self, query, opportunity_type=None, country=None):
+        from sources.jobs.common import cached_json, clean_role_query
+        # A job board must never answer a Scholarship / Research / Admissions search.
+        if (opportunity_type or "").lower() not in {"job", "internship"}:
+            return []
         try:
-            async with httpx.AsyncClient(timeout=20) as client:
-                response = await client.get(self.API_URL)
-                response.raise_for_status()
-                payload = response.json()
+            payload = await cached_json(self.API_URL, ttl=900)
         except Exception:
             return []
+        query = clean_role_query(query, country)
 
         c_tokens = _tokens(country)
         requested_type = (opportunity_type or "All").lower()
@@ -118,6 +120,7 @@ class ArbeitnowSource(BaseSource):
                     organization=job.get("company_name", ""),
                     opportunity_type=kind,
                     city=job.get("location") or None,
+                    work_mode="Remote" if job.get("remote") else None,
                     description=_clean_html(job.get("description", "")),
                     application_url=job.get("url"),
                     source_url=job.get("url"),
@@ -128,6 +131,11 @@ class ArbeitnowSource(BaseSource):
                         "tags": job.get("tags", []),
                         "job_types": job.get("job_types", []),
                         "created_at": job.get("created_at"),
+                        "posted_date": str(job.get("created_at") or ""),
+                        "structured_listing": True,
+                        "work_mode": "Remote" if job.get("remote") else "On-site",
+                        "job_type": ", ".join(job.get("job_types", []) or []),
+                        "source_tier": "database",
                         "relevance_score": score,
                         "discovery_type": "DIRECT_PAGE",
                     },

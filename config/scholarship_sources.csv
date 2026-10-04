@@ -1,0 +1,598 @@
+#,Country / Region,Name,Type,Website,Level,Open to,Funding model
+1,Global,Erasmus+ (incl. Erasmus Mundus Joint Masters),Government,https://erasmus-plus.ec.europa.eu,Master's,International students,Full / fully funded schemes
+2,Global,EACEA Erasmus Mundus Catalogue,Government,https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en,Master's,International students,Full / fully funded schemes
+3,Global,Mastercard Foundation Scholars Program,Foundation / Trust,https://mastercardfdn.org,"Bachelor's, Master's",International students,Full / fully funded schemes
+4,Global,Aga Khan Foundation International Scholarship Programme,Foundation / Trust,https://www.akdn.org/our-agencies/aga-khan-foundation,"Master's, PhD",International students,Partial / stipend
+5,Global,Rotary Peace Fellowships,Foundation / Trust,https://www.rotary.org/en/our-programs/peace-fellowships,Master's,International students,Full / fully funded schemes
+6,Global,Rotary Foundation Scholarships,Foundation / Trust,https://www.rotary.org/en/our-programs/scholarships,All levels,International students,Varies by programme
+7,Global,Schwarzman Scholars,Foundation / Trust,https://www.schwarzmanscholars.org,Master's,International students,Full / fully funded schemes
+8,Global,Yenching Academy of Peking University,University,https://yenchingacademy.pku.edu.cn,Master's,International students,Full / fully funded schemes
+9,Global,World Bank Scholarships (Joint Japan/World Bank),International Organization,https://www.worldbank.org/en/programs/scholarships,Master's,International students,Full / fully funded schemes
+10,Global,OAS Academic Scholarships,International Organization,https://www.oas.org/en/scholarships/,"Master's, PhD",International students,Varies by programme
+11,Global,UNESCO Fellowships,International Organization,https://www.unesco.org/en/fellowships,All levels,International students,Varies by programme
+12,Global,Asian Development Bank-Japan Scholarship Program,International Organization,https://www.adb.org/work-with-us/careers/japan-scholarship-program,Master's,International students,Full / fully funded schemes
+13,Global,Islamic Development Bank (IsDB),International Organization,https://www.isdb.org,"Master's, PhD",International students,Varies by programme
+14,Global,OPEC Fund for International Development,International Organization,https://opecfund.org,All levels,International students,Varies by programme
+15,Global,Open Society Foundations,Foundation / Trust,https://www.opensocietyfoundations.org,All levels,International students,Varies by programme
+16,Global,Google PhD Fellowship,Private / Corporate,https://research.google/programs-and-events/phd-fellowship/,PhD,International students,Full / fully funded schemes
+17,Global,Microsoft Research PhD Fellowship,Private / Corporate,https://www.microsoft.com/en-us/research/academic-program/microsoft-research-phd-fellowship/,PhD,International students,Full / fully funded schemes
+18,Global,NVIDIA Graduate Fellowships,Private / Corporate,https://www.nvidia.com/en-us/research/graduate-fellowships/,PhD,International students,Full / fully funded schemes
+19,Global,Qualcomm Innovation Fellowship,Private / Corporate,https://www.qualcomm.com/research/university-relations/innovation-fellowship,"Master's, PhD",International students,Partial / stipend
+20,Global,Meta Research PhD Fellowship,Private / Corporate,https://research.facebook.com/fellowship/,PhD,International students,Full / fully funded schemes
+21,Global,Google Scholarships (Generation etc.),Private / Corporate,https://buildyourfuture.withgoogle.com/scholarships,"Bachelor's, Master's",Mixed (check programme),Partial / stipend
+22,Global,Scholars4Dev,Aggregator (verify on official site),https://www.scholars4dev.com,All levels,International students,Varies by programme
+23,Global,ScholarshipPortal (Studyportals),Aggregator (verify on official site),https://www.scholarshipportal.com,All levels,International students,Varies by programme
+24,Global,MastersPortal,Aggregator (verify on official site),https://www.mastersportal.com,Master's,International students,Varies by programme
+25,Global,PhDPortal,Aggregator (verify on official site),https://www.phdportal.com,PhD,International students,Varies by programme
+26,Global,BachelorsPortal,Aggregator (verify on official site),https://www.bachelorsportal.com,Bachelor's,International students,Varies by programme
+27,Global,International Scholarships (IEFA),Aggregator (verify on official site),https://www.internationalscholarships.com,All levels,International students,Varies by programme
+28,Global,IIE Passport Study Abroad Funding,Aggregator (verify on official site),https://www.iiepassport.org,All levels,Mixed (check programme),Varies by programme
+29,Global,Opportunity Desk,Aggregator (verify on official site),https://opportunitydesk.org,All levels,International students,Varies by programme
+30,Global,Scholarship Positions,Aggregator (verify on official site),https://scholarship-positions.com,All levels,International students,Varies by programme
+31,Global,After School Africa,Aggregator (verify on official site),https://www.afterschoolafrica.com,All levels,International students,Varies by programme
+32,Global,Youth Opportunities,Aggregator (verify on official site),https://www.youthop.com,All levels,International students,Varies by programme
+33,Global,FindAPhD,Aggregator (verify on official site),https://www.findaphd.com,PhD,International students,Varies by programme
+34,Global,FindAMasters,Aggregator (verify on official site),https://www.findamasters.com,Master's,International students,Varies by programme
+35,Global,EURAXESS,Government,https://euraxess.ec.europa.eu,"PhD, Postdoc",International students,Varies by programme
+36,Global,Buddy4Study,Aggregator (verify on official site),https://www.buddy4study.com,All levels,Mixed (check programme),Varies by programme
+37,Global,Fastweb,Aggregator (verify on official site),https://www.fastweb.com,All levels,Citizens / residents only,Varies by programme
+38,Global,Scholarships.com,Aggregator (verify on official site),https://www.scholarships.com,All levels,Citizens / residents only,Varies by programme
+39,Global,BigFuture Scholarship Search (College Board),Aggregator (verify on official site),https://bigfuture.collegeboard.org/scholarships,Bachelor's,Citizens / residents only,Varies by programme
+40,Global,Unigo,Aggregator (verify on official site),https://www.unigo.com,Bachelor's,Citizens / residents only,Varies by programme
+41,United States,Fulbright Foreign Student Program,Government,https://foreign.fulbrightonline.org,"Master's, PhD",International students,Full / fully funded schemes
+42,United States,Fulbright Program (US Dept of State),Government,https://fulbrightprogram.org,All levels,Mixed (check programme),Full / fully funded schemes
+43,United States,Fulbright Scholar Program (CIES),Government,https://www.cies.org,Postdoc,Mixed (check programme),Full / fully funded schemes
+44,United States,EducationUSA (US Dept of State),Government,https://educationusa.state.gov,All levels,International students,Varies by programme
+45,United States,Humphrey Fellowship Program,Government,https://www.humphreyfellowship.org,Postdoc,International students,Full / fully funded schemes
+46,United States,Knight-Hennessy Scholars (Stanford),University,https://knight-hennessy.stanford.edu,"Master's, PhD",International students,Full / fully funded schemes
+47,United States,Stanford Financial Aid,University,https://financialaid.stanford.edu,Bachelor's,Mixed (check programme),Varies by programme
+48,United States,Harvard College Financial Aid,University,https://college.harvard.edu/financial-aid,Bachelor's,Mixed (check programme),Varies by programme
+49,United States,MIT Affording MIT,University,https://mitadmissions.org/afford/,Bachelor's,Mixed (check programme),Varies by programme
+50,United States,Yale Financial Aid,University,https://admissions.yale.edu/financial-aid,Bachelor's,Mixed (check programme),Varies by programme
+51,United States,Princeton Cost and Aid,University,https://admission.princeton.edu/cost-aid,Bachelor's,Mixed (check programme),Varies by programme
+52,United States,UC Berkeley Graduate Financial Support,University,https://grad.berkeley.edu/financial/,"Master's, PhD",Mixed (check programme),Varies by programme
+53,United States,Johns Hopkins University,University,https://www.jhu.edu,All levels,Mixed (check programme),Varies by programme
+54,United States,National Science Foundation GRFP,Government,https://www.nsfgrfp.org,"Master's, PhD",Citizens / residents only,Full / fully funded schemes
+55,United States,Hertz Foundation Fellowship,Foundation / Trust,https://www.hertzfoundation.org,PhD,Mixed (check programme),Full / fully funded schemes
+56,United States,Paul & Daisy Soros Fellowships,Foundation / Trust,https://www.pdsoros.org,"Master's, PhD",Citizens / residents only,Partial / stipend
+57,United States,Boren Awards,Government,https://www.borenawards.org,"Bachelor's, Master's",Citizens / residents only,Partial / stipend
+58,United States,Gilman Scholarship,Government,https://www.gilmanscholarship.org,Bachelor's,Citizens / residents only,Partial / stipend
+59,United States,Truman Scholarship,Government,https://www.truman.gov,Master's,Citizens / residents only,Partial / stipend
+60,United States,Goldwater Scholarship,Government,https://goldwaterscholarship.gov,Bachelor's,Citizens / residents only,Partial / stipend
+61,United States,Jack Kent Cooke Foundation,Foundation / Trust,https://www.jkcf.org,"Bachelor's, Master's",Citizens / residents only,Partial / stipend
+62,United States,Horatio Alger Association Scholarships,Foundation / Trust,https://scholars.horatioalger.org,Bachelor's,Citizens / residents only,Partial / stipend
+63,United States,Coca-Cola Scholars Foundation,Foundation / Trust,https://www.coca-colascholarsfoundation.org,Bachelor's,Citizens / residents only,Partial / stipend
+64,United States,The Gates Scholarship,Foundation / Trust,https://www.thegatesscholarship.org,Bachelor's,Citizens / residents only,Full / fully funded schemes
+65,United States,QuestBridge,Foundation / Trust,https://www.questbridge.org,Bachelor's,Mixed (check programme),Full / fully funded schemes
+66,United States,Hispanic Scholarship Fund,Foundation / Trust,https://www.hsf.net,"Bachelor's, Master's",Citizens / residents only,Partial / stipend
+67,United States,UNCF,Foundation / Trust,https://uncf.org,"Bachelor's, Master's",Citizens / residents only,Partial / stipend
+68,United States,Dell Scholars,Foundation / Trust,https://www.dellscholars.org,Bachelor's,Citizens / residents only,Partial / stipend
+69,United States,Ron Brown Scholar Program,Foundation / Trust,https://ronbrown.org,Bachelor's,Citizens / residents only,Partial / stipend
+70,United States,Elks National Foundation Scholarships,Foundation / Trust,https://www.elks.org/scholars,Bachelor's,Citizens / residents only,Partial / stipend
+71,United States,AAUW Fellowships and Grants,Foundation / Trust,https://www.aauw.org/resources/programs/fellowships-grants/,"Master's, PhD",Mixed (check programme),Partial / stipend
+72,United States,National Merit Scholarship Corporation,Foundation / Trust,https://www.nationalmerit.org,Bachelor's,Citizens / residents only,Partial / stipend
+73,United States,Davis United World College Scholars,Foundation / Trust,https://www.davisuwcscholars.org,Bachelor's,International students,Partial / stipend
+74,United States,Federal Student Aid,Government,https://studentaid.gov,All levels,Citizens / residents only,Varies by programme
+75,United States,Churchill Scholarship,Foundation / Trust,https://www.churchillscholarship.org,Master's,Citizens / residents only,Full / fully funded schemes
+76,United States,Mitchell Scholarship (US-Ireland Alliance),Foundation / Trust,https://www.us-irelandalliance.org,Master's,Citizens / residents only,Full / fully funded schemes
+77,United Kingdom,Chevening Scholarships,Government,https://www.chevening.org,Master's,International students,Full / fully funded schemes
+78,United Kingdom,Commonwealth Scholarship Commission,Government,https://cscuk.fcdo.gov.uk,"Master's, PhD",International students,Full / fully funded schemes
+79,United Kingdom,Rhodes Scholarships (Oxford),Foundation / Trust,https://www.rhodeshouse.ox.ac.uk/scholarships/,"Master's, PhD",International students,Full / fully funded schemes
+80,United Kingdom,Gates Cambridge Scholarships,Foundation / Trust,https://www.gatescambridge.org,"Master's, PhD",International students,Full / fully funded schemes
+81,United Kingdom,Marshall Scholarships,Government,https://www.marshallscholarship.org,Master's,Citizens / residents only,Full / fully funded schemes
+82,United Kingdom,Clarendon Fund (Oxford),University,https://www.ox.ac.uk/clarendon,"Master's, PhD",International students,Full / fully funded schemes
+83,United Kingdom,Cambridge Trust,University,https://www.cambridgetrust.org,"Master's, PhD",International students,Full / fully funded schemes
+84,United Kingdom,Oxford Fees and Funding,University,https://www.ox.ac.uk/admissions/graduate/fees-and-funding,"Master's, PhD",International students,Varies by programme
+85,United Kingdom,Imperial College London Fees and Funding,University,https://www.imperial.ac.uk/study/fees-and-funding/,All levels,International students,Varies by programme
+86,United Kingdom,LSE Fees and Funding,University,https://www.lse.ac.uk/study-at-lse/graduate/fees-and-funding,"Master's, PhD",International students,Varies by programme
+87,United Kingdom,UCL Graduate Fees and Funding,University,https://www.ucl.ac.uk/prospective-students/graduate/fees-and-funding,"Master's, PhD",International students,Varies by programme
+88,United Kingdom,University of Edinburgh Student Funding,University,https://www.ed.ac.uk/student-funding,All levels,International students,Varies by programme
+89,United Kingdom,University of Manchester Scholarships,University,https://www.manchester.ac.uk/study/international/finance-and-scholarships/,All levels,International students,Varies by programme
+90,United Kingdom,University of Warwick Postgraduate Funding,University,https://warwick.ac.uk/study/postgraduate/funding,"Master's, PhD",International students,Varies by programme
+91,United Kingdom,University of Glasgow Scholarships,University,https://www.gla.ac.uk/scholarships/,All levels,International students,Varies by programme
+92,United Kingdom,Wellcome,Foundation / Trust,https://wellcome.org,"PhD, Postdoc",International students,Full / fully funded schemes
+93,United Kingdom,UKRI,Government,https://www.ukri.org,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+94,United Kingdom,British Council Study UK Scholarships,Government,https://study-uk.britishcouncil.org,All levels,International students,Varies by programme
+95,United Kingdom,Turing Scheme,Government,https://www.turing-scheme.org.uk,Bachelor's,Citizens / residents only,Partial / stipend
+96,United Kingdom,Leverhulme Trust,Foundation / Trust,https://www.leverhulme.ac.uk,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+97,United Kingdom,The Royal Society,Foundation / Trust,https://royalsociety.org,Postdoc,Mixed (check programme),Full / fully funded schemes
+98,United Kingdom,Weidenfeld-Hoffmann Scholarships,Foundation / Trust,https://www.whs.ox.ac.uk,Master's,International students,Full / fully funded schemes
+99,Canada,Vanier Canada Graduate Scholarships,Government,https://vanier.gc.ca,PhD,International students,Full / fully funded schemes
+100,Canada,Banting Postdoctoral Fellowships,Government,https://banting.fellowships-bourses.gc.ca,Postdoc,International students,Full / fully funded schemes
+101,Canada,Pierre Elliott Trudeau Foundation,Foundation / Trust,https://www.trudeaufoundation.ca,PhD,Mixed (check programme),Full / fully funded schemes
+102,Canada,NSERC,Government,https://www.nserc-crsng.gc.ca,"Master's, PhD",Mixed (check programme),Full / fully funded schemes
+103,Canada,SSHRC,Government,https://www.sshrc-crsh.gc.ca,"Master's, PhD",Mixed (check programme),Full / fully funded schemes
+104,Canada,CIHR,Government,https://cihr-irsc.gc.ca,"Master's, PhD",Mixed (check programme),Full / fully funded schemes
+105,Canada,Mitacs,Government,https://www.mitacs.ca,"Master's, PhD",Mixed (check programme),Partial / stipend
+106,Canada,Lester B. Pearson Scholarship (U of Toronto),University,https://future.utoronto.ca/pearson/about/,Bachelor's,International students,Full / fully funded schemes
+107,Canada,University of Toronto,University,https://www.utoronto.ca,All levels,International students,Varies by programme
+108,Canada,McGill Student Aid,University,https://www.mcgill.ca/studentaid,All levels,International students,Varies by programme
+109,Canada,UBC Finances,University,https://students.ubc.ca/enrolment/finances,All levels,International students,Varies by programme
+110,Canada,University of Waterloo,University,https://uwaterloo.ca,All levels,International students,Varies by programme
+111,Canada,University of Alberta,University,https://www.ualberta.ca,All levels,International students,Varies by programme
+112,Canada,McMaster University,University,https://www.mcmaster.ca,All levels,International students,Varies by programme
+113,Canada,Queen's University,University,https://www.queensu.ca,All levels,International students,Varies by programme
+114,Canada,Simon Fraser University,University,https://www.sfu.ca,All levels,International students,Varies by programme
+115,Canada,Killam Trusts,Foundation / Trust,https://www.killamtrusts.ca,"Master's, PhD",Mixed (check programme),Full / fully funded schemes
+116,Canada,Schulich Leaders Scholarships,Foundation / Trust,https://www.schulichleaders.com,Bachelor's,Citizens / residents only,Partial / stipend
+117,Canada,Loran Scholars Foundation,Foundation / Trust,https://loranscholars.ca,Bachelor's,Citizens / residents only,Partial / stipend
+118,Canada,EduCanada,Government,https://www.educanada.ca,All levels,International students,Varies by programme
+119,Canada,Scholarships Canada,Aggregator (verify on official site),https://www.scholarshipscanada.com,All levels,Citizens / residents only,Varies by programme
+120,Canada,Yconic,Aggregator (verify on official site),https://yconic.com,Bachelor's,Citizens / residents only,Varies by programme
+121,Germany,DAAD (German Academic Exchange Service),Government,https://www.daad.de/en/,All levels,International students,Varies by programme
+122,Germany,DAAD Scholarship Database,Government,https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/,All levels,International students,Varies by programme
+123,Germany,Deutschlandstipendium,Government,https://www.deutschlandstipendium.de,"Bachelor's, Master's",Mixed (check programme),Partial / stipend
+124,Germany,Alexander von Humboldt Foundation,Foundation / Trust,https://www.humboldt-foundation.de,"PhD, Postdoc",International students,Full / fully funded schemes
+125,Germany,Konrad-Adenauer-Stiftung,Foundation / Trust,https://www.kas.de,"Bachelor's, Master's, PhD",Mixed (check programme),Full / fully funded schemes
+126,Germany,Friedrich-Ebert-Stiftung,Foundation / Trust,https://www.fes.de,"Bachelor's, Master's, PhD",Mixed (check programme),Full / fully funded schemes
+127,Germany,Heinrich-Boll-Stiftung,Foundation / Trust,https://www.boell.de,"Bachelor's, Master's, PhD",Mixed (check programme),Full / fully funded schemes
+128,Germany,Rosa-Luxemburg-Stiftung,Foundation / Trust,https://www.rosalux.de,"Bachelor's, Master's, PhD",Mixed (check programme),Full / fully funded schemes
+129,Germany,Hanns-Seidel-Stiftung,Foundation / Trust,https://www.hss.de,"Bachelor's, Master's, PhD",Mixed (check programme),Full / fully funded schemes
+130,Germany,Friedrich-Naumann-Stiftung,Foundation / Trust,https://www.freiheit.org,"Bachelor's, Master's, PhD",Mixed (check programme),Full / fully funded schemes
+131,Germany,Studienstiftung des deutschen Volkes,Foundation / Trust,https://www.studienstiftung.de,"Bachelor's, Master's, PhD",Citizens / residents only,Full / fully funded schemes
+132,Germany,Hans-Bockler-Stiftung,Foundation / Trust,https://www.boeckler.de,"Bachelor's, Master's, PhD",Mixed (check programme),Full / fully funded schemes
+133,Germany,Cusanuswerk,Foundation / Trust,https://www.cusanuswerk.de,"Bachelor's, Master's, PhD",Mixed (check programme),Full / fully funded schemes
+134,Germany,Evangelisches Studienwerk Villigst,Foundation / Trust,https://www.evstudienwerk.de,"Bachelor's, Master's, PhD",Mixed (check programme),Full / fully funded schemes
+135,Germany,Avicenna-Studienwerk,Foundation / Trust,https://www.avicenna-studienwerk.de,"Bachelor's, Master's, PhD",Mixed (check programme),Full / fully funded schemes
+136,Germany,Robert Bosch Stiftung,Foundation / Trust,https://www.bosch-stiftung.de,All levels,Mixed (check programme),Varies by programme
+137,Germany,Max Planck Society,Research Agency,https://www.mpg.de,"PhD, Postdoc",International students,Full / fully funded schemes
+138,Germany,Helmholtz Association,Research Agency,https://www.helmholtz.de,"PhD, Postdoc",International students,Full / fully funded schemes
+139,Germany,Fraunhofer-Gesellschaft,Research Agency,https://www.fraunhofer.de,"PhD, Postdoc",International students,Varies by programme
+140,Germany,Leibniz Association,Research Agency,https://www.leibniz-gemeinschaft.de,"PhD, Postdoc",International students,Varies by programme
+141,Germany,Study in Germany,Government,https://www.study-in-germany.de,All levels,International students,Varies by programme
+142,Germany,Technical University of Munich,University,https://www.tum.de,All levels,International students,Varies by programme
+143,Germany,LMU Munich,University,https://www.lmu.de,All levels,International students,Varies by programme
+144,Germany,Heidelberg University,University,https://www.uni-heidelberg.de,All levels,International students,Varies by programme
+145,Germany,RWTH Aachen University,University,https://www.rwth-aachen.de,All levels,International students,Varies by programme
+146,Germany,TU Berlin,University,https://www.tu.berlin,All levels,International students,Varies by programme
+147,Germany,Humboldt University of Berlin,University,https://www.hu-berlin.de,All levels,International students,Varies by programme
+148,Germany,Freie Universitat Berlin,University,https://www.fu-berlin.de,All levels,International students,Varies by programme
+149,Germany,Karlsruhe Institute of Technology,University,https://www.kit.edu,All levels,International students,Varies by programme
+150,France,Campus France,Government,https://www.campusfrance.org,All levels,International students,Varies by programme
+151,France,Eiffel Excellence Scholarship,Government,https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence,"Master's, PhD",International students,Full / fully funded schemes
+152,France,Etudiant.gouv.fr (CROUS),Government,https://www.etudiant.gouv.fr,"Bachelor's, Master's",Mixed (check programme),Varies by programme
+153,France,PSL Research University,University,https://psl.eu,All levels,International students,Varies by programme
+154,France,Sorbonne University,University,https://www.sorbonne-universite.fr,All levels,International students,Varies by programme
+155,France,Ecole Polytechnique,University,https://www.polytechnique.edu,All levels,International students,Varies by programme
+156,France,Sciences Po,University,https://www.sciencespo.fr,All levels,International students,Varies by programme
+157,France,Ecole Normale Superieure,University,https://www.ens.psl.eu,All levels,International students,Varies by programme
+158,France,HEC Paris,University,https://www.hec.edu,Master's,International students,Varies by programme
+159,France,INSEAD,University,https://www.insead.edu,"Master's, PhD",International students,Varies by programme
+160,France,Universite Paris-Saclay,University,https://www.universite-paris-saclay.fr,All levels,International students,Varies by programme
+161,France,CNRS,Research Agency,https://www.cnrs.fr,"PhD, Postdoc",International students,Full / fully funded schemes
+162,France,Institut Pasteur,Research Agency,https://www.pasteur.fr,"PhD, Postdoc",International students,Full / fully funded schemes
+163,Netherlands,Study in Holland (Nuffic),Government,https://www.studyinholland.nl,All levels,International students,Varies by programme
+164,Netherlands,Nuffic,Government,https://www.nuffic.nl,All levels,International students,Varies by programme
+165,Netherlands,NWO,Research Agency,https://www.nwo.nl,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+166,Netherlands,Delft University of Technology,University,https://www.tudelft.nl,All levels,International students,Varies by programme
+167,Netherlands,University of Amsterdam,University,https://www.uva.nl,All levels,International students,Varies by programme
+168,Netherlands,Leiden University,University,https://www.universiteitleiden.nl,All levels,International students,Varies by programme
+169,Netherlands,Utrecht University,University,https://www.uu.nl,All levels,International students,Varies by programme
+170,Netherlands,Wageningen University,University,https://www.wur.nl,All levels,International students,Varies by programme
+171,Netherlands,University of Groningen,University,https://www.rug.nl,All levels,International students,Varies by programme
+172,Netherlands,Erasmus University Rotterdam,University,https://www.eur.nl,All levels,International students,Varies by programme
+173,Netherlands,Eindhoven University of Technology,University,https://www.tue.nl,All levels,International students,Varies by programme
+174,Netherlands,University of Twente,University,https://www.utwente.nl,All levels,International students,Varies by programme
+175,Netherlands,Maastricht University,University,https://www.maastrichtuniversity.nl,All levels,International students,Varies by programme
+176,Netherlands,Radboud University,University,https://www.ru.nl,All levels,International students,Varies by programme
+177,Netherlands,Vrije Universiteit Amsterdam,University,https://vu.nl,All levels,International students,Varies by programme
+178,Sweden,Swedish Institute Scholarships,Government,https://si.se/en/apply/scholarships/,Master's,International students,Full / fully funded schemes
+179,Sweden,Study in Sweden,Government,https://studyinsweden.se,All levels,International students,Varies by programme
+180,Sweden,KTH Royal Institute of Technology,University,https://www.kth.se,All levels,International students,Varies by programme
+181,Sweden,Lund University,University,https://www.lunduniversity.lu.se,All levels,International students,Varies by programme
+182,Sweden,Uppsala University,University,https://www.uu.se,All levels,International students,Varies by programme
+183,Sweden,Chalmers University of Technology,University,https://www.chalmers.se,All levels,International students,Varies by programme
+184,Sweden,Stockholm University,University,https://www.su.se,All levels,International students,Varies by programme
+185,Sweden,Karolinska Institutet,University,https://ki.se,All levels,International students,Varies by programme
+186,Sweden,Linkoping University,University,https://liu.se,All levels,International students,Varies by programme
+187,Sweden,University of Gothenburg,University,https://www.gu.se,All levels,International students,Varies by programme
+188,Sweden,Umea University,University,https://www.umu.se,All levels,International students,Varies by programme
+189,Sweden,Knut and Alice Wallenberg Foundation,Foundation / Trust,https://www.wallenberg.org,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+190,Sweden,Swedish Research Council,Research Agency,https://www.vr.se,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+191,Sweden,Sida,Government,https://www.sida.se,All levels,International students,Varies by programme
+192,Finland,EDUFI (Finnish National Agency for Education),Government,https://www.oph.fi,All levels,International students,Varies by programme
+193,Finland,Study in Finland,Government,https://www.studyinfinland.fi,All levels,International students,Varies by programme
+194,Finland,University of Helsinki,University,https://www.helsinki.fi,All levels,International students,Varies by programme
+195,Finland,Aalto University,University,https://www.aalto.fi,All levels,International students,Varies by programme
+196,Finland,Tampere University,University,https://www.tuni.fi,All levels,International students,Varies by programme
+197,Finland,University of Oulu,University,https://www.oulu.fi,All levels,International students,Varies by programme
+198,Finland,University of Turku,University,https://www.utu.fi,All levels,International students,Varies by programme
+199,Finland,University of Jyvaskyla,University,https://www.jyu.fi,All levels,International students,Varies by programme
+200,Finland,LUT University,University,https://www.lut.fi,All levels,International students,Varies by programme
+201,Finland,Abo Akademi University,University,https://www.abo.fi,All levels,International students,Varies by programme
+202,Finland,Research Council of Finland,Research Agency,https://www.aka.fi,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+203,Denmark,Study in Denmark,Government,https://studyindenmark.dk,All levels,International students,Varies by programme
+204,Denmark,Danish Ministry of Higher Education and Science,Government,https://ufm.dk,All levels,International students,Varies by programme
+205,Denmark,University of Copenhagen,University,https://www.ku.dk,All levels,International students,Varies by programme
+206,Denmark,Aarhus University,University,https://www.au.dk,All levels,International students,Varies by programme
+207,Denmark,Technical University of Denmark,University,https://www.dtu.dk,All levels,International students,Varies by programme
+208,Denmark,Aalborg University,University,https://www.aau.dk,All levels,International students,Varies by programme
+209,Denmark,University of Southern Denmark,University,https://www.sdu.dk,All levels,International students,Varies by programme
+210,Denmark,Copenhagen Business School,University,https://www.cbs.dk,All levels,International students,Varies by programme
+211,Denmark,Novo Nordisk Foundation,Foundation / Trust,https://novonordiskfonden.dk/en/,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+212,Denmark,Carlsberg Foundation,Foundation / Trust,https://www.carlsbergfondet.dk/en,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+213,Denmark,Lundbeck Foundation,Foundation / Trust,https://www.lundbeckfonden.com,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+214,Denmark,Independent Research Fund Denmark,Research Agency,https://dff.dk/en,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+215,Norway,Study in Norway,Government,https://www.studyinnorway.no,All levels,International students,Varies by programme
+216,Norway,HK-dir (Norwegian Directorate for Higher Education),Government,https://hkdir.no/en,All levels,International students,Varies by programme
+217,Norway,University of Oslo,University,https://www.uio.no,All levels,International students,Varies by programme
+218,Norway,NTNU,University,https://www.ntnu.edu,All levels,International students,Varies by programme
+219,Norway,University of Bergen,University,https://www.uib.no,All levels,International students,Varies by programme
+220,Norway,UiT The Arctic University of Norway,University,https://uit.no,All levels,International students,Varies by programme
+221,Norway,Norwegian University of Life Sciences,University,https://www.nmbu.no,All levels,International students,Varies by programme
+222,Norway,BI Norwegian Business School,University,https://www.bi.edu,All levels,International students,Varies by programme
+223,Norway,Research Council of Norway,Research Agency,https://www.forskningsradet.no,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+224,Norway,Norad,Government,https://www.norad.no,All levels,International students,Varies by programme
+225,Switzerland,Swiss Government Excellence Scholarships,Government,https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html,"PhD, Postdoc",International students,Full / fully funded schemes
+226,Switzerland,Swiss National Science Foundation,Research Agency,https://www.snf.ch,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+227,Switzerland,ETH Zurich,University,https://ethz.ch,All levels,International students,Varies by programme
+228,Switzerland,EPFL,University,https://www.epfl.ch,All levels,International students,Varies by programme
+229,Switzerland,University of Zurich,University,https://www.uzh.ch,All levels,International students,Varies by programme
+230,Switzerland,University of Basel,University,https://www.unibas.ch,All levels,International students,Varies by programme
+231,Switzerland,University of Bern,University,https://www.unibe.ch,All levels,International students,Varies by programme
+232,Switzerland,University of Geneva,University,https://www.unige.ch,All levels,International students,Varies by programme
+233,Switzerland,University of Lausanne,University,https://www.unil.ch,All levels,International students,Varies by programme
+234,Switzerland,University of St. Gallen,University,https://www.unisg.ch,All levels,International students,Varies by programme
+235,Switzerland,Geneva Graduate Institute,University,https://www.graduateinstitute.ch,"Master's, PhD",International students,Varies by programme
+236,Switzerland,swissuniversities,Government,https://www.swissuniversities.ch,All levels,International students,Varies by programme
+237,Austria,OeAD (Austrian Agency for Education and Internationalisation),Government,https://oead.at,All levels,International students,Varies by programme
+238,Austria,OeAD Scholarship Database (grants.at),Government,https://grants.at/en,All levels,International students,Varies by programme
+239,Austria,FWF Austrian Science Fund,Research Agency,https://www.fwf.ac.at,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+240,Austria,University of Vienna,University,https://www.univie.ac.at,All levels,International students,Varies by programme
+241,Austria,TU Wien,University,https://www.tuwien.at,All levels,International students,Varies by programme
+242,Austria,University of Graz,University,https://www.uni-graz.at,All levels,International students,Varies by programme
+243,Austria,University of Innsbruck,University,https://www.uibk.ac.at,All levels,International students,Varies by programme
+244,Austria,Johannes Kepler University Linz,University,https://www.jku.at,All levels,International students,Varies by programme
+245,Austria,WU Vienna,University,https://www.wu.ac.at,All levels,International students,Varies by programme
+246,Austria,Institute of Science and Technology Austria,Research Agency,https://ista.ac.at,PhD,International students,Full / fully funded schemes
+247,Belgium,VLIR-UOS,Government,https://www.vliruos.be,"Master's, PhD",International students,Full / fully funded schemes
+248,Belgium,ARES (Academy of Research and Higher Education),Government,https://www.ares-ac.be,"Master's, PhD",International students,Varies by programme
+249,Belgium,Wallonie-Bruxelles International,Government,https://www.wbi.be,All levels,International students,Varies by programme
+250,Belgium,KU Leuven,University,https://www.kuleuven.be,All levels,International students,Varies by programme
+251,Belgium,Ghent University,University,https://www.ugent.be,All levels,International students,Varies by programme
+252,Belgium,UCLouvain,University,https://uclouvain.be,All levels,International students,Varies by programme
+253,Belgium,Universite libre de Bruxelles,University,https://www.ulb.be,All levels,International students,Varies by programme
+254,Belgium,Vrije Universiteit Brussel,University,https://www.vub.be,All levels,International students,Varies by programme
+255,Belgium,University of Antwerp,University,https://www.uantwerpen.be,All levels,International students,Varies by programme
+256,Belgium,FWO (Research Foundation Flanders),Research Agency,https://www.fwo.be,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+257,Belgium,F.R.S.-FNRS,Research Agency,https://www.frs-fnrs.be,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+258,Belgium,Belgian American Educational Foundation,Foundation / Trust,https://www.baef.be,"PhD, Postdoc",Citizens / residents only,Full / fully funded schemes
+259,Belgium,Study in Flanders,Government,https://www.studyinflanders.be,All levels,International students,Varies by programme
+260,Italy,Study in Italy (MAECI),Government,https://studyinitaly.esteri.it,All levels,International students,Varies by programme
+261,Italy,Italian Ministry of University and Research,Government,https://www.mur.gov.it,All levels,International students,Varies by programme
+262,Italy,Bocconi University,University,https://www.unibocconi.it,All levels,International students,Varies by programme
+263,Italy,Politecnico di Milano,University,https://www.polimi.it,All levels,International students,Varies by programme
+264,Italy,Politecnico di Torino,University,https://www.polito.it,All levels,International students,Varies by programme
+265,Italy,University of Bologna,University,https://www.unibo.it,All levels,International students,Varies by programme
+266,Italy,Sapienza University of Rome,University,https://www.uniroma1.it,All levels,International students,Varies by programme
+267,Italy,University of Padua,University,https://www.unipd.it,All levels,International students,Varies by programme
+268,Italy,University of Pisa,University,https://www.unipi.it,All levels,International students,Varies by programme
+269,Italy,Scuola Normale Superiore,University,https://www.sns.it,All levels,International students,Varies by programme
+270,Italy,SISSA,University,https://www.sissa.it,PhD,International students,Varies by programme
+271,Italy,Italian Institute of Technology,Research Agency,https://www.iit.it,"PhD, Postdoc",International students,Varies by programme
+272,Italy,University of Trento,University,https://www.unitn.it,All levels,International students,Varies by programme
+273,Italy,University of Florence,University,https://www.unifi.it,All levels,International students,Varies by programme
+274,Italy,University of Milan,University,https://www.unimi.it,All levels,International students,Varies by programme
+275,Italy,ER.GO (Emilia-Romagna),Government,https://www.er-go.it,"Bachelor's, Master's",Mixed (check programme),Varies by programme
+276,Italy,DiSCo Lazio,Government,https://www.laziodisco.it,"Bachelor's, Master's",Mixed (check programme),Varies by programme
+277,Spain,Fundacion Carolina,Foundation / Trust,https://www.fundacioncarolina.es,"Master's, PhD",International students,Partial / stipend
+278,Spain,Becas Santander,Private / Corporate,https://www.becas-santander.com,All levels,Mixed (check programme),Varies by programme
+279,Spain,la Caixa Foundation,Foundation / Trust,https://fundacionlacaixa.org,"Master's, PhD",Mixed (check programme),Full / fully funded schemes
+280,Spain,AECID (Spanish Agency for International Development Cooperation),Government,https://www.aecid.es,"Master's, PhD",International students,Varies by programme
+281,Spain,SEPIE,Government,https://sepie.es,All levels,International students,Varies by programme
+282,Spain,Ministerio de Universidades,Government,https://www.universidades.gob.es,All levels,Mixed (check programme),Varies by programme
+283,Spain,University of Barcelona,University,https://www.ub.edu,All levels,International students,Varies by programme
+284,Spain,Pompeu Fabra University,University,https://www.upf.edu,All levels,International students,Varies by programme
+285,Spain,Universitat Autonoma de Barcelona,University,https://www.uab.cat,All levels,International students,Varies by programme
+286,Spain,Universitat Politecnica de Catalunya,University,https://www.upc.edu,All levels,International students,Varies by programme
+287,Spain,Universidad Complutense de Madrid,University,https://www.ucm.es,All levels,International students,Varies by programme
+288,Spain,Universidad Autonoma de Madrid,University,https://www.uam.es,All levels,International students,Varies by programme
+289,Spain,Universidad Politecnica de Madrid,University,https://www.upm.es,All levels,International students,Varies by programme
+290,Spain,IE University,University,https://www.ie.edu,All levels,International students,Varies by programme
+291,Spain,ESADE,University,https://www.esade.edu,Master's,International students,Varies by programme
+292,Spain,IESE Business School,University,https://www.iese.edu,Master's,International students,Varies by programme
+293,Spain,BBVA Foundation,Foundation / Trust,https://www.fbbva.es,"Master's, PhD",Mixed (check programme),Varies by programme
+294,Spain,Fundacion Ramon Areces,Foundation / Trust,https://www.fundacionareces.es,"Master's, PhD",Mixed (check programme),Varies by programme
+295,Portugal,Study in Portugal,Government,https://www.studyinportugal.edu.pt,All levels,International students,Varies by programme
+296,Portugal,FCT (Foundation for Science and Technology),Research Agency,https://www.fct.pt,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+297,Portugal,University of Lisbon,University,https://www.ulisboa.pt,All levels,International students,Varies by programme
+298,Portugal,University of Porto,University,https://www.up.pt,All levels,International students,Varies by programme
+299,Portugal,University of Coimbra,University,https://www.uc.pt,All levels,International students,Varies by programme
+300,Portugal,NOVA University Lisbon,University,https://www.unl.pt,All levels,International students,Varies by programme
+301,Portugal,University of Minho,University,https://www.uminho.pt,All levels,International students,Varies by programme
+302,Portugal,University of Aveiro,University,https://www.ua.pt,All levels,International students,Varies by programme
+303,Portugal,Calouste Gulbenkian Foundation,Foundation / Trust,https://gulbenkian.pt,All levels,Mixed (check programme),Varies by programme
+304,Portugal,Camoes Institute,Government,https://www.instituto-camoes.pt,All levels,International students,Varies by programme
+305,Ireland,Government of Ireland International Education Scholarship,Government,https://hea.ie/policy/international/government-of-ireland-international-education-scholarship/,"Master's, PhD",International students,Partial / stipend
+306,Ireland,Irish Research Council,Research Agency,https://research.ie,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+307,Ireland,Science Foundation Ireland,Research Agency,https://www.sfi.ie,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+308,Ireland,Higher Education Authority,Government,https://hea.ie,All levels,Mixed (check programme),Varies by programme
+309,Ireland,Trinity College Dublin,University,https://www.tcd.ie,All levels,International students,Varies by programme
+310,Ireland,University College Dublin,University,https://www.ucd.ie,All levels,International students,Varies by programme
+311,Ireland,University College Cork,University,https://www.ucc.ie,All levels,International students,Varies by programme
+312,Ireland,University of Galway,University,https://www.universityofgalway.ie,All levels,International students,Varies by programme
+313,Ireland,Dublin City University,University,https://www.dcu.ie,All levels,International students,Varies by programme
+314,Ireland,Maynooth University,University,https://www.maynoothuniversity.ie,All levels,International students,Varies by programme
+315,Ireland,University of Limerick,University,https://www.ul.ie,All levels,International students,Varies by programme
+316,Ireland,Education in Ireland,Government,https://www.educationinireland.com,All levels,International students,Varies by programme
+317,Poland,NAWA (Polish National Agency for Academic Exchange),Government,https://nawa.gov.pl,All levels,International students,Varies by programme
+318,Poland,Study in Poland,Government,https://studyinpoland.pl,All levels,International students,Varies by programme
+319,Poland,University of Warsaw,University,https://www.uw.edu.pl,All levels,International students,Varies by programme
+320,Poland,Jagiellonian University,University,https://uj.edu.pl,All levels,International students,Varies by programme
+321,Poland,AGH University of Krakow,University,https://www.agh.edu.pl,All levels,International students,Varies by programme
+322,Poland,Warsaw University of Technology,University,https://www.pw.edu.pl,All levels,International students,Varies by programme
+323,Poland,Wroclaw University of Science and Technology,University,https://pwr.edu.pl,All levels,International students,Varies by programme
+324,Poland,Adam Mickiewicz University,University,https://amu.edu.pl,All levels,International students,Varies by programme
+325,Poland,National Science Centre Poland,Research Agency,https://www.ncn.gov.pl,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+326,Czech Republic,StudyInCZ,Government,https://www.studyin.cz,All levels,International students,Varies by programme
+327,Czech Republic,DZS (Czech Centre for International Cooperation in Education),Government,https://www.dzs.cz,All levels,International students,Varies by programme
+328,Czech Republic,Charles University,University,https://cuni.cz,All levels,International students,Varies by programme
+329,Czech Republic,Czech Technical University in Prague,University,https://www.cvut.cz,All levels,International students,Varies by programme
+330,Czech Republic,Masaryk University,University,https://www.muni.cz,All levels,International students,Varies by programme
+331,Czech Republic,Brno University of Technology,University,https://www.vut.cz,All levels,International students,Varies by programme
+332,Czech Republic,Czech Science Foundation,Research Agency,https://gacr.cz,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+333,Hungary,Stipendium Hungaricum,Government,https://stipendiumhungaricum.hu,All levels,International students,Full / fully funded schemes
+334,Hungary,Tempus Public Foundation,Government,https://tpf.hu,All levels,International students,Varies by programme
+335,Hungary,Study in Hungary,Government,https://studyinhungary.hu,All levels,International students,Varies by programme
+336,Hungary,Eotvos Lorand University (ELTE),University,https://www.elte.hu,All levels,International students,Varies by programme
+337,Hungary,Budapest University of Technology and Economics,University,https://www.bme.hu,All levels,International students,Varies by programme
+338,Hungary,Corvinus University of Budapest,University,https://www.uni-corvinus.hu,All levels,International students,Varies by programme
+339,Hungary,University of Szeged,University,https://u-szeged.hu,All levels,International students,Varies by programme
+340,Hungary,University of Debrecen,University,https://unideb.hu,All levels,International students,Varies by programme
+341,Hungary,Central European University,University,https://www.ceu.edu,"Master's, PhD",International students,Varies by programme
+342,Türkiye,Turkiye Burslari (Turkish Government Scholarships),Government,https://turkiyeburslari.gov.tr,All levels,International students,Full / fully funded schemes
+343,Türkiye,YTB (Presidency for Turks Abroad and Related Communities),Government,https://www.ytb.gov.tr,All levels,International students,Varies by programme
+344,Türkiye,TUBITAK,Research Agency,https://www.tubitak.gov.tr,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+345,Türkiye,Study in Turkiye,Government,https://studyinturkiye.gov.tr,All levels,International students,Varies by programme
+346,Türkiye,YOK (Council of Higher Education),Government,https://www.yok.gov.tr,All levels,International students,Varies by programme
+347,Türkiye,Middle East Technical University,University,https://www.metu.edu.tr,All levels,International students,Varies by programme
+348,Türkiye,Bogazici University,University,https://www.boun.edu.tr,All levels,International students,Varies by programme
+349,Türkiye,Istanbul Technical University,University,https://www.itu.edu.tr,All levels,International students,Varies by programme
+350,Türkiye,Koc University,University,https://www.ku.edu.tr,All levels,International students,Varies by programme
+351,Türkiye,Sabanci University,University,https://www.sabanciuniv.edu,All levels,International students,Varies by programme
+352,Türkiye,Bilkent University,University,https://www.bilkent.edu.tr,All levels,International students,Varies by programme
+353,China,Chinese Government Scholarship (CSC),Government,https://www.csc.edu.cn,All levels,International students,Full / fully funded schemes
+354,China,CSC Study in China Portal,Government,https://www.campuschina.org,All levels,International students,Full / fully funded schemes
+355,China,Tsinghua University,University,https://www.tsinghua.edu.cn/en/,All levels,International students,Varies by programme
+356,China,Peking University,University,https://english.pku.edu.cn,All levels,International students,Varies by programme
+357,China,Fudan University,University,https://www.fudan.edu.cn/en/,All levels,International students,Varies by programme
+358,China,Zhejiang University,University,https://www.zju.edu.cn/english/,All levels,International students,Varies by programme
+359,China,Shanghai Jiao Tong University,University,https://en.sjtu.edu.cn,All levels,International students,Varies by programme
+360,China,University of Science and Technology of China,University,https://en.ustc.edu.cn,All levels,International students,Varies by programme
+361,China,Nanjing University,University,https://www.nju.edu.cn/EN,All levels,International students,Varies by programme
+362,China,Wuhan University,University,https://en.whu.edu.cn,All levels,International students,Varies by programme
+363,China,Beijing Normal University,University,https://english.bnu.edu.cn,All levels,International students,Varies by programme
+364,China,University of Chinese Academy of Sciences,University,https://english.ucas.ac.cn,"Master's, PhD",International students,Varies by programme
+365,China,Beijing Institute of Technology,University,https://english.bit.edu.cn,All levels,International students,Varies by programme
+366,Japan,MEXT Scholarship (Study in Japan),Government,https://www.studyinjapan.go.jp,All levels,International students,Full / fully funded schemes
+367,Japan,JASSO,Government,https://www.jasso.go.jp/en/,All levels,International students,Varies by programme
+368,Japan,JICA,Government,https://www.jica.go.jp,"Master's, PhD",International students,Full / fully funded schemes
+369,Japan,Japan Foundation,Government,https://www.jpf.go.jp,All levels,International students,Varies by programme
+370,Japan,JSPS (Japan Society for the Promotion of Science),Research Agency,https://www.jsps.go.jp,"PhD, Postdoc",International students,Full / fully funded schemes
+371,Japan,Rotary Yoneyama Memorial Foundation,Foundation / Trust,https://www.rotary-yoneyama.or.jp,All levels,International students,Partial / stipend
+372,Japan,University of Tokyo,University,https://www.u-tokyo.ac.jp,All levels,International students,Varies by programme
+373,Japan,Kyoto University,University,https://www.kyoto-u.ac.jp,All levels,International students,Varies by programme
+374,Japan,Osaka University,University,https://www.osaka-u.ac.jp,All levels,International students,Varies by programme
+375,Japan,Tohoku University,University,https://www.tohoku.ac.jp,All levels,International students,Varies by programme
+376,Japan,Institute of Science Tokyo (Tokyo Tech),University,https://www.titech.ac.jp,All levels,International students,Varies by programme
+377,Japan,Nagoya University,University,https://www.nagoya-u.ac.jp,All levels,International students,Varies by programme
+378,Japan,Hokkaido University,University,https://www.global.hokudai.ac.jp,All levels,International students,Varies by programme
+379,Japan,Kyushu University,University,https://www.kyushu-u.ac.jp,All levels,International students,Varies by programme
+380,Japan,Waseda University,University,https://www.waseda.jp,All levels,International students,Varies by programme
+381,Japan,Keio University,University,https://www.keio.ac.jp,All levels,International students,Varies by programme
+382,Japan,Ritsumeikan Asia Pacific University,University,https://en.apu.ac.jp,All levels,International students,Varies by programme
+383,Japan,Okinawa Institute of Science and Technology,University,https://www.oist.jp,PhD,International students,Full / fully funded schemes
+384,South Korea,Global Korea Scholarship (Study in Korea),Government,https://www.studyinkorea.go.kr,All levels,International students,Full / fully funded schemes
+385,South Korea,NIIED,Government,https://www.niied.go.kr,All levels,International students,Full / fully funded schemes
+386,South Korea,KAIST,University,https://www.kaist.ac.kr,All levels,International students,Varies by programme
+387,South Korea,Seoul National University,University,https://en.snu.ac.kr,All levels,International students,Varies by programme
+388,South Korea,Yonsei University,University,https://www.yonsei.ac.kr,All levels,International students,Varies by programme
+389,South Korea,Korea University,University,https://www.korea.edu,All levels,International students,Varies by programme
+390,South Korea,POSTECH,University,https://www.postech.ac.kr,All levels,International students,Varies by programme
+391,South Korea,UNIST,University,https://www.unist.ac.kr,All levels,International students,Varies by programme
+392,South Korea,GIST,University,https://www.gist.ac.kr,All levels,International students,Varies by programme
+393,South Korea,DGIST,University,https://www.dgist.ac.kr,All levels,International students,Varies by programme
+394,South Korea,Sungkyunkwan University,University,https://www.skku.edu,All levels,International students,Varies by programme
+395,South Korea,Hanyang University,University,https://www.hanyang.ac.kr,All levels,International students,Varies by programme
+396,South Korea,KOICA,Government,https://www.koica.go.kr,Master's,International students,Full / fully funded schemes
+397,South Korea,Korea Foundation,Government,https://www.kf.or.kr,All levels,International students,Varies by programme
+398,South Korea,National Research Foundation of Korea,Research Agency,https://www.nrf.re.kr,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+399,South Korea,KDI School of Public Policy,University,https://www.kdischool.ac.kr,Master's,International students,Varies by programme
+400,Taiwan,Taiwan Scholarship (MOE),Government,https://taiwanscholarship.moe.gov.tw,All levels,International students,Partial / stipend
+401,Taiwan,TaiwanICDF Scholarships,Government,https://www.icdf.org.tw,"Bachelor's, Master's, PhD",International students,Full / fully funded schemes
+402,Taiwan,Study in Taiwan,Government,https://www.studyintaiwan.org,All levels,International students,Varies by programme
+403,Taiwan,National Taiwan University,University,https://www.ntu.edu.tw,All levels,International students,Varies by programme
+404,Taiwan,National Tsing Hua University,University,https://www.nthu.edu.tw,All levels,International students,Varies by programme
+405,Taiwan,National Cheng Kung University,University,https://www.ncku.edu.tw,All levels,International students,Varies by programme
+406,Taiwan,National Yang Ming Chiao Tung University,University,https://www.nycu.edu.tw,All levels,International students,Varies by programme
+407,Taiwan,Academia Sinica,Research Agency,https://www.sinica.edu.tw,"PhD, Postdoc",International students,Varies by programme
+408,Taiwan,National Science and Technology Council,Research Agency,https://www.nstc.gov.tw,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+409,Hong Kong,Hong Kong PhD Fellowship Scheme,Government,https://cerg1.ugc.edu.hk/hkpfs/index.html,PhD,International students,Full / fully funded schemes
+410,Hong Kong,Study in Hong Kong,Government,https://www.studyinhongkong.edu.hk,All levels,International students,Varies by programme
+411,Hong Kong,University Grants Committee,Government,https://www.ugc.edu.hk,All levels,Mixed (check programme),Varies by programme
+412,Hong Kong,HKUST,University,https://hkust.edu.hk,All levels,International students,Varies by programme
+413,Hong Kong,University of Hong Kong,University,https://www.hku.hk,All levels,International students,Varies by programme
+414,Hong Kong,Chinese University of Hong Kong,University,https://www.cuhk.edu.hk,All levels,International students,Varies by programme
+415,Hong Kong,Hong Kong Polytechnic University,University,https://www.polyu.edu.hk,All levels,International students,Varies by programme
+416,Hong Kong,City University of Hong Kong,University,https://www.cityu.edu.hk,All levels,International students,Varies by programme
+417,Hong Kong,Hong Kong Baptist University,University,https://www.hkbu.edu.hk,All levels,International students,Varies by programme
+418,Singapore,A*STAR Graduate Scholarships (incl. SINGA),Government,https://www.a-star.edu.sg,PhD,International students,Full / fully funded schemes
+419,Singapore,National University of Singapore,University,https://www.nus.edu.sg,All levels,International students,Varies by programme
+420,Singapore,Nanyang Technological University,University,https://www.ntu.edu.sg,All levels,International students,Varies by programme
+421,Singapore,Singapore Management University,University,https://www.smu.edu.sg,All levels,International students,Varies by programme
+422,Singapore,Singapore University of Technology and Design,University,https://www.sutd.edu.sg,All levels,International students,Varies by programme
+423,Singapore,Lee Kuan Yew School of Public Policy,University,https://lkyspp.nus.edu.sg,"Master's, PhD",International students,Varies by programme
+424,Singapore,Singapore Institute of Technology,University,https://www.singaporetech.edu.sg,"Bachelor's, Master's",International students,Varies by programme
+425,Singapore,Ministry of Education Singapore,Government,https://www.moe.gov.sg,All levels,Mixed (check programme),Varies by programme
+426,Singapore,Public Service Commission Scholarships,Government,https://www.psc.gov.sg,Bachelor's,Citizens / residents only,Full / fully funded schemes
+427,Singapore,Temasek Foundation,Foundation / Trust,https://www.temasekfoundation.org.sg,All levels,Mixed (check programme),Varies by programme
+428,Malaysia,Malaysian International Scholarship (MIS),Government,https://biasiswa.mohe.gov.my,"Master's, PhD",International students,Full / fully funded schemes
+429,Malaysia,EMGS Education Malaysia,Government,https://educationmalaysia.gov.my,All levels,International students,Varies by programme
+430,Malaysia,MARA,Government,https://www.mara.gov.my,All levels,Citizens / residents only,Full / fully funded schemes
+431,Malaysia,Universiti Malaya,University,https://www.um.edu.my,All levels,International students,Varies by programme
+432,Malaysia,Universiti Kebangsaan Malaysia,University,https://www.ukm.my,All levels,International students,Varies by programme
+433,Malaysia,Universiti Putra Malaysia,University,https://www.upm.edu.my,All levels,International students,Varies by programme
+434,Malaysia,Universiti Sains Malaysia,University,https://www.usm.my,All levels,International students,Varies by programme
+435,Malaysia,Universiti Teknologi Malaysia,University,https://www.utm.my,All levels,International students,Varies by programme
+436,Malaysia,Monash University Malaysia,University,https://www.monash.edu.my,All levels,International students,Varies by programme
+437,Malaysia,Taylor's University,University,https://university.taylors.edu.my,All levels,International students,Varies by programme
+438,Malaysia,Sunway University,University,https://university.sunway.edu.my,All levels,International students,Varies by programme
+439,Malaysia,Yayasan Khazanah,Foundation / Trust,https://www.yayasankhazanah.com.my,"Bachelor's, Master's, PhD",Citizens / residents only,Full / fully funded schemes
+440,Indonesia,LPDP (Indonesia Endowment Fund for Education),Government,https://lpdp.kemenkeu.go.id,"Master's, PhD",Citizens / residents only,Full / fully funded schemes
+441,Indonesia,Universitas Indonesia,University,https://www.ui.ac.id,All levels,International students,Varies by programme
+442,Indonesia,Institut Teknologi Bandung,University,https://www.itb.ac.id,All levels,International students,Varies by programme
+443,Indonesia,Universitas Gadjah Mada,University,https://www.ugm.ac.id,All levels,International students,Varies by programme
+444,Indonesia,IPB University,University,https://www.ipb.ac.id,All levels,International students,Varies by programme
+445,Indonesia,Institut Teknologi Sepuluh Nopember,University,https://www.its.ac.id,All levels,International students,Varies by programme
+446,Indonesia,Universitas Airlangga,University,https://unair.ac.id,All levels,International students,Varies by programme
+447,Indonesia,Tanoto Foundation,Foundation / Trust,https://www.tanotofoundation.org,"Bachelor's, Master's",Citizens / residents only,Partial / stipend
+448,Indonesia,Djarum Beasiswa Plus,Foundation / Trust,https://djarumbeasiswaplus.org,Bachelor's,Citizens / residents only,Partial / stipend
+449,Australia,Australia Awards,Government,https://www.dfat.gov.au/people-to-people/australia-awards,"Master's, PhD",International students,Full / fully funded schemes
+450,Australia,Australia Awards Portal,Government,https://www.australiaawards.gov.au,"Master's, PhD",International students,Full / fully funded schemes
+451,Australia,Study Australia,Government,https://www.studyaustralia.gov.au,All levels,International students,Varies by programme
+452,Australia,Australian Research Council,Research Agency,https://www.arc.gov.au,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+453,Australia,NHMRC,Research Agency,https://www.nhmrc.gov.au,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+454,Australia,University of Melbourne Scholarships,University,https://scholarships.unimelb.edu.au,All levels,International students,Varies by programme
+455,Australia,University of Sydney Scholarships,University,https://www.sydney.edu.au/scholarships,All levels,International students,Varies by programme
+456,Australia,Australian National University Scholarships,University,https://www.anu.edu.au/study/scholarships,All levels,International students,Varies by programme
+457,Australia,UNSW Scholarships,University,https://www.scholarships.unsw.edu.au,All levels,International students,Varies by programme
+458,Australia,Monash University Scholarships,University,https://www.monash.edu/study/fees-scholarships/scholarships,All levels,International students,Varies by programme
+459,Australia,University of Queensland Scholarships,University,https://scholarships.uq.edu.au,All levels,International students,Varies by programme
+460,Australia,University of Adelaide Scholarships,University,https://www.adelaide.edu.au/scholarships,All levels,International students,Varies by programme
+461,Australia,University of Western Australia Scholarships,University,https://www.uwa.edu.au/study/scholarships,All levels,International students,Varies by programme
+462,Australia,UTS Scholarships,University,https://www.uts.edu.au/study/fees-and-scholarships,All levels,International students,Varies by programme
+463,Australia,RMIT Scholarships,University,https://www.rmit.edu.au/study-with-us/scholarships,All levels,International students,Varies by programme
+464,Australia,Deakin University Scholarships,University,https://www.deakin.edu.au/study/fees-and-scholarships,All levels,International students,Varies by programme
+465,Australia,QUT Scholarships,University,https://www.qut.edu.au/study/fees-and-scholarships,All levels,International students,Varies by programme
+466,Australia,Macquarie University,University,https://www.mq.edu.au,All levels,International students,Varies by programme
+467,Australia,CSIRO,Research Agency,https://www.csiro.au,"PhD, Postdoc",International students,Varies by programme
+468,New Zealand,Study with New Zealand (Education NZ),Government,https://www.studywithnewzealand.govt.nz,All levels,International students,Varies by programme
+469,New Zealand,Manaaki New Zealand Scholarships (MFAT),Government,https://www.mfat.govt.nz/en/aid-and-development/scholarships/,"Master's, PhD",International students,Full / fully funded schemes
+470,New Zealand,Education New Zealand,Government,https://enz.govt.nz,All levels,International students,Varies by programme
+471,New Zealand,University of Auckland,University,https://www.auckland.ac.nz,All levels,International students,Varies by programme
+472,New Zealand,University of Otago,University,https://www.otago.ac.nz,All levels,International students,Varies by programme
+473,New Zealand,Victoria University of Wellington,University,https://www.wgtn.ac.nz,All levels,International students,Varies by programme
+474,New Zealand,University of Canterbury,University,https://www.canterbury.ac.nz,All levels,International students,Varies by programme
+475,New Zealand,Massey University,University,https://www.massey.ac.nz,All levels,International students,Varies by programme
+476,New Zealand,University of Waikato,University,https://www.waikato.ac.nz,All levels,International students,Varies by programme
+477,New Zealand,Lincoln University,University,https://www.lincoln.ac.nz,All levels,International students,Varies by programme
+478,New Zealand,Auckland University of Technology,University,https://www.aut.ac.nz,All levels,International students,Varies by programme
+479,New Zealand,Royal Society Te Aparangi,Research Agency,https://www.royalsociety.org.nz,"PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+480,India,Study in India,Government,https://studyinindia.gov.in,All levels,International students,Partial / stipend
+481,India,ICCR (Indian Council for Cultural Relations),Government,https://www.iccr.gov.in,All levels,International students,Full / fully funded schemes
+482,India,National Scholarship Portal,Government,https://scholarships.gov.in,"Bachelor's, Master's",Citizens / residents only,Partial / stipend
+483,India,Inlaks Shivdasani Foundation,Foundation / Trust,https://www.inlaksfoundation.org,Master's,Citizens / residents only,Partial / stipend
+484,India,Tata Trusts,Foundation / Trust,https://www.tatatrusts.org,All levels,Citizens / residents only,Varies by programme
+485,India,J.N. Tata Endowment,Foundation / Trust,https://www.jntataendowment.org,"Master's, PhD",Citizens / residents only,Partial / stipend
+486,India,Narotam Sekhsaria Foundation,Foundation / Trust,https://www.nsfoundation.co.in,Master's,Citizens / residents only,Partial / stipend
+487,India,K.C. Mahindra Education Trust,Foundation / Trust,https://www.kcmet.org,Master's,Citizens / residents only,Partial / stipend
+488,India,Reliance Foundation Scholarships,Foundation / Trust,https://www.reliancefoundation.org,"Bachelor's, Master's",Citizens / residents only,Partial / stipend
+489,India,Aditya Birla Scholars,Foundation / Trust,https://www.adityabirlascholars.net,Bachelor's,Citizens / residents only,Partial / stipend
+490,India,University Grants Commission,Government,https://www.ugc.gov.in,All levels,Citizens / residents only,Varies by programme
+491,India,Department of Science and Technology,Government,https://dst.gov.in,"PhD, Postdoc",Citizens / residents only,Full / fully funded schemes
+492,India,CSIR,Research Agency,https://www.csir.res.in,"PhD, Postdoc",Citizens / residents only,Full / fully funded schemes
+493,India,ICMR,Research Agency,https://www.icmr.gov.in,"PhD, Postdoc",Citizens / residents only,Full / fully funded schemes
+494,India,IIT Bombay,University,https://www.iitb.ac.in,All levels,Mixed (check programme),Varies by programme
+495,India,IIT Delhi,University,https://home.iitd.ac.in,All levels,Mixed (check programme),Varies by programme
+496,India,IIT Madras,University,https://www.iitm.ac.in,All levels,Mixed (check programme),Varies by programme
+497,India,IIT Kanpur,University,https://www.iitk.ac.in,All levels,Mixed (check programme),Varies by programme
+498,India,IIT Kharagpur,University,https://www.iitkgp.ac.in,All levels,Mixed (check programme),Varies by programme
+499,India,Indian Institute of Science,University,https://iisc.ac.in,All levels,Mixed (check programme),Varies by programme
+500,India,IIM Ahmedabad,University,https://www.iima.ac.in,Master's,Mixed (check programme),Varies by programme
+501,India,Jawaharlal Nehru University,University,https://www.jnu.ac.in,All levels,Mixed (check programme),Varies by programme
+502,India,University of Delhi,University,https://www.du.ac.in,All levels,Mixed (check programme),Varies by programme
+503,India,BITS Pilani,University,https://www.bits-pilani.ac.in,All levels,Mixed (check programme),Varies by programme
+504,India,Ashoka University,University,https://www.ashoka.edu.in,All levels,Mixed (check programme),Varies by programme
+505,India,Azim Premji University,University,https://azimpremjiuniversity.edu.in,All levels,Mixed (check programme),Varies by programme
+506,Pakistan,Higher Education Commission (HEC) Pakistan,Government,https://www.hec.gov.pk,All levels,Mixed (check programme),Varies by programme
+507,Pakistan,Punjab Educational Endowment Fund (PEEF),Government,https://peef.org.pk,"Bachelor's, Master's",Citizens / residents only,Full / fully funded schemes
+508,Pakistan,USEFP (Fulbright Pakistan),Government,https://www.usefp.org,"Master's, PhD",Citizens / residents only,Full / fully funded schemes
+509,Pakistan,LUMS National Outreach Programme,University,https://nop.lums.edu.pk,Bachelor's,Citizens / residents only,Full / fully funded schemes
+510,Pakistan,Aga Khan University,University,https://www.aku.edu,All levels,Mixed (check programme),Varies by programme
+511,Pakistan,NUST,University,https://nust.edu.pk,All levels,Mixed (check programme),Varies by programme
+512,Pakistan,COMSATS University,University,https://www.comsats.edu.pk,All levels,Mixed (check programme),Varies by programme
+513,Pakistan,Quaid-i-Azam University,University,https://qau.edu.pk,All levels,Mixed (check programme),Varies by programme
+514,Pakistan,FAST-NUCES,University,https://www.nu.edu.pk,All levels,Mixed (check programme),Varies by programme
+515,Pakistan,GIK Institute,University,https://giki.edu.pk,All levels,Mixed (check programme),Varies by programme
+516,Pakistan,IBA Karachi,University,https://www.iba.edu.pk,All levels,Mixed (check programme),Varies by programme
+517,Pakistan,UET Lahore,University,https://uet.edu.pk,All levels,Mixed (check programme),Varies by programme
+518,Pakistan,University of the Punjab,University,https://pu.edu.pk,All levels,Mixed (check programme),Varies by programme
+519,Pakistan,Habib University,University,https://habib.edu.pk,All levels,Mixed (check programme),Varies by programme
+520,Pakistan,Information Technology University,University,https://itu.edu.pk,All levels,Mixed (check programme),Varies by programme
+521,Pakistan,Pakistan Science Foundation,Research Agency,https://www.psf.gov.pk,All levels,Citizens / residents only,Varies by programme
+522,United Arab Emirates,Khalifa University,University,https://www.ku.ac.ae,All levels,International students,Varies by programme
+523,United Arab Emirates,Mohamed bin Zayed University of AI (MBZUAI),University,https://mbzuai.ac.ae,"Master's, PhD",International students,Full / fully funded schemes
+524,United Arab Emirates,United Arab Emirates University,University,https://www.uaeu.ac.ae,All levels,International students,Varies by programme
+525,United Arab Emirates,American University of Sharjah,University,https://www.aus.edu,All levels,International students,Varies by programme
+526,United Arab Emirates,New York University Abu Dhabi,University,https://nyuad.nyu.edu,Bachelor's,International students,Full / fully funded schemes
+527,United Arab Emirates,Zayed University,University,https://www.zu.ac.ae,All levels,International students,Varies by programme
+528,United Arab Emirates,University of Sharjah,University,https://www.sharjah.ac.ae,All levels,International students,Varies by programme
+529,United Arab Emirates,Higher Colleges of Technology,University,https://hct.ac.ae,Bachelor's,Mixed (check programme),Varies by programme
+530,Saudi Arabia,Study in Saudi Arabia (Ministry of Education),Government,https://studyinsaudi.moe.gov.sa,All levels,International students,Full / fully funded schemes
+531,Saudi Arabia,KAUST,University,https://www.kaust.edu.sa,"Master's, PhD",International students,Full / fully funded schemes
+532,Saudi Arabia,KFUPM,University,https://www.kfupm.edu.sa,All levels,International students,Varies by programme
+533,Saudi Arabia,King Saud University,University,https://ksu.edu.sa,All levels,International students,Varies by programme
+534,Saudi Arabia,King Abdulaziz University,University,https://www.kau.edu.sa,All levels,International students,Varies by programme
+535,Saudi Arabia,Islamic University of Madinah,University,https://iu.edu.sa,All levels,International students,Full / fully funded schemes
+536,Saudi Arabia,Princess Nourah bint Abdulrahman University,University,https://www.pnu.edu.sa,All levels,International students,Varies by programme
+537,Saudi Arabia,KACST,Research Agency,https://www.kacst.edu.sa,All levels,Mixed (check programme),Varies by programme
+538,Saudi Arabia,Misk Foundation,Foundation / Trust,https://misk.org.sa,All levels,Citizens / residents only,Varies by programme
+539,Saudi Arabia,Ministry of Education Saudi Arabia,Government,https://moe.gov.sa,All levels,Mixed (check programme),Varies by programme
+540,Qatar,Hamad Bin Khalifa University,University,https://www.hbku.edu.qa,"Master's, PhD",International students,Full / fully funded schemes
+541,Qatar,Qatar University,University,https://www.qu.edu.qa,All levels,International students,Varies by programme
+542,Qatar,Texas A&M University at Qatar,University,https://www.qatar.tamu.edu,Bachelor's,International students,Varies by programme
+543,Qatar,Qatar Foundation,Foundation / Trust,https://www.qf.org.qa,All levels,Mixed (check programme),Varies by programme
+544,Qatar,Weill Cornell Medicine-Qatar,University,https://qatar-weill.cornell.edu,All levels,International students,Varies by programme
+545,Qatar,Carnegie Mellon University in Qatar,University,https://www.qatar.cmu.edu,Bachelor's,International students,Varies by programme
+546,Qatar,Georgetown University in Qatar,University,https://qatar.sfs.georgetown.edu,Bachelor's,International students,Varies by programme
+547,Qatar,Qatar National Research Fund,Research Agency,https://www.qnrf.org,All levels,Mixed (check programme),Full / fully funded schemes
+548,South Africa,National Research Foundation (NRF),Research Agency,https://www.nrf.ac.za,"Master's, PhD",Mixed (check programme),Full / fully funded schemes
+549,South Africa,NSFAS,Government,https://www.nsfas.org.za,Bachelor's,Citizens / residents only,Full / fully funded schemes
+550,South Africa,University of the Witwatersrand,University,https://www.wits.ac.za,All levels,International students,Varies by programme
+551,South Africa,University of Cape Town,University,https://www.uct.ac.za,All levels,International students,Varies by programme
+552,South Africa,Stellenbosch University,University,https://www.sun.ac.za,All levels,International students,Varies by programme
+553,South Africa,University of Pretoria,University,https://www.up.ac.za,All levels,International students,Varies by programme
+554,South Africa,University of KwaZulu-Natal,University,https://www.ukzn.ac.za,All levels,International students,Varies by programme
+555,South Africa,University of Johannesburg,University,https://www.uj.ac.za,All levels,International students,Varies by programme
+556,South Africa,Rhodes University,University,https://www.ru.ac.za,All levels,International students,Varies by programme
+557,South Africa,University of the Free State,University,https://www.ufs.ac.za,All levels,International students,Varies by programme
+558,South Africa,Nelson Mandela University,University,https://www.mandela.ac.za,All levels,International students,Varies by programme
+559,South Africa,Oppenheimer Memorial Trust,Foundation / Trust,https://www.omt.org.za,"Master's, PhD",Citizens / residents only,Full / fully funded schemes
+560,South Africa,Allan Gray Orbis Foundation,Foundation / Trust,https://www.allangrayorbis.org,Bachelor's,Citizens / residents only,Full / fully funded schemes
+561,Nigeria,TETFund,Government,https://tetfund.gov.ng,All levels,Citizens / residents only,Full / fully funded schemes
+562,Nigeria,PTDF (Petroleum Technology Development Fund),Government,https://ptdf.gov.ng,"Master's, PhD",Citizens / residents only,Full / fully funded schemes
+563,Nigeria,Niger Delta Development Commission,Government,https://www.nddc.gov.ng,All levels,Citizens / residents only,Varies by programme
+564,Nigeria,University of Lagos,University,https://unilag.edu.ng,All levels,Mixed (check programme),Varies by programme
+565,Nigeria,University of Ibadan,University,https://www.ui.edu.ng,All levels,Mixed (check programme),Varies by programme
+566,Nigeria,Covenant University,University,https://covenantuniversity.edu.ng,All levels,Mixed (check programme),Varies by programme
+567,Nigeria,Ahmadu Bello University,University,https://abu.edu.ng,All levels,Mixed (check programme),Varies by programme
+568,Nigeria,University of Nigeria Nsukka,University,https://www.unn.edu.ng,All levels,Mixed (check programme),Varies by programme
+569,Nigeria,Obafemi Awolowo University,University,https://oauife.edu.ng,All levels,Mixed (check programme),Varies by programme
+570,Nigeria,African Development Bank,International Organization,https://www.afdb.org,All levels,International students,Varies by programme
+571,Nigeria,African Leadership University,University,https://www.alueducation.com,Bachelor's,International students,Partial / stipend
+572,Nigeria,Mo Ibrahim Foundation,Foundation / Trust,https://mo.ibrahim.foundation,Master's,International students,Partial / stipend
+573,Brazil,CAPES,Government,https://www.gov.br/capes/pt-br,"Master's, PhD",Mixed (check programme),Full / fully funded schemes
+574,Brazil,CNPq,Government,https://www.gov.br/cnpq/pt-br,All levels,Mixed (check programme),Full / fully funded schemes
+575,Brazil,FAPESP,Research Agency,https://fapesp.br,"Master's, PhD, Postdoc",Mixed (check programme),Full / fully funded schemes
+576,Brazil,University of Sao Paulo,University,https://www5.usp.br,All levels,International students,Varies by programme
+577,Brazil,UNICAMP,University,https://www.unicamp.br,All levels,International students,Varies by programme
+578,Brazil,Federal University of Rio de Janeiro,University,https://ufrj.br,All levels,International students,Varies by programme
+579,Brazil,Federal University of Minas Gerais,University,https://ufmg.br,All levels,International students,Varies by programme
+580,Brazil,Federal University of Rio Grande do Sul,University,https://www.ufrgs.br,All levels,International students,Varies by programme
+581,Brazil,UNESP,University,https://www.unesp.br,All levels,International students,Varies by programme
+582,Brazil,Fundacao Getulio Vargas,University,https://portal.fgv.br,All levels,International students,Varies by programme
+583,Brazil,Fundacao Estudar,Foundation / Trust,https://www.estudar.org.br,"Bachelor's, Master's",Citizens / residents only,Partial / stipend
+584,Brazil,Lemann Foundation,Foundation / Trust,https://fundacaolemann.org.br,"Master's, PhD",Citizens / residents only,Full / fully funded schemes
+585,Brazil,University of Brasilia,University,https://www.unb.br,All levels,International students,Varies by programme
+586,Mexico,SECIHTI (formerly CONAHCYT),Government,https://secihti.mx,"Master's, PhD",Mixed (check programme),Full / fully funded schemes
+587,Mexico,AMEXCID Scholarships for Foreigners,Government,https://www.gob.mx/amexcid,All levels,International students,Full / fully funded schemes
+588,Mexico,UNAM,University,https://www.unam.mx,All levels,Mixed (check programme),Varies by programme
+589,Mexico,Tecnologico de Monterrey,University,https://tec.mx,All levels,Mixed (check programme),Varies by programme
+590,Mexico,Instituto Politecnico Nacional,University,https://www.ipn.mx,All levels,Mixed (check programme),Varies by programme
+591,Mexico,Universidad Autonoma Metropolitana,University,https://www.uam.mx,All levels,Mixed (check programme),Varies by programme
+592,Mexico,El Colegio de Mexico,University,https://www.colmex.mx,"Master's, PhD",Mixed (check programme),Full / fully funded schemes
+593,Mexico,CIDE,University,https://www.cide.edu,"Master's, PhD",Mixed (check programme),Varies by programme
+594,Mexico,ITAM,University,https://www.itam.mx,All levels,Mixed (check programme),Varies by programme
+595,Mexico,Universidad de Guadalajara,University,https://www.udg.mx,All levels,Mixed (check programme),Varies by programme
+596,Mexico,COMEXUS (Fulbright-Garcia Robles),Government,https://www.comexus.org.mx,"Master's, PhD",Citizens / residents only,Full / fully funded schemes
+597,Mexico,Fundacion Carlos Slim,Foundation / Trust,https://fundacioncarlosslim.org,All levels,Citizens / residents only,Varies by programme

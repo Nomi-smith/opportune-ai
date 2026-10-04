@@ -1,111 +1,103 @@
 import re
-from datetime import date, datetime
+from datetime import date
 
-TODAY = date(2026, 10, 3)
-MONTHS = {
-    'january': 1, 'jan': 1, 'february': 2, 'feb': 2, 'march': 3, 'mar': 3,
-    'april': 4, 'apr': 4, 'may': 5, 'june': 6, 'jun': 6, 'july': 7, 'jul': 7,
-    'august': 8, 'aug': 8, 'september': 9, 'sep': 9, 'sept': 9, 'october': 10, 'oct': 10,
-    'november': 11, 'nov': 11, 'december': 12, 'dec': 12,
-}
-
-CLOSED_MARKERS = (
-    'applications are closed', 'application is closed', 'application phase ended',
-    'application period ended', 'applications closed', 'applications have closed',
-    'no longer accepting applications', 'deadline has passed', 'deadline passed',
-    'expired', 'closed for applications', 'not currently accepting applications'
+MONTHS={m:i for i,m in enumerate(["","january","february","march","april","may","june","july","august","september","october","november","december"]) if i}
+_ABBR={"jan":1,"feb":2,"mar":3,"apr":4,"jun":6,"jul":7,"aug":8,"sep":9,"sept":9,"oct":10,"nov":11,"dec":12}
+MONTH_LOOKUP={**MONTHS,**_ABBR}
+CLOSED_MARKERS=(
+    "applications are closed","application is closed","application phase ended",
+    "application period ended","applications closed","no longer accepting applications",
+    "deadline has passed","deadline passed","closed for applications",
+    "this job has expired","this job is no longer","job is no longer available","job posting has expired",
+    "this position has been filled","position has been filled","position is no longer available",
+    "vacancy has been filled","vacancy is closed","this vacancy has closed","this listing has expired",
+    "listing is no longer available","offer is no longer available","job not found","page not found",
+    "application window has closed","call is closed","call has closed","this call has ended","applications for this round have closed",
+    "this scholarship is closed","scholarship is closed","registration is closed","no longer open for applications",
+    "opportunity status: closed","status: closed","programme is closed","program is closed",
+    "status closed","closed status","not accepting applications","applications have closed",
 )
-OPEN_MARKERS = (
-    'applications are open', 'applications now open', 'apply now', 'currently open',
-    'open for applications', 'applications open', 'accepting applications',
-    'rolling admissions', 'rolling basis', 'rolling applications', 'ongoing',
-    'open until filled', 'apply at any time'
+OPEN_MARKERS=(
+    "applications are open","applications now open","apply now","currently open",
+    "open for applications","applications open","accepting applications","rolling admissions",
+    "rolling basis","rolling applications","ongoing","open until filled","apply at any time",
+    "application period is open","applications are being accepted",
+)
+DEADLINE_CONTEXT=(
+    "deadline","application deadline","apply by","applications close","closing date",
+    "application closes","last day to apply","submission deadline","applications due",
+    "deadline date","deadline model",
 )
 
-
-def _parse_dates(text: str):
-    text = text or ''
-    out = []
-    # Month Day, Year / Month Day Year, including ordinal suffixes.
-    pat = r'\b(' + '|'.join(MONTHS) + r')\s+(\d{1,2})(?:st|nd|rd|th)?(?:,)?\s+(20\d{2})\b'
-    for m in re.finditer(pat, text, re.I):
+def _dates(text):
+    text=text or ""; out=[]
+    names="|".join(sorted(MONTH_LOOKUP.keys(), key=len, reverse=True))
+    # Month day year: June 1 2026 / Nov. 3, 2026
+    p1=r"\b("+names+r")\.?\s+(\d{1,2})(?:st|nd|rd|th)?(?:,)?\s+(20\d{2})\b"
+    # Day month year: 1 June 2026 / 3rd of November 2026 / 3 Nov. 2026
+    p2=r"\b(\d{1,2})(?:st|nd|rd|th)?\s+(?:of\s+)?("+names+r")\.?,?\s+(20\d{2})\b"
+    for m in re.finditer(p1,text,re.I):
+        try: out.append(date(int(m.group(3)),MONTH_LOOKUP[m.group(1).lower()],int(m.group(2))))
+        except Exception: pass
+    for m in re.finditer(p2,text,re.I):
+        try: out.append(date(int(m.group(3)),MONTH_LOOKUP[m.group(2).lower()],int(m.group(1))))
+        except Exception: pass
+    for m in re.finditer(r"(?<!\d)(20\d{2})[-/.](\d{1,2})[-/.](\d{1,2})(?!\d)",text):
+        try: out.append(date(int(m.group(1)),int(m.group(2)),int(m.group(3))))
+        except Exception: pass
+    # 31/10/2026 or 31.10.2026 (day first unless the second number cannot be a month)
+    for m in re.finditer(r"\b(\d{1,2})[/.](\d{1,2})[/.](20\d{2})\b",text):
+        a,b,y=int(m.group(1)),int(m.group(2)),int(m.group(3))
         try:
-            out.append(date(int(m.group(3)), MONTHS[m.group(1).lower()], int(m.group(2))))
-        except ValueError:
-            pass
-    # Day Month Year
-    pat2 = r'\b(\d{1,2})(?:st|nd|rd|th)?\s+(' + '|'.join(sorted(MONTHS, key=len, reverse=True)) + r')\s+(20\d{2})\b'
-    for m in re.finditer(pat2, text, re.I):
-        try:
-            out.append(date(int(m.group(3)), MONTHS[m.group(2).lower()], int(m.group(1))))
-        except ValueError:
-            pass
-    # ISO dates
-    for m in re.finditer(r'\b(20\d{2})[-/](\d{1,2})[-/](\d{1,2})\b', text):
-        try:
-            out.append(date(int(m.group(1)), int(m.group(2)), int(m.group(3))))
-        except ValueError:
-            pass
+            out.append(date(y,b,a) if b<=12 else date(y,a,b))
+        except Exception:
+            try: out.append(date(y,a,b))
+            except Exception: pass
     return sorted(set(out))
 
+def _deadline_dates(item):
+    deadline=str(getattr(item,"deadline","") or "")
+    desc=str(getattr(item,"description","") or "")
+    meta=getattr(item,"metadata",{}) or {}
+    dates=_dates(" ".join([deadline,str(meta.get("deadline_evidence","") or "")]))
+    if dates: return dates
+    low=desc.lower(); snippets=[]
+    for marker in DEADLINE_CONTEXT:
+        start=low.find(marker)
+        if start>=0: snippets.append(desc[max(0,start-80):start+320])
+    return _dates(" ".join(snippets))
 
-def _has_current_or_future_year(text: str) -> bool:
-    years = {int(y) for y in re.findall(r'\b(20\d{2})\b', text or '')}
-    return any(y >= TODAY.year for y in years)
+def availability_reason(item):
+    today=date.today()
+    title=str(getattr(item,"title","") or "")
+    deadline=str(getattr(item,"deadline","") or "")
+    desc=str(getattr(item,"description","") or "")
+    meta=getattr(item,"metadata",{}) or {}
+    text=" ".join([title,deadline,desc,str(meta.get("summary","")),str(meta.get("search_snippet",""))])
+    low=text.casefold()
 
+    # Explicit closure always wins over a generic future-year or rolling marker.
+    if any(x in low for x in CLOSED_MARKERS):
+        return False,"Explicitly closed/expired."
 
-def availability_reason(item) -> tuple[bool, str]:
-    """Return whether an opportunity should be shown as currently actionable.
-
-    Conservative by design: stale historical opportunities are excluded; rolling/open
-    opportunities are allowed unless the source explicitly says they are closed.
-    """
-    title = str(getattr(item, 'title', '') or '')
-    deadline = str(getattr(item, 'deadline', '') or '')
-    desc = str(getattr(item, 'description', '') or '')
-    meta = getattr(item, 'metadata', {}) or {}
-    text = ' '.join([title, deadline, desc, str(meta.get('summary', ''))])
-    low = text.lower()
-
-    # Explicit closure always wins.
-    if any(marker in low for marker in CLOSED_MARKERS):
-        return False, 'Source explicitly indicates that applications are closed or expired.'
-
-    rolling = any(marker in low for marker in OPEN_MARKERS)
-    dates = _parse_dates(deadline)
-    if not dates:
-        dates = _parse_dates(text[:12000])
-
-    # If a concrete deadline is present, it must be today/future.
+    dates=_deadline_dates(item)
     if dates:
-        future_dates = [d for d in dates if d >= TODAY]
-        if future_dates:
-            # A future date alone is not enough if the page is clearly an old cycle.
-            if _has_current_or_future_year(text) or rolling:
-                return True, f'Future/current deadline detected: {min(future_dates).isoformat()}'
-        # Past-only dates are stale unless the source clearly says rolling/ongoing.
-        if rolling and not any(x in low for x in ('2023', '2024', '2025')):
-            return True, 'Rolling/ongoing application language detected.'
-        return False, 'Only past deadline/date(s) were found.'
+        future=[d for d in dates if d>=today]
+        if future:
+            return True,f"Deadline/current date: {min(future).isoformat()}"
+        return False,f"Application deadline has passed ({max(dates).isoformat()})."
 
-    # No date: only keep if the source explicitly signals that applications are open/ongoing.
-    if rolling:
-        return True, 'Source explicitly says applications are open/rolling/ongoing.'
+    if any(x in low for x in OPEN_MARKERS):
+        return True,"Explicit open/rolling status found."
 
-    # Historical pages with an old year in the title/body are not actionable.
-    if re.search(r'\b(2023|2024|2025)\b', title + ' ' + deadline):
-        return False, 'Historical opportunity page; no current/future application date found.'
-
-    return False, 'No current/future deadline or explicit open/rolling status found.'
-
+    return False,"No explicit current deadline or open application status found."
 
 def filter_current_opportunities(items):
-    kept = []
+    kept=[]
     for item in items:
-        ok, reason = availability_reason(item)
-        meta = dict(getattr(item, 'metadata', {}) or {})
-        meta['availability_check'] = reason
-        item.metadata = meta
-        if ok:
-            kept.append(item)
+        ok,reason=availability_reason(item)
+        meta=dict(getattr(item,"metadata",{}) or {})
+        meta["availability_check"]=reason
+        item.metadata=meta
+        if ok: kept.append(item)
     return kept

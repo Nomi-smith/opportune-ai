@@ -73,11 +73,37 @@ def update_application_status(app_id, status):
     conn = get_connection(); conn.execute('UPDATE applications SET status=?,updated_at=CURRENT_TIMESTAMP WHERE id=?', (status,app_id)); conn.commit(); conn.close()
 
 
-def delete_application(app_id, user_id):
-    conn = get_connection()
-    row = conn.execute('SELECT id FROM applications WHERE id=? AND user_id=?', (int(app_id), int(user_id))).fetchone()
+def delete_application(app_id, user_id=1):
+    conn=get_connection()
+    row=conn.execute('SELECT id FROM applications WHERE id=? AND user_id=?',(int(app_id),int(user_id))).fetchone()
     if not row:
         conn.close(); return False
-    conn.execute('DELETE FROM applications WHERE id=? AND user_id=?', (int(app_id), int(user_id)))
+    conn.execute('DELETE FROM applications WHERE id=? AND user_id=?',(int(app_id),int(user_id)))
+    conn.commit(); conn.close(); return True
+
+
+def create_guest_user(token: str) -> int:
+    """A private per-visitor user row (used on shared deployments)."""
+    conn = get_connection()
+    cur = conn.execute("INSERT INTO users(email,full_name) VALUES(?,?)", (f"guest-{token}@opportune.local", "Guest"))
+    conn.commit(); uid = cur.lastrowid; conn.close()
+    return int(uid)
+
+
+def purge_old_guests(days: int = 2) -> int:
+    """Delete guest users (and their profile, documents, applications, uploaded files) older than `days`."""
+    from pathlib import Path
+    conn = get_connection()
+    rows = conn.execute("SELECT id FROM users WHERE email LIKE 'guest-%' AND created_at < datetime('now', ?)", (f"-{int(days)} days",)).fetchall()
+    ids = [r["id"] for r in rows]
+    for uid in ids:
+        for doc in conn.execute("SELECT path FROM documents WHERE user_id=?", (uid,)).fetchall():
+            try:
+                Path(doc["path"] or "").unlink(missing_ok=True)
+            except Exception:
+                pass
+        for table in ("documents", "applications", "profiles"):
+            conn.execute(f"DELETE FROM {table} WHERE user_id=?", (uid,))
+        conn.execute("DELETE FROM users WHERE id=?", (uid,))
     conn.commit(); conn.close()
-    return True
+    return len(ids)

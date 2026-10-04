@@ -1,0 +1,5379 @@
+{
+  "version": "1.0",
+  "purpose": "Scholarship and study-source registry imported from the user-provided 597-entry library. These are source/search targets, not pre-verified live opportunities.",
+  "entries": [
+    {
+      "country": "Global",
+      "name": "Erasmus+ (incl. Erasmus Mundus Joint Masters)",
+      "type": "Government",
+      "website": "https://erasmus-plus.ec.europa.eu",
+      "level": "Master's",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Global",
+      "name": "EACEA Erasmus Mundus Catalogue",
+      "type": "Government",
+      "website": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
+      "level": "Master's",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Global",
+      "name": "Mastercard Foundation Scholars Program",
+      "type": "Foundation / Trust",
+      "website": "https://mastercardfdn.org",
+      "level": "Bachelor's, Master's",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Global",
+      "name": "Aga Khan Foundation International Scholarship Programme",
+      "type": "Foundation / Trust",
+      "website": "https://www.akdn.org/our-agencies/aga-khan-foundation",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "Global",
+      "name": "Rotary Peace Fellowships",
+      "type": "Foundation / Trust",
+      "website": "https://www.rotary.org/en/our-programs/peace-fellowships",
+      "level": "Master's",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Global",
+      "name": "Rotary Foundation Scholarships",
+      "type": "Foundation / Trust",
+      "website": "https://www.rotary.org/en/our-programs/scholarships",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "Schwarzman Scholars",
+      "type": "Foundation / Trust",
+      "website": "https://www.schwarzmanscholars.org",
+      "level": "Master's",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Global",
+      "name": "Yenching Academy of Peking University",
+      "type": "University",
+      "website": "https://yenchingacademy.pku.edu.cn",
+      "level": "Master's",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Global",
+      "name": "World Bank Scholarships (Joint Japan/World Bank)",
+      "type": "International Organization",
+      "website": "https://www.worldbank.org/en/programs/scholarships",
+      "level": "Master's",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Global",
+      "name": "OAS Academic Scholarships",
+      "type": "International Organization",
+      "website": "https://www.oas.org/en/scholarships/",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "UNESCO Fellowships",
+      "type": "International Organization",
+      "website": "https://www.unesco.org/en/fellowships",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "Asian Development Bank-Japan Scholarship Program",
+      "type": "International Organization",
+      "website": "https://www.adb.org/work-with-us/careers/japan-scholarship-program",
+      "level": "Master's",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Global",
+      "name": "Islamic Development Bank (IsDB)",
+      "type": "International Organization",
+      "website": "https://www.isdb.org",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "OPEC Fund for International Development",
+      "type": "International Organization",
+      "website": "https://opecfund.org",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "Open Society Foundations",
+      "type": "Foundation / Trust",
+      "website": "https://www.opensocietyfoundations.org",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "Google PhD Fellowship",
+      "type": "Private / Corporate",
+      "website": "https://research.google/programs-and-events/phd-fellowship/",
+      "level": "PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Global",
+      "name": "Microsoft Research PhD Fellowship",
+      "type": "Private / Corporate",
+      "website": "https://www.microsoft.com/en-us/research/academic-program/microsoft-research-phd-fellowship/",
+      "level": "PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Global",
+      "name": "NVIDIA Graduate Fellowships",
+      "type": "Private / Corporate",
+      "website": "https://www.nvidia.com/en-us/research/graduate-fellowships/",
+      "level": "PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Global",
+      "name": "Qualcomm Innovation Fellowship",
+      "type": "Private / Corporate",
+      "website": "https://www.qualcomm.com/research/university-relations/innovation-fellowship",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "Global",
+      "name": "Meta Research PhD Fellowship",
+      "type": "Private / Corporate",
+      "website": "https://research.facebook.com/fellowship/",
+      "level": "PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Global",
+      "name": "Google Scholarships (Generation etc.)",
+      "type": "Private / Corporate",
+      "website": "https://buildyourfuture.withgoogle.com/scholarships",
+      "level": "Bachelor's, Master's",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "Global",
+      "name": "Scholars4Dev",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://www.scholars4dev.com",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "ScholarshipPortal (Studyportals)",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://www.scholarshipportal.com",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "MastersPortal",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://www.mastersportal.com",
+      "level": "Master's",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "PhDPortal",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://www.phdportal.com",
+      "level": "PhD",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "BachelorsPortal",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://www.bachelorsportal.com",
+      "level": "Bachelor's",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "International Scholarships (IEFA)",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://www.internationalscholarships.com",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "IIE Passport Study Abroad Funding",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://www.iiepassport.org",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "Opportunity Desk",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://opportunitydesk.org",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "Scholarship Positions",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://scholarship-positions.com",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "After School Africa",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://www.afterschoolafrica.com",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "Youth Opportunities",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://www.youthop.com",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "FindAPhD",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://www.findaphd.com",
+      "level": "PhD",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "FindAMasters",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://www.findamasters.com",
+      "level": "Master's",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "EURAXESS",
+      "type": "Government",
+      "website": "https://euraxess.ec.europa.eu",
+      "level": "PhD, Postdoc",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "Buddy4Study",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://www.buddy4study.com",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "Fastweb",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://www.fastweb.com",
+      "level": "All levels",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "Scholarships.com",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://www.scholarships.com",
+      "level": "All levels",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "BigFuture Scholarship Search (College Board)",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://bigfuture.collegeboard.org/scholarships",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Global",
+      "name": "Unigo",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://www.unigo.com",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United States",
+      "name": "Fulbright Foreign Student Program",
+      "type": "Government",
+      "website": "https://foreign.fulbrightonline.org",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United States",
+      "name": "Fulbright Program (US Dept of State)",
+      "type": "Government",
+      "website": "https://fulbrightprogram.org",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United States",
+      "name": "Fulbright Scholar Program (CIES)",
+      "type": "Government",
+      "website": "https://www.cies.org",
+      "level": "Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United States",
+      "name": "EducationUSA (US Dept of State)",
+      "type": "Government",
+      "website": "https://educationusa.state.gov",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United States",
+      "name": "Humphrey Fellowship Program",
+      "type": "Government",
+      "website": "https://www.humphreyfellowship.org",
+      "level": "Postdoc",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United States",
+      "name": "Knight-Hennessy Scholars (Stanford)",
+      "type": "University",
+      "website": "https://knight-hennessy.stanford.edu",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United States",
+      "name": "Stanford Financial Aid",
+      "type": "University",
+      "website": "https://financialaid.stanford.edu",
+      "level": "Bachelor's",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United States",
+      "name": "Harvard College Financial Aid",
+      "type": "University",
+      "website": "https://college.harvard.edu/financial-aid",
+      "level": "Bachelor's",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United States",
+      "name": "MIT Affording MIT",
+      "type": "University",
+      "website": "https://mitadmissions.org/afford/",
+      "level": "Bachelor's",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United States",
+      "name": "Yale Financial Aid",
+      "type": "University",
+      "website": "https://admissions.yale.edu/financial-aid",
+      "level": "Bachelor's",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United States",
+      "name": "Princeton Cost and Aid",
+      "type": "University",
+      "website": "https://admission.princeton.edu/cost-aid",
+      "level": "Bachelor's",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United States",
+      "name": "UC Berkeley Graduate Financial Support",
+      "type": "University",
+      "website": "https://grad.berkeley.edu/financial/",
+      "level": "Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United States",
+      "name": "Johns Hopkins University",
+      "type": "University",
+      "website": "https://www.jhu.edu",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United States",
+      "name": "National Science Foundation GRFP",
+      "type": "Government",
+      "website": "https://www.nsfgrfp.org",
+      "level": "Master's, PhD",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United States",
+      "name": "Hertz Foundation Fellowship",
+      "type": "Foundation / Trust",
+      "website": "https://www.hertzfoundation.org",
+      "level": "PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United States",
+      "name": "Paul & Daisy Soros Fellowships",
+      "type": "Foundation / Trust",
+      "website": "https://www.pdsoros.org",
+      "level": "Master's, PhD",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "United States",
+      "name": "Boren Awards",
+      "type": "Government",
+      "website": "https://www.borenawards.org",
+      "level": "Bachelor's, Master's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "United States",
+      "name": "Gilman Scholarship",
+      "type": "Government",
+      "website": "https://www.gilmanscholarship.org",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "United States",
+      "name": "Truman Scholarship",
+      "type": "Government",
+      "website": "https://www.truman.gov",
+      "level": "Master's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "United States",
+      "name": "Goldwater Scholarship",
+      "type": "Government",
+      "website": "https://goldwaterscholarship.gov",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "United States",
+      "name": "Jack Kent Cooke Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://www.jkcf.org",
+      "level": "Bachelor's, Master's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "United States",
+      "name": "Horatio Alger Association Scholarships",
+      "type": "Foundation / Trust",
+      "website": "https://scholars.horatioalger.org",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "United States",
+      "name": "Coca-Cola Scholars Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://www.coca-colascholarsfoundation.org",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "United States",
+      "name": "The Gates Scholarship",
+      "type": "Foundation / Trust",
+      "website": "https://www.thegatesscholarship.org",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United States",
+      "name": "QuestBridge",
+      "type": "Foundation / Trust",
+      "website": "https://www.questbridge.org",
+      "level": "Bachelor's",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United States",
+      "name": "Hispanic Scholarship Fund",
+      "type": "Foundation / Trust",
+      "website": "https://www.hsf.net",
+      "level": "Bachelor's, Master's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "United States",
+      "name": "UNCF",
+      "type": "Foundation / Trust",
+      "website": "https://uncf.org",
+      "level": "Bachelor's, Master's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "United States",
+      "name": "Dell Scholars",
+      "type": "Foundation / Trust",
+      "website": "https://www.dellscholars.org",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "United States",
+      "name": "Ron Brown Scholar Program",
+      "type": "Foundation / Trust",
+      "website": "https://ronbrown.org",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "United States",
+      "name": "Elks National Foundation Scholarships",
+      "type": "Foundation / Trust",
+      "website": "https://www.elks.org/scholars",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "United States",
+      "name": "AAUW Fellowships and Grants",
+      "type": "Foundation / Trust",
+      "website": "https://www.aauw.org/resources/programs/fellowships-grants/",
+      "level": "Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "United States",
+      "name": "National Merit Scholarship Corporation",
+      "type": "Foundation / Trust",
+      "website": "https://www.nationalmerit.org",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "United States",
+      "name": "Davis United World College Scholars",
+      "type": "Foundation / Trust",
+      "website": "https://www.davisuwcscholars.org",
+      "level": "Bachelor's",
+      "open_to": "International students",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "United States",
+      "name": "Federal Student Aid",
+      "type": "Government",
+      "website": "https://studentaid.gov",
+      "level": "All levels",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United States",
+      "name": "Churchill Scholarship",
+      "type": "Foundation / Trust",
+      "website": "https://www.churchillscholarship.org",
+      "level": "Master's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United States",
+      "name": "Mitchell Scholarship (US-Ireland Alliance)",
+      "type": "Foundation / Trust",
+      "website": "https://www.us-irelandalliance.org",
+      "level": "Master's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Chevening Scholarships",
+      "type": "Government",
+      "website": "https://www.chevening.org",
+      "level": "Master's",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Commonwealth Scholarship Commission",
+      "type": "Government",
+      "website": "https://cscuk.fcdo.gov.uk",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Rhodes Scholarships (Oxford)",
+      "type": "Foundation / Trust",
+      "website": "https://www.rhodeshouse.ox.ac.uk/scholarships/",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Gates Cambridge Scholarships",
+      "type": "Foundation / Trust",
+      "website": "https://www.gatescambridge.org",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Marshall Scholarships",
+      "type": "Government",
+      "website": "https://www.marshallscholarship.org",
+      "level": "Master's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Clarendon Fund (Oxford)",
+      "type": "University",
+      "website": "https://www.ox.ac.uk/clarendon",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Cambridge Trust",
+      "type": "University",
+      "website": "https://www.cambridgetrust.org",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Oxford Fees and Funding",
+      "type": "University",
+      "website": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Imperial College London Fees and Funding",
+      "type": "University",
+      "website": "https://www.imperial.ac.uk/study/fees-and-funding/",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "LSE Fees and Funding",
+      "type": "University",
+      "website": "https://www.lse.ac.uk/study-at-lse/graduate/fees-and-funding",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "UCL Graduate Fees and Funding",
+      "type": "University",
+      "website": "https://www.ucl.ac.uk/prospective-students/graduate/fees-and-funding",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "University of Edinburgh Student Funding",
+      "type": "University",
+      "website": "https://www.ed.ac.uk/student-funding",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "University of Manchester Scholarships",
+      "type": "University",
+      "website": "https://www.manchester.ac.uk/study/international/finance-and-scholarships/",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "University of Warwick Postgraduate Funding",
+      "type": "University",
+      "website": "https://warwick.ac.uk/study/postgraduate/funding",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "University of Glasgow Scholarships",
+      "type": "University",
+      "website": "https://www.gla.ac.uk/scholarships/",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Wellcome",
+      "type": "Foundation / Trust",
+      "website": "https://wellcome.org",
+      "level": "PhD, Postdoc",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "UKRI",
+      "type": "Government",
+      "website": "https://www.ukri.org",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "British Council Study UK Scholarships",
+      "type": "Government",
+      "website": "https://study-uk.britishcouncil.org",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Turing Scheme",
+      "type": "Government",
+      "website": "https://www.turing-scheme.org.uk",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Leverhulme Trust",
+      "type": "Foundation / Trust",
+      "website": "https://www.leverhulme.ac.uk",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "The Royal Society",
+      "type": "Foundation / Trust",
+      "website": "https://royalsociety.org",
+      "level": "Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United Kingdom",
+      "name": "Weidenfeld-Hoffmann Scholarships",
+      "type": "Foundation / Trust",
+      "website": "https://www.whs.ox.ac.uk",
+      "level": "Master's",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Canada",
+      "name": "Vanier Canada Graduate Scholarships",
+      "type": "Government",
+      "website": "https://vanier.gc.ca",
+      "level": "PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Canada",
+      "name": "Banting Postdoctoral Fellowships",
+      "type": "Government",
+      "website": "https://banting.fellowships-bourses.gc.ca",
+      "level": "Postdoc",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Canada",
+      "name": "Pierre Elliott Trudeau Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://www.trudeaufoundation.ca",
+      "level": "PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Canada",
+      "name": "NSERC",
+      "type": "Government",
+      "website": "https://www.nserc-crsng.gc.ca",
+      "level": "Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Canada",
+      "name": "SSHRC",
+      "type": "Government",
+      "website": "https://www.sshrc-crsh.gc.ca",
+      "level": "Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Canada",
+      "name": "CIHR",
+      "type": "Government",
+      "website": "https://cihr-irsc.gc.ca",
+      "level": "Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Canada",
+      "name": "Mitacs",
+      "type": "Government",
+      "website": "https://www.mitacs.ca",
+      "level": "Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "Canada",
+      "name": "Lester B. Pearson Scholarship (U of Toronto)",
+      "type": "University",
+      "website": "https://future.utoronto.ca/pearson/about/",
+      "level": "Bachelor's",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Canada",
+      "name": "University of Toronto",
+      "type": "University",
+      "website": "https://www.utoronto.ca",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Canada",
+      "name": "McGill Student Aid",
+      "type": "University",
+      "website": "https://www.mcgill.ca/studentaid",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Canada",
+      "name": "UBC Finances",
+      "type": "University",
+      "website": "https://students.ubc.ca/enrolment/finances",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Canada",
+      "name": "University of Waterloo",
+      "type": "University",
+      "website": "https://uwaterloo.ca",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Canada",
+      "name": "University of Alberta",
+      "type": "University",
+      "website": "https://www.ualberta.ca",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Canada",
+      "name": "McMaster University",
+      "type": "University",
+      "website": "https://www.mcmaster.ca",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Canada",
+      "name": "Queen's University",
+      "type": "University",
+      "website": "https://www.queensu.ca",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Canada",
+      "name": "Simon Fraser University",
+      "type": "University",
+      "website": "https://www.sfu.ca",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Canada",
+      "name": "Killam Trusts",
+      "type": "Foundation / Trust",
+      "website": "https://www.killamtrusts.ca",
+      "level": "Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Canada",
+      "name": "Schulich Leaders Scholarships",
+      "type": "Foundation / Trust",
+      "website": "https://www.schulichleaders.com",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "Canada",
+      "name": "Loran Scholars Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://loranscholars.ca",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "Canada",
+      "name": "EduCanada",
+      "type": "Government",
+      "website": "https://www.educanada.ca",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Canada",
+      "name": "Scholarships Canada",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://www.scholarshipscanada.com",
+      "level": "All levels",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Canada",
+      "name": "Yconic",
+      "type": "Aggregator (verify on official site)",
+      "website": "https://yconic.com",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Germany",
+      "name": "DAAD (German Academic Exchange Service)",
+      "type": "Government",
+      "website": "https://www.daad.de/en/",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Germany",
+      "name": "DAAD Scholarship Database",
+      "type": "Government",
+      "website": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Germany",
+      "name": "Deutschlandstipendium",
+      "type": "Government",
+      "website": "https://www.deutschlandstipendium.de",
+      "level": "Bachelor's, Master's",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "Germany",
+      "name": "Alexander von Humboldt Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://www.humboldt-foundation.de",
+      "level": "PhD, Postdoc",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Germany",
+      "name": "Konrad-Adenauer-Stiftung",
+      "type": "Foundation / Trust",
+      "website": "https://www.kas.de",
+      "level": "Bachelor's, Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Germany",
+      "name": "Friedrich-Ebert-Stiftung",
+      "type": "Foundation / Trust",
+      "website": "https://www.fes.de",
+      "level": "Bachelor's, Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Germany",
+      "name": "Heinrich-Boll-Stiftung",
+      "type": "Foundation / Trust",
+      "website": "https://www.boell.de",
+      "level": "Bachelor's, Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Germany",
+      "name": "Rosa-Luxemburg-Stiftung",
+      "type": "Foundation / Trust",
+      "website": "https://www.rosalux.de",
+      "level": "Bachelor's, Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Germany",
+      "name": "Hanns-Seidel-Stiftung",
+      "type": "Foundation / Trust",
+      "website": "https://www.hss.de",
+      "level": "Bachelor's, Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Germany",
+      "name": "Friedrich-Naumann-Stiftung",
+      "type": "Foundation / Trust",
+      "website": "https://www.freiheit.org",
+      "level": "Bachelor's, Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Germany",
+      "name": "Studienstiftung des deutschen Volkes",
+      "type": "Foundation / Trust",
+      "website": "https://www.studienstiftung.de",
+      "level": "Bachelor's, Master's, PhD",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Germany",
+      "name": "Hans-Bockler-Stiftung",
+      "type": "Foundation / Trust",
+      "website": "https://www.boeckler.de",
+      "level": "Bachelor's, Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Germany",
+      "name": "Cusanuswerk",
+      "type": "Foundation / Trust",
+      "website": "https://www.cusanuswerk.de",
+      "level": "Bachelor's, Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Germany",
+      "name": "Evangelisches Studienwerk Villigst",
+      "type": "Foundation / Trust",
+      "website": "https://www.evstudienwerk.de",
+      "level": "Bachelor's, Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Germany",
+      "name": "Avicenna-Studienwerk",
+      "type": "Foundation / Trust",
+      "website": "https://www.avicenna-studienwerk.de",
+      "level": "Bachelor's, Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Germany",
+      "name": "Robert Bosch Stiftung",
+      "type": "Foundation / Trust",
+      "website": "https://www.bosch-stiftung.de",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Germany",
+      "name": "Max Planck Society",
+      "type": "Research Agency",
+      "website": "https://www.mpg.de",
+      "level": "PhD, Postdoc",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Germany",
+      "name": "Helmholtz Association",
+      "type": "Research Agency",
+      "website": "https://www.helmholtz.de",
+      "level": "PhD, Postdoc",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Germany",
+      "name": "Fraunhofer-Gesellschaft",
+      "type": "Research Agency",
+      "website": "https://www.fraunhofer.de",
+      "level": "PhD, Postdoc",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Germany",
+      "name": "Leibniz Association",
+      "type": "Research Agency",
+      "website": "https://www.leibniz-gemeinschaft.de",
+      "level": "PhD, Postdoc",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Germany",
+      "name": "Study in Germany",
+      "type": "Government",
+      "website": "https://www.study-in-germany.de",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Germany",
+      "name": "Technical University of Munich",
+      "type": "University",
+      "website": "https://www.tum.de",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Germany",
+      "name": "LMU Munich",
+      "type": "University",
+      "website": "https://www.lmu.de",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Germany",
+      "name": "Heidelberg University",
+      "type": "University",
+      "website": "https://www.uni-heidelberg.de",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Germany",
+      "name": "RWTH Aachen University",
+      "type": "University",
+      "website": "https://www.rwth-aachen.de",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Germany",
+      "name": "TU Berlin",
+      "type": "University",
+      "website": "https://www.tu.berlin",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Germany",
+      "name": "Humboldt University of Berlin",
+      "type": "University",
+      "website": "https://www.hu-berlin.de",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Germany",
+      "name": "Freie Universitat Berlin",
+      "type": "University",
+      "website": "https://www.fu-berlin.de",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Germany",
+      "name": "Karlsruhe Institute of Technology",
+      "type": "University",
+      "website": "https://www.kit.edu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "France",
+      "name": "Campus France",
+      "type": "Government",
+      "website": "https://www.campusfrance.org",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "France",
+      "name": "Eiffel Excellence Scholarship",
+      "type": "Government",
+      "website": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "France",
+      "name": "Etudiant.gouv.fr (CROUS)",
+      "type": "Government",
+      "website": "https://www.etudiant.gouv.fr",
+      "level": "Bachelor's, Master's",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "France",
+      "name": "PSL Research University",
+      "type": "University",
+      "website": "https://psl.eu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "France",
+      "name": "Sorbonne University",
+      "type": "University",
+      "website": "https://www.sorbonne-universite.fr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "France",
+      "name": "Ecole Polytechnique",
+      "type": "University",
+      "website": "https://www.polytechnique.edu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "France",
+      "name": "Sciences Po",
+      "type": "University",
+      "website": "https://www.sciencespo.fr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "France",
+      "name": "Ecole Normale Superieure",
+      "type": "University",
+      "website": "https://www.ens.psl.eu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "France",
+      "name": "HEC Paris",
+      "type": "University",
+      "website": "https://www.hec.edu",
+      "level": "Master's",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "France",
+      "name": "INSEAD",
+      "type": "University",
+      "website": "https://www.insead.edu",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "France",
+      "name": "Universite Paris-Saclay",
+      "type": "University",
+      "website": "https://www.universite-paris-saclay.fr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "France",
+      "name": "CNRS",
+      "type": "Research Agency",
+      "website": "https://www.cnrs.fr",
+      "level": "PhD, Postdoc",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "France",
+      "name": "Institut Pasteur",
+      "type": "Research Agency",
+      "website": "https://www.pasteur.fr",
+      "level": "PhD, Postdoc",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Netherlands",
+      "name": "Study in Holland (Nuffic)",
+      "type": "Government",
+      "website": "https://www.studyinholland.nl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Netherlands",
+      "name": "Nuffic",
+      "type": "Government",
+      "website": "https://www.nuffic.nl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Netherlands",
+      "name": "NWO",
+      "type": "Research Agency",
+      "website": "https://www.nwo.nl",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Netherlands",
+      "name": "Delft University of Technology",
+      "type": "University",
+      "website": "https://www.tudelft.nl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Netherlands",
+      "name": "University of Amsterdam",
+      "type": "University",
+      "website": "https://www.uva.nl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Netherlands",
+      "name": "Leiden University",
+      "type": "University",
+      "website": "https://www.universiteitleiden.nl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Netherlands",
+      "name": "Utrecht University",
+      "type": "University",
+      "website": "https://www.uu.nl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Netherlands",
+      "name": "Wageningen University",
+      "type": "University",
+      "website": "https://www.wur.nl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Netherlands",
+      "name": "University of Groningen",
+      "type": "University",
+      "website": "https://www.rug.nl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Netherlands",
+      "name": "Erasmus University Rotterdam",
+      "type": "University",
+      "website": "https://www.eur.nl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Netherlands",
+      "name": "Eindhoven University of Technology",
+      "type": "University",
+      "website": "https://www.tue.nl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Netherlands",
+      "name": "University of Twente",
+      "type": "University",
+      "website": "https://www.utwente.nl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Netherlands",
+      "name": "Maastricht University",
+      "type": "University",
+      "website": "https://www.maastrichtuniversity.nl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Netherlands",
+      "name": "Radboud University",
+      "type": "University",
+      "website": "https://www.ru.nl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Netherlands",
+      "name": "Vrije Universiteit Amsterdam",
+      "type": "University",
+      "website": "https://vu.nl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Sweden",
+      "name": "Swedish Institute Scholarships",
+      "type": "Government",
+      "website": "https://si.se/en/apply/scholarships/",
+      "level": "Master's",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Sweden",
+      "name": "Study in Sweden",
+      "type": "Government",
+      "website": "https://studyinsweden.se",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Sweden",
+      "name": "KTH Royal Institute of Technology",
+      "type": "University",
+      "website": "https://www.kth.se",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Sweden",
+      "name": "Lund University",
+      "type": "University",
+      "website": "https://www.lunduniversity.lu.se",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Sweden",
+      "name": "Uppsala University",
+      "type": "University",
+      "website": "https://www.uu.se",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Sweden",
+      "name": "Chalmers University of Technology",
+      "type": "University",
+      "website": "https://www.chalmers.se",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Sweden",
+      "name": "Stockholm University",
+      "type": "University",
+      "website": "https://www.su.se",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Sweden",
+      "name": "Karolinska Institutet",
+      "type": "University",
+      "website": "https://ki.se",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Sweden",
+      "name": "Linkoping University",
+      "type": "University",
+      "website": "https://liu.se",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Sweden",
+      "name": "University of Gothenburg",
+      "type": "University",
+      "website": "https://www.gu.se",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Sweden",
+      "name": "Umea University",
+      "type": "University",
+      "website": "https://www.umu.se",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Sweden",
+      "name": "Knut and Alice Wallenberg Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://www.wallenberg.org",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Sweden",
+      "name": "Swedish Research Council",
+      "type": "Research Agency",
+      "website": "https://www.vr.se",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Sweden",
+      "name": "Sida",
+      "type": "Government",
+      "website": "https://www.sida.se",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Finland",
+      "name": "EDUFI (Finnish National Agency for Education)",
+      "type": "Government",
+      "website": "https://www.oph.fi",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Finland",
+      "name": "Study in Finland",
+      "type": "Government",
+      "website": "https://www.studyinfinland.fi",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Finland",
+      "name": "University of Helsinki",
+      "type": "University",
+      "website": "https://www.helsinki.fi",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Finland",
+      "name": "Aalto University",
+      "type": "University",
+      "website": "https://www.aalto.fi",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Finland",
+      "name": "Tampere University",
+      "type": "University",
+      "website": "https://www.tuni.fi",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Finland",
+      "name": "University of Oulu",
+      "type": "University",
+      "website": "https://www.oulu.fi",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Finland",
+      "name": "University of Turku",
+      "type": "University",
+      "website": "https://www.utu.fi",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Finland",
+      "name": "University of Jyvaskyla",
+      "type": "University",
+      "website": "https://www.jyu.fi",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Finland",
+      "name": "LUT University",
+      "type": "University",
+      "website": "https://www.lut.fi",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Finland",
+      "name": "Abo Akademi University",
+      "type": "University",
+      "website": "https://www.abo.fi",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Finland",
+      "name": "Research Council of Finland",
+      "type": "Research Agency",
+      "website": "https://www.aka.fi",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Denmark",
+      "name": "Study in Denmark",
+      "type": "Government",
+      "website": "https://studyindenmark.dk",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Denmark",
+      "name": "Danish Ministry of Higher Education and Science",
+      "type": "Government",
+      "website": "https://ufm.dk",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Denmark",
+      "name": "University of Copenhagen",
+      "type": "University",
+      "website": "https://www.ku.dk",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Denmark",
+      "name": "Aarhus University",
+      "type": "University",
+      "website": "https://www.au.dk",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Denmark",
+      "name": "Technical University of Denmark",
+      "type": "University",
+      "website": "https://www.dtu.dk",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Denmark",
+      "name": "Aalborg University",
+      "type": "University",
+      "website": "https://www.aau.dk",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Denmark",
+      "name": "University of Southern Denmark",
+      "type": "University",
+      "website": "https://www.sdu.dk",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Denmark",
+      "name": "Copenhagen Business School",
+      "type": "University",
+      "website": "https://www.cbs.dk",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Denmark",
+      "name": "Novo Nordisk Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://novonordiskfonden.dk/en/",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Denmark",
+      "name": "Carlsberg Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://www.carlsbergfondet.dk/en",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Denmark",
+      "name": "Lundbeck Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://www.lundbeckfonden.com",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Denmark",
+      "name": "Independent Research Fund Denmark",
+      "type": "Research Agency",
+      "website": "https://dff.dk/en",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Norway",
+      "name": "Study in Norway",
+      "type": "Government",
+      "website": "https://www.studyinnorway.no",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Norway",
+      "name": "HK-dir (Norwegian Directorate for Higher Education)",
+      "type": "Government",
+      "website": "https://hkdir.no/en",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Norway",
+      "name": "University of Oslo",
+      "type": "University",
+      "website": "https://www.uio.no",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Norway",
+      "name": "NTNU",
+      "type": "University",
+      "website": "https://www.ntnu.edu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Norway",
+      "name": "University of Bergen",
+      "type": "University",
+      "website": "https://www.uib.no",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Norway",
+      "name": "UiT The Arctic University of Norway",
+      "type": "University",
+      "website": "https://uit.no",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Norway",
+      "name": "Norwegian University of Life Sciences",
+      "type": "University",
+      "website": "https://www.nmbu.no",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Norway",
+      "name": "BI Norwegian Business School",
+      "type": "University",
+      "website": "https://www.bi.edu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Norway",
+      "name": "Research Council of Norway",
+      "type": "Research Agency",
+      "website": "https://www.forskningsradet.no",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Norway",
+      "name": "Norad",
+      "type": "Government",
+      "website": "https://www.norad.no",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Switzerland",
+      "name": "Swiss Government Excellence Scholarships",
+      "type": "Government",
+      "website": "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html",
+      "level": "PhD, Postdoc",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Switzerland",
+      "name": "Swiss National Science Foundation",
+      "type": "Research Agency",
+      "website": "https://www.snf.ch",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Switzerland",
+      "name": "ETH Zurich",
+      "type": "University",
+      "website": "https://ethz.ch",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Switzerland",
+      "name": "EPFL",
+      "type": "University",
+      "website": "https://www.epfl.ch",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Switzerland",
+      "name": "University of Zurich",
+      "type": "University",
+      "website": "https://www.uzh.ch",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Switzerland",
+      "name": "University of Basel",
+      "type": "University",
+      "website": "https://www.unibas.ch",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Switzerland",
+      "name": "University of Bern",
+      "type": "University",
+      "website": "https://www.unibe.ch",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Switzerland",
+      "name": "University of Geneva",
+      "type": "University",
+      "website": "https://www.unige.ch",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Switzerland",
+      "name": "University of Lausanne",
+      "type": "University",
+      "website": "https://www.unil.ch",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Switzerland",
+      "name": "University of St. Gallen",
+      "type": "University",
+      "website": "https://www.unisg.ch",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Switzerland",
+      "name": "Geneva Graduate Institute",
+      "type": "University",
+      "website": "https://www.graduateinstitute.ch",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Switzerland",
+      "name": "swissuniversities",
+      "type": "Government",
+      "website": "https://www.swissuniversities.ch",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Austria",
+      "name": "OeAD (Austrian Agency for Education and Internationalisation)",
+      "type": "Government",
+      "website": "https://oead.at",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Austria",
+      "name": "OeAD Scholarship Database (grants.at)",
+      "type": "Government",
+      "website": "https://grants.at/en",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Austria",
+      "name": "FWF Austrian Science Fund",
+      "type": "Research Agency",
+      "website": "https://www.fwf.ac.at",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Austria",
+      "name": "University of Vienna",
+      "type": "University",
+      "website": "https://www.univie.ac.at",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Austria",
+      "name": "TU Wien",
+      "type": "University",
+      "website": "https://www.tuwien.at",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Austria",
+      "name": "University of Graz",
+      "type": "University",
+      "website": "https://www.uni-graz.at",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Austria",
+      "name": "University of Innsbruck",
+      "type": "University",
+      "website": "https://www.uibk.ac.at",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Austria",
+      "name": "Johannes Kepler University Linz",
+      "type": "University",
+      "website": "https://www.jku.at",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Austria",
+      "name": "WU Vienna",
+      "type": "University",
+      "website": "https://www.wu.ac.at",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Austria",
+      "name": "Institute of Science and Technology Austria",
+      "type": "Research Agency",
+      "website": "https://ista.ac.at",
+      "level": "PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Belgium",
+      "name": "VLIR-UOS",
+      "type": "Government",
+      "website": "https://www.vliruos.be",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Belgium",
+      "name": "ARES (Academy of Research and Higher Education)",
+      "type": "Government",
+      "website": "https://www.ares-ac.be",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Belgium",
+      "name": "Wallonie-Bruxelles International",
+      "type": "Government",
+      "website": "https://www.wbi.be",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Belgium",
+      "name": "KU Leuven",
+      "type": "University",
+      "website": "https://www.kuleuven.be",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Belgium",
+      "name": "Ghent University",
+      "type": "University",
+      "website": "https://www.ugent.be",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Belgium",
+      "name": "UCLouvain",
+      "type": "University",
+      "website": "https://uclouvain.be",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Belgium",
+      "name": "Universite libre de Bruxelles",
+      "type": "University",
+      "website": "https://www.ulb.be",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Belgium",
+      "name": "Vrije Universiteit Brussel",
+      "type": "University",
+      "website": "https://www.vub.be",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Belgium",
+      "name": "University of Antwerp",
+      "type": "University",
+      "website": "https://www.uantwerpen.be",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Belgium",
+      "name": "FWO (Research Foundation Flanders)",
+      "type": "Research Agency",
+      "website": "https://www.fwo.be",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Belgium",
+      "name": "F.R.S.-FNRS",
+      "type": "Research Agency",
+      "website": "https://www.frs-fnrs.be",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Belgium",
+      "name": "Belgian American Educational Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://www.baef.be",
+      "level": "PhD, Postdoc",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Belgium",
+      "name": "Study in Flanders",
+      "type": "Government",
+      "website": "https://www.studyinflanders.be",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Italy",
+      "name": "Study in Italy (MAECI)",
+      "type": "Government",
+      "website": "https://studyinitaly.esteri.it",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Italy",
+      "name": "Italian Ministry of University and Research",
+      "type": "Government",
+      "website": "https://www.mur.gov.it",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Italy",
+      "name": "Bocconi University",
+      "type": "University",
+      "website": "https://www.unibocconi.it",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Italy",
+      "name": "Politecnico di Milano",
+      "type": "University",
+      "website": "https://www.polimi.it",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Italy",
+      "name": "Politecnico di Torino",
+      "type": "University",
+      "website": "https://www.polito.it",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Italy",
+      "name": "University of Bologna",
+      "type": "University",
+      "website": "https://www.unibo.it",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Italy",
+      "name": "Sapienza University of Rome",
+      "type": "University",
+      "website": "https://www.uniroma1.it",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Italy",
+      "name": "University of Padua",
+      "type": "University",
+      "website": "https://www.unipd.it",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Italy",
+      "name": "University of Pisa",
+      "type": "University",
+      "website": "https://www.unipi.it",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Italy",
+      "name": "Scuola Normale Superiore",
+      "type": "University",
+      "website": "https://www.sns.it",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Italy",
+      "name": "SISSA",
+      "type": "University",
+      "website": "https://www.sissa.it",
+      "level": "PhD",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Italy",
+      "name": "Italian Institute of Technology",
+      "type": "Research Agency",
+      "website": "https://www.iit.it",
+      "level": "PhD, Postdoc",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Italy",
+      "name": "University of Trento",
+      "type": "University",
+      "website": "https://www.unitn.it",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Italy",
+      "name": "University of Florence",
+      "type": "University",
+      "website": "https://www.unifi.it",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Italy",
+      "name": "University of Milan",
+      "type": "University",
+      "website": "https://www.unimi.it",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Italy",
+      "name": "ER.GO (Emilia-Romagna)",
+      "type": "Government",
+      "website": "https://www.er-go.it",
+      "level": "Bachelor's, Master's",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Italy",
+      "name": "DiSCo Lazio",
+      "type": "Government",
+      "website": "https://www.laziodisco.it",
+      "level": "Bachelor's, Master's",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Spain",
+      "name": "Fundacion Carolina",
+      "type": "Foundation / Trust",
+      "website": "https://www.fundacioncarolina.es",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "Spain",
+      "name": "Becas Santander",
+      "type": "Private / Corporate",
+      "website": "https://www.becas-santander.com",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Spain",
+      "name": "la Caixa Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://fundacionlacaixa.org",
+      "level": "Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Spain",
+      "name": "AECID (Spanish Agency for International Development Cooperation)",
+      "type": "Government",
+      "website": "https://www.aecid.es",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Spain",
+      "name": "SEPIE",
+      "type": "Government",
+      "website": "https://sepie.es",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Spain",
+      "name": "Ministerio de Universidades",
+      "type": "Government",
+      "website": "https://www.universidades.gob.es",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Spain",
+      "name": "University of Barcelona",
+      "type": "University",
+      "website": "https://www.ub.edu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Spain",
+      "name": "Pompeu Fabra University",
+      "type": "University",
+      "website": "https://www.upf.edu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Spain",
+      "name": "Universitat Autonoma de Barcelona",
+      "type": "University",
+      "website": "https://www.uab.cat",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Spain",
+      "name": "Universitat Politecnica de Catalunya",
+      "type": "University",
+      "website": "https://www.upc.edu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Spain",
+      "name": "Universidad Complutense de Madrid",
+      "type": "University",
+      "website": "https://www.ucm.es",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Spain",
+      "name": "Universidad Autonoma de Madrid",
+      "type": "University",
+      "website": "https://www.uam.es",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Spain",
+      "name": "Universidad Politecnica de Madrid",
+      "type": "University",
+      "website": "https://www.upm.es",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Spain",
+      "name": "IE University",
+      "type": "University",
+      "website": "https://www.ie.edu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Spain",
+      "name": "ESADE",
+      "type": "University",
+      "website": "https://www.esade.edu",
+      "level": "Master's",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Spain",
+      "name": "IESE Business School",
+      "type": "University",
+      "website": "https://www.iese.edu",
+      "level": "Master's",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Spain",
+      "name": "BBVA Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://www.fbbva.es",
+      "level": "Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Spain",
+      "name": "Fundacion Ramon Areces",
+      "type": "Foundation / Trust",
+      "website": "https://www.fundacionareces.es",
+      "level": "Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Portugal",
+      "name": "Study in Portugal",
+      "type": "Government",
+      "website": "https://www.studyinportugal.edu.pt",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Portugal",
+      "name": "FCT (Foundation for Science and Technology)",
+      "type": "Research Agency",
+      "website": "https://www.fct.pt",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Portugal",
+      "name": "University of Lisbon",
+      "type": "University",
+      "website": "https://www.ulisboa.pt",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Portugal",
+      "name": "University of Porto",
+      "type": "University",
+      "website": "https://www.up.pt",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Portugal",
+      "name": "University of Coimbra",
+      "type": "University",
+      "website": "https://www.uc.pt",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Portugal",
+      "name": "NOVA University Lisbon",
+      "type": "University",
+      "website": "https://www.unl.pt",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Portugal",
+      "name": "University of Minho",
+      "type": "University",
+      "website": "https://www.uminho.pt",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Portugal",
+      "name": "University of Aveiro",
+      "type": "University",
+      "website": "https://www.ua.pt",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Portugal",
+      "name": "Calouste Gulbenkian Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://gulbenkian.pt",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Portugal",
+      "name": "Camoes Institute",
+      "type": "Government",
+      "website": "https://www.instituto-camoes.pt",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Ireland",
+      "name": "Government of Ireland International Education Scholarship",
+      "type": "Government",
+      "website": "https://hea.ie/policy/international/government-of-ireland-international-education-scholarship/",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "Ireland",
+      "name": "Irish Research Council",
+      "type": "Research Agency",
+      "website": "https://research.ie",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Ireland",
+      "name": "Science Foundation Ireland",
+      "type": "Research Agency",
+      "website": "https://www.sfi.ie",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Ireland",
+      "name": "Higher Education Authority",
+      "type": "Government",
+      "website": "https://hea.ie",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Ireland",
+      "name": "Trinity College Dublin",
+      "type": "University",
+      "website": "https://www.tcd.ie",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Ireland",
+      "name": "University College Dublin",
+      "type": "University",
+      "website": "https://www.ucd.ie",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Ireland",
+      "name": "University College Cork",
+      "type": "University",
+      "website": "https://www.ucc.ie",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Ireland",
+      "name": "University of Galway",
+      "type": "University",
+      "website": "https://www.universityofgalway.ie",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Ireland",
+      "name": "Dublin City University",
+      "type": "University",
+      "website": "https://www.dcu.ie",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Ireland",
+      "name": "Maynooth University",
+      "type": "University",
+      "website": "https://www.maynoothuniversity.ie",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Ireland",
+      "name": "University of Limerick",
+      "type": "University",
+      "website": "https://www.ul.ie",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Ireland",
+      "name": "Education in Ireland",
+      "type": "Government",
+      "website": "https://www.educationinireland.com",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Poland",
+      "name": "NAWA (Polish National Agency for Academic Exchange)",
+      "type": "Government",
+      "website": "https://nawa.gov.pl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Poland",
+      "name": "Study in Poland",
+      "type": "Government",
+      "website": "https://studyinpoland.pl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Poland",
+      "name": "University of Warsaw",
+      "type": "University",
+      "website": "https://www.uw.edu.pl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Poland",
+      "name": "Jagiellonian University",
+      "type": "University",
+      "website": "https://uj.edu.pl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Poland",
+      "name": "AGH University of Krakow",
+      "type": "University",
+      "website": "https://www.agh.edu.pl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Poland",
+      "name": "Warsaw University of Technology",
+      "type": "University",
+      "website": "https://www.pw.edu.pl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Poland",
+      "name": "Wroclaw University of Science and Technology",
+      "type": "University",
+      "website": "https://pwr.edu.pl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Poland",
+      "name": "Adam Mickiewicz University",
+      "type": "University",
+      "website": "https://amu.edu.pl",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Poland",
+      "name": "National Science Centre Poland",
+      "type": "Research Agency",
+      "website": "https://www.ncn.gov.pl",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Czech Republic",
+      "name": "StudyInCZ",
+      "type": "Government",
+      "website": "https://www.studyin.cz",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Czech Republic",
+      "name": "DZS (Czech Centre for International Cooperation in Education)",
+      "type": "Government",
+      "website": "https://www.dzs.cz",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Czech Republic",
+      "name": "Charles University",
+      "type": "University",
+      "website": "https://cuni.cz",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Czech Republic",
+      "name": "Czech Technical University in Prague",
+      "type": "University",
+      "website": "https://www.cvut.cz",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Czech Republic",
+      "name": "Masaryk University",
+      "type": "University",
+      "website": "https://www.muni.cz",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Czech Republic",
+      "name": "Brno University of Technology",
+      "type": "University",
+      "website": "https://www.vut.cz",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Czech Republic",
+      "name": "Czech Science Foundation",
+      "type": "Research Agency",
+      "website": "https://gacr.cz",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Hungary",
+      "name": "Stipendium Hungaricum",
+      "type": "Government",
+      "website": "https://stipendiumhungaricum.hu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Hungary",
+      "name": "Tempus Public Foundation",
+      "type": "Government",
+      "website": "https://tpf.hu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Hungary",
+      "name": "Study in Hungary",
+      "type": "Government",
+      "website": "https://studyinhungary.hu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Hungary",
+      "name": "Eotvos Lorand University (ELTE)",
+      "type": "University",
+      "website": "https://www.elte.hu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Hungary",
+      "name": "Budapest University of Technology and Economics",
+      "type": "University",
+      "website": "https://www.bme.hu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Hungary",
+      "name": "Corvinus University of Budapest",
+      "type": "University",
+      "website": "https://www.uni-corvinus.hu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Hungary",
+      "name": "University of Szeged",
+      "type": "University",
+      "website": "https://u-szeged.hu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Hungary",
+      "name": "University of Debrecen",
+      "type": "University",
+      "website": "https://unideb.hu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Hungary",
+      "name": "Central European University",
+      "type": "University",
+      "website": "https://www.ceu.edu",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Türkiye",
+      "name": "Turkiye Burslari (Turkish Government Scholarships)",
+      "type": "Government",
+      "website": "https://turkiyeburslari.gov.tr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Türkiye",
+      "name": "YTB (Presidency for Turks Abroad and Related Communities)",
+      "type": "Government",
+      "website": "https://www.ytb.gov.tr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Türkiye",
+      "name": "TUBITAK",
+      "type": "Research Agency",
+      "website": "https://www.tubitak.gov.tr",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Türkiye",
+      "name": "Study in Turkiye",
+      "type": "Government",
+      "website": "https://studyinturkiye.gov.tr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Türkiye",
+      "name": "YOK (Council of Higher Education)",
+      "type": "Government",
+      "website": "https://www.yok.gov.tr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Türkiye",
+      "name": "Middle East Technical University",
+      "type": "University",
+      "website": "https://www.metu.edu.tr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Türkiye",
+      "name": "Bogazici University",
+      "type": "University",
+      "website": "https://www.boun.edu.tr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Türkiye",
+      "name": "Istanbul Technical University",
+      "type": "University",
+      "website": "https://www.itu.edu.tr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Türkiye",
+      "name": "Koc University",
+      "type": "University",
+      "website": "https://www.ku.edu.tr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Türkiye",
+      "name": "Sabanci University",
+      "type": "University",
+      "website": "https://www.sabanciuniv.edu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Türkiye",
+      "name": "Bilkent University",
+      "type": "University",
+      "website": "https://www.bilkent.edu.tr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "China",
+      "name": "Chinese Government Scholarship (CSC)",
+      "type": "Government",
+      "website": "https://www.csc.edu.cn",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "China",
+      "name": "CSC Study in China Portal",
+      "type": "Government",
+      "website": "https://www.campuschina.org",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "China",
+      "name": "Tsinghua University",
+      "type": "University",
+      "website": "https://www.tsinghua.edu.cn/en/",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "China",
+      "name": "Peking University",
+      "type": "University",
+      "website": "https://english.pku.edu.cn",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "China",
+      "name": "Fudan University",
+      "type": "University",
+      "website": "https://www.fudan.edu.cn/en/",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "China",
+      "name": "Zhejiang University",
+      "type": "University",
+      "website": "https://www.zju.edu.cn/english/",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "China",
+      "name": "Shanghai Jiao Tong University",
+      "type": "University",
+      "website": "https://en.sjtu.edu.cn",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "China",
+      "name": "University of Science and Technology of China",
+      "type": "University",
+      "website": "https://en.ustc.edu.cn",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "China",
+      "name": "Nanjing University",
+      "type": "University",
+      "website": "https://www.nju.edu.cn/EN",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "China",
+      "name": "Wuhan University",
+      "type": "University",
+      "website": "https://en.whu.edu.cn",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "China",
+      "name": "Beijing Normal University",
+      "type": "University",
+      "website": "https://english.bnu.edu.cn",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "China",
+      "name": "University of Chinese Academy of Sciences",
+      "type": "University",
+      "website": "https://english.ucas.ac.cn",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "China",
+      "name": "Beijing Institute of Technology",
+      "type": "University",
+      "website": "https://english.bit.edu.cn",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Japan",
+      "name": "MEXT Scholarship (Study in Japan)",
+      "type": "Government",
+      "website": "https://www.studyinjapan.go.jp",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Japan",
+      "name": "JASSO",
+      "type": "Government",
+      "website": "https://www.jasso.go.jp/en/",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Japan",
+      "name": "JICA",
+      "type": "Government",
+      "website": "https://www.jica.go.jp",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Japan",
+      "name": "Japan Foundation",
+      "type": "Government",
+      "website": "https://www.jpf.go.jp",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Japan",
+      "name": "JSPS (Japan Society for the Promotion of Science)",
+      "type": "Research Agency",
+      "website": "https://www.jsps.go.jp",
+      "level": "PhD, Postdoc",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Japan",
+      "name": "Rotary Yoneyama Memorial Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://www.rotary-yoneyama.or.jp",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "Japan",
+      "name": "University of Tokyo",
+      "type": "University",
+      "website": "https://www.u-tokyo.ac.jp",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Japan",
+      "name": "Kyoto University",
+      "type": "University",
+      "website": "https://www.kyoto-u.ac.jp",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Japan",
+      "name": "Osaka University",
+      "type": "University",
+      "website": "https://www.osaka-u.ac.jp",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Japan",
+      "name": "Tohoku University",
+      "type": "University",
+      "website": "https://www.tohoku.ac.jp",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Japan",
+      "name": "Institute of Science Tokyo (Tokyo Tech)",
+      "type": "University",
+      "website": "https://www.titech.ac.jp",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Japan",
+      "name": "Nagoya University",
+      "type": "University",
+      "website": "https://www.nagoya-u.ac.jp",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Japan",
+      "name": "Hokkaido University",
+      "type": "University",
+      "website": "https://www.global.hokudai.ac.jp",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Japan",
+      "name": "Kyushu University",
+      "type": "University",
+      "website": "https://www.kyushu-u.ac.jp",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Japan",
+      "name": "Waseda University",
+      "type": "University",
+      "website": "https://www.waseda.jp",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Japan",
+      "name": "Keio University",
+      "type": "University",
+      "website": "https://www.keio.ac.jp",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Japan",
+      "name": "Ritsumeikan Asia Pacific University",
+      "type": "University",
+      "website": "https://en.apu.ac.jp",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Japan",
+      "name": "Okinawa Institute of Science and Technology",
+      "type": "University",
+      "website": "https://www.oist.jp",
+      "level": "PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "South Korea",
+      "name": "Global Korea Scholarship (Study in Korea)",
+      "type": "Government",
+      "website": "https://www.studyinkorea.go.kr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "South Korea",
+      "name": "NIIED",
+      "type": "Government",
+      "website": "https://www.niied.go.kr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "South Korea",
+      "name": "KAIST",
+      "type": "University",
+      "website": "https://www.kaist.ac.kr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Korea",
+      "name": "Seoul National University",
+      "type": "University",
+      "website": "https://en.snu.ac.kr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Korea",
+      "name": "Yonsei University",
+      "type": "University",
+      "website": "https://www.yonsei.ac.kr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Korea",
+      "name": "Korea University",
+      "type": "University",
+      "website": "https://www.korea.edu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Korea",
+      "name": "POSTECH",
+      "type": "University",
+      "website": "https://www.postech.ac.kr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Korea",
+      "name": "UNIST",
+      "type": "University",
+      "website": "https://www.unist.ac.kr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Korea",
+      "name": "GIST",
+      "type": "University",
+      "website": "https://www.gist.ac.kr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Korea",
+      "name": "DGIST",
+      "type": "University",
+      "website": "https://www.dgist.ac.kr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Korea",
+      "name": "Sungkyunkwan University",
+      "type": "University",
+      "website": "https://www.skku.edu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Korea",
+      "name": "Hanyang University",
+      "type": "University",
+      "website": "https://www.hanyang.ac.kr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Korea",
+      "name": "KOICA",
+      "type": "Government",
+      "website": "https://www.koica.go.kr",
+      "level": "Master's",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "South Korea",
+      "name": "Korea Foundation",
+      "type": "Government",
+      "website": "https://www.kf.or.kr",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Korea",
+      "name": "National Research Foundation of Korea",
+      "type": "Research Agency",
+      "website": "https://www.nrf.re.kr",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "South Korea",
+      "name": "KDI School of Public Policy",
+      "type": "University",
+      "website": "https://www.kdischool.ac.kr",
+      "level": "Master's",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Taiwan",
+      "name": "Taiwan Scholarship (MOE)",
+      "type": "Government",
+      "website": "https://taiwanscholarship.moe.gov.tw",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "Taiwan",
+      "name": "TaiwanICDF Scholarships",
+      "type": "Government",
+      "website": "https://www.icdf.org.tw",
+      "level": "Bachelor's, Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Taiwan",
+      "name": "Study in Taiwan",
+      "type": "Government",
+      "website": "https://www.studyintaiwan.org",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Taiwan",
+      "name": "National Taiwan University",
+      "type": "University",
+      "website": "https://www.ntu.edu.tw",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Taiwan",
+      "name": "National Tsing Hua University",
+      "type": "University",
+      "website": "https://www.nthu.edu.tw",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Taiwan",
+      "name": "National Cheng Kung University",
+      "type": "University",
+      "website": "https://www.ncku.edu.tw",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Taiwan",
+      "name": "National Yang Ming Chiao Tung University",
+      "type": "University",
+      "website": "https://www.nycu.edu.tw",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Taiwan",
+      "name": "Academia Sinica",
+      "type": "Research Agency",
+      "website": "https://www.sinica.edu.tw",
+      "level": "PhD, Postdoc",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Taiwan",
+      "name": "National Science and Technology Council",
+      "type": "Research Agency",
+      "website": "https://www.nstc.gov.tw",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Hong Kong",
+      "name": "Hong Kong PhD Fellowship Scheme",
+      "type": "Government",
+      "website": "https://cerg1.ugc.edu.hk/hkpfs/index.html",
+      "level": "PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Hong Kong",
+      "name": "Study in Hong Kong",
+      "type": "Government",
+      "website": "https://www.studyinhongkong.edu.hk",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Hong Kong",
+      "name": "University Grants Committee",
+      "type": "Government",
+      "website": "https://www.ugc.edu.hk",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Hong Kong",
+      "name": "HKUST",
+      "type": "University",
+      "website": "https://hkust.edu.hk",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Hong Kong",
+      "name": "University of Hong Kong",
+      "type": "University",
+      "website": "https://www.hku.hk",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Hong Kong",
+      "name": "Chinese University of Hong Kong",
+      "type": "University",
+      "website": "https://www.cuhk.edu.hk",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Hong Kong",
+      "name": "Hong Kong Polytechnic University",
+      "type": "University",
+      "website": "https://www.polyu.edu.hk",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Hong Kong",
+      "name": "City University of Hong Kong",
+      "type": "University",
+      "website": "https://www.cityu.edu.hk",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Hong Kong",
+      "name": "Hong Kong Baptist University",
+      "type": "University",
+      "website": "https://www.hkbu.edu.hk",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Singapore",
+      "name": "A*STAR Graduate Scholarships (incl. SINGA)",
+      "type": "Government",
+      "website": "https://www.a-star.edu.sg",
+      "level": "PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Singapore",
+      "name": "National University of Singapore",
+      "type": "University",
+      "website": "https://www.nus.edu.sg",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Singapore",
+      "name": "Nanyang Technological University",
+      "type": "University",
+      "website": "https://www.ntu.edu.sg",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Singapore",
+      "name": "Singapore Management University",
+      "type": "University",
+      "website": "https://www.smu.edu.sg",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Singapore",
+      "name": "Singapore University of Technology and Design",
+      "type": "University",
+      "website": "https://www.sutd.edu.sg",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Singapore",
+      "name": "Lee Kuan Yew School of Public Policy",
+      "type": "University",
+      "website": "https://lkyspp.nus.edu.sg",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Singapore",
+      "name": "Singapore Institute of Technology",
+      "type": "University",
+      "website": "https://www.singaporetech.edu.sg",
+      "level": "Bachelor's, Master's",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Singapore",
+      "name": "Ministry of Education Singapore",
+      "type": "Government",
+      "website": "https://www.moe.gov.sg",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Singapore",
+      "name": "Public Service Commission Scholarships",
+      "type": "Government",
+      "website": "https://www.psc.gov.sg",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Singapore",
+      "name": "Temasek Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://www.temasekfoundation.org.sg",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Malaysia",
+      "name": "Malaysian International Scholarship (MIS)",
+      "type": "Government",
+      "website": "https://biasiswa.mohe.gov.my",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Malaysia",
+      "name": "EMGS Education Malaysia",
+      "type": "Government",
+      "website": "https://educationmalaysia.gov.my",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Malaysia",
+      "name": "MARA",
+      "type": "Government",
+      "website": "https://www.mara.gov.my",
+      "level": "All levels",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Malaysia",
+      "name": "Universiti Malaya",
+      "type": "University",
+      "website": "https://www.um.edu.my",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Malaysia",
+      "name": "Universiti Kebangsaan Malaysia",
+      "type": "University",
+      "website": "https://www.ukm.my",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Malaysia",
+      "name": "Universiti Putra Malaysia",
+      "type": "University",
+      "website": "https://www.upm.edu.my",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Malaysia",
+      "name": "Universiti Sains Malaysia",
+      "type": "University",
+      "website": "https://www.usm.my",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Malaysia",
+      "name": "Universiti Teknologi Malaysia",
+      "type": "University",
+      "website": "https://www.utm.my",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Malaysia",
+      "name": "Monash University Malaysia",
+      "type": "University",
+      "website": "https://www.monash.edu.my",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Malaysia",
+      "name": "Taylor's University",
+      "type": "University",
+      "website": "https://university.taylors.edu.my",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Malaysia",
+      "name": "Sunway University",
+      "type": "University",
+      "website": "https://university.sunway.edu.my",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Malaysia",
+      "name": "Yayasan Khazanah",
+      "type": "Foundation / Trust",
+      "website": "https://www.yayasankhazanah.com.my",
+      "level": "Bachelor's, Master's, PhD",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Indonesia",
+      "name": "LPDP (Indonesia Endowment Fund for Education)",
+      "type": "Government",
+      "website": "https://lpdp.kemenkeu.go.id",
+      "level": "Master's, PhD",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Indonesia",
+      "name": "Universitas Indonesia",
+      "type": "University",
+      "website": "https://www.ui.ac.id",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Indonesia",
+      "name": "Institut Teknologi Bandung",
+      "type": "University",
+      "website": "https://www.itb.ac.id",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Indonesia",
+      "name": "Universitas Gadjah Mada",
+      "type": "University",
+      "website": "https://www.ugm.ac.id",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Indonesia",
+      "name": "IPB University",
+      "type": "University",
+      "website": "https://www.ipb.ac.id",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Indonesia",
+      "name": "Institut Teknologi Sepuluh Nopember",
+      "type": "University",
+      "website": "https://www.its.ac.id",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Indonesia",
+      "name": "Universitas Airlangga",
+      "type": "University",
+      "website": "https://unair.ac.id",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Indonesia",
+      "name": "Tanoto Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://www.tanotofoundation.org",
+      "level": "Bachelor's, Master's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "Indonesia",
+      "name": "Djarum Beasiswa Plus",
+      "type": "Foundation / Trust",
+      "website": "https://djarumbeasiswaplus.org",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "Australia",
+      "name": "Australia Awards",
+      "type": "Government",
+      "website": "https://www.dfat.gov.au/people-to-people/australia-awards",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Australia",
+      "name": "Australia Awards Portal",
+      "type": "Government",
+      "website": "https://www.australiaawards.gov.au",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Australia",
+      "name": "Study Australia",
+      "type": "Government",
+      "website": "https://www.studyaustralia.gov.au",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Australia",
+      "name": "Australian Research Council",
+      "type": "Research Agency",
+      "website": "https://www.arc.gov.au",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Australia",
+      "name": "NHMRC",
+      "type": "Research Agency",
+      "website": "https://www.nhmrc.gov.au",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Australia",
+      "name": "University of Melbourne Scholarships",
+      "type": "University",
+      "website": "https://scholarships.unimelb.edu.au",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Australia",
+      "name": "University of Sydney Scholarships",
+      "type": "University",
+      "website": "https://www.sydney.edu.au/scholarships",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Australia",
+      "name": "Australian National University Scholarships",
+      "type": "University",
+      "website": "https://www.anu.edu.au/study/scholarships",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Australia",
+      "name": "UNSW Scholarships",
+      "type": "University",
+      "website": "https://www.scholarships.unsw.edu.au",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Australia",
+      "name": "Monash University Scholarships",
+      "type": "University",
+      "website": "https://www.monash.edu/study/fees-scholarships/scholarships",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Australia",
+      "name": "University of Queensland Scholarships",
+      "type": "University",
+      "website": "https://scholarships.uq.edu.au",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Australia",
+      "name": "University of Adelaide Scholarships",
+      "type": "University",
+      "website": "https://www.adelaide.edu.au/scholarships",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Australia",
+      "name": "University of Western Australia Scholarships",
+      "type": "University",
+      "website": "https://www.uwa.edu.au/study/scholarships",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Australia",
+      "name": "UTS Scholarships",
+      "type": "University",
+      "website": "https://www.uts.edu.au/study/fees-and-scholarships",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Australia",
+      "name": "RMIT Scholarships",
+      "type": "University",
+      "website": "https://www.rmit.edu.au/study-with-us/scholarships",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Australia",
+      "name": "Deakin University Scholarships",
+      "type": "University",
+      "website": "https://www.deakin.edu.au/study/fees-and-scholarships",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Australia",
+      "name": "QUT Scholarships",
+      "type": "University",
+      "website": "https://www.qut.edu.au/study/fees-and-scholarships",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Australia",
+      "name": "Macquarie University",
+      "type": "University",
+      "website": "https://www.mq.edu.au",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Australia",
+      "name": "CSIRO",
+      "type": "Research Agency",
+      "website": "https://www.csiro.au",
+      "level": "PhD, Postdoc",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "New Zealand",
+      "name": "Study with New Zealand (Education NZ)",
+      "type": "Government",
+      "website": "https://www.studywithnewzealand.govt.nz",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "New Zealand",
+      "name": "Manaaki New Zealand Scholarships (MFAT)",
+      "type": "Government",
+      "website": "https://www.mfat.govt.nz/en/aid-and-development/scholarships/",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "New Zealand",
+      "name": "Education New Zealand",
+      "type": "Government",
+      "website": "https://enz.govt.nz",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "New Zealand",
+      "name": "University of Auckland",
+      "type": "University",
+      "website": "https://www.auckland.ac.nz",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "New Zealand",
+      "name": "University of Otago",
+      "type": "University",
+      "website": "https://www.otago.ac.nz",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "New Zealand",
+      "name": "Victoria University of Wellington",
+      "type": "University",
+      "website": "https://www.wgtn.ac.nz",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "New Zealand",
+      "name": "University of Canterbury",
+      "type": "University",
+      "website": "https://www.canterbury.ac.nz",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "New Zealand",
+      "name": "Massey University",
+      "type": "University",
+      "website": "https://www.massey.ac.nz",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "New Zealand",
+      "name": "University of Waikato",
+      "type": "University",
+      "website": "https://www.waikato.ac.nz",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "New Zealand",
+      "name": "Lincoln University",
+      "type": "University",
+      "website": "https://www.lincoln.ac.nz",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "New Zealand",
+      "name": "Auckland University of Technology",
+      "type": "University",
+      "website": "https://www.aut.ac.nz",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "New Zealand",
+      "name": "Royal Society Te Aparangi",
+      "type": "Research Agency",
+      "website": "https://www.royalsociety.org.nz",
+      "level": "PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "India",
+      "name": "Study in India",
+      "type": "Government",
+      "website": "https://studyinindia.gov.in",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "India",
+      "name": "ICCR (Indian Council for Cultural Relations)",
+      "type": "Government",
+      "website": "https://www.iccr.gov.in",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "India",
+      "name": "National Scholarship Portal",
+      "type": "Government",
+      "website": "https://scholarships.gov.in",
+      "level": "Bachelor's, Master's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "India",
+      "name": "Inlaks Shivdasani Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://www.inlaksfoundation.org",
+      "level": "Master's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "India",
+      "name": "Tata Trusts",
+      "type": "Foundation / Trust",
+      "website": "https://www.tatatrusts.org",
+      "level": "All levels",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "India",
+      "name": "J.N. Tata Endowment",
+      "type": "Foundation / Trust",
+      "website": "https://www.jntataendowment.org",
+      "level": "Master's, PhD",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "India",
+      "name": "Narotam Sekhsaria Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://www.nsfoundation.co.in",
+      "level": "Master's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "India",
+      "name": "K.C. Mahindra Education Trust",
+      "type": "Foundation / Trust",
+      "website": "https://www.kcmet.org",
+      "level": "Master's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "India",
+      "name": "Reliance Foundation Scholarships",
+      "type": "Foundation / Trust",
+      "website": "https://www.reliancefoundation.org",
+      "level": "Bachelor's, Master's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "India",
+      "name": "Aditya Birla Scholars",
+      "type": "Foundation / Trust",
+      "website": "https://www.adityabirlascholars.net",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "India",
+      "name": "University Grants Commission",
+      "type": "Government",
+      "website": "https://www.ugc.gov.in",
+      "level": "All levels",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "India",
+      "name": "Department of Science and Technology",
+      "type": "Government",
+      "website": "https://dst.gov.in",
+      "level": "PhD, Postdoc",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "India",
+      "name": "CSIR",
+      "type": "Research Agency",
+      "website": "https://www.csir.res.in",
+      "level": "PhD, Postdoc",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "India",
+      "name": "ICMR",
+      "type": "Research Agency",
+      "website": "https://www.icmr.gov.in",
+      "level": "PhD, Postdoc",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "India",
+      "name": "IIT Bombay",
+      "type": "University",
+      "website": "https://www.iitb.ac.in",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "India",
+      "name": "IIT Delhi",
+      "type": "University",
+      "website": "https://home.iitd.ac.in",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "India",
+      "name": "IIT Madras",
+      "type": "University",
+      "website": "https://www.iitm.ac.in",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "India",
+      "name": "IIT Kanpur",
+      "type": "University",
+      "website": "https://www.iitk.ac.in",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "India",
+      "name": "IIT Kharagpur",
+      "type": "University",
+      "website": "https://www.iitkgp.ac.in",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "India",
+      "name": "Indian Institute of Science",
+      "type": "University",
+      "website": "https://iisc.ac.in",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "India",
+      "name": "IIM Ahmedabad",
+      "type": "University",
+      "website": "https://www.iima.ac.in",
+      "level": "Master's",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "India",
+      "name": "Jawaharlal Nehru University",
+      "type": "University",
+      "website": "https://www.jnu.ac.in",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "India",
+      "name": "University of Delhi",
+      "type": "University",
+      "website": "https://www.du.ac.in",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "India",
+      "name": "BITS Pilani",
+      "type": "University",
+      "website": "https://www.bits-pilani.ac.in",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "India",
+      "name": "Ashoka University",
+      "type": "University",
+      "website": "https://www.ashoka.edu.in",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "India",
+      "name": "Azim Premji University",
+      "type": "University",
+      "website": "https://azimpremjiuniversity.edu.in",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Pakistan",
+      "name": "Higher Education Commission (HEC) Pakistan",
+      "type": "Government",
+      "website": "https://www.hec.gov.pk",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Pakistan",
+      "name": "Punjab Educational Endowment Fund (PEEF)",
+      "type": "Government",
+      "website": "https://peef.org.pk",
+      "level": "Bachelor's, Master's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Pakistan",
+      "name": "USEFP (Fulbright Pakistan)",
+      "type": "Government",
+      "website": "https://www.usefp.org",
+      "level": "Master's, PhD",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Pakistan",
+      "name": "LUMS National Outreach Programme",
+      "type": "University",
+      "website": "https://nop.lums.edu.pk",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Pakistan",
+      "name": "Aga Khan University",
+      "type": "University",
+      "website": "https://www.aku.edu",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Pakistan",
+      "name": "NUST",
+      "type": "University",
+      "website": "https://nust.edu.pk",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Pakistan",
+      "name": "COMSATS University",
+      "type": "University",
+      "website": "https://www.comsats.edu.pk",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Pakistan",
+      "name": "Quaid-i-Azam University",
+      "type": "University",
+      "website": "https://qau.edu.pk",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Pakistan",
+      "name": "FAST-NUCES",
+      "type": "University",
+      "website": "https://www.nu.edu.pk",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Pakistan",
+      "name": "GIK Institute",
+      "type": "University",
+      "website": "https://giki.edu.pk",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Pakistan",
+      "name": "IBA Karachi",
+      "type": "University",
+      "website": "https://www.iba.edu.pk",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Pakistan",
+      "name": "UET Lahore",
+      "type": "University",
+      "website": "https://uet.edu.pk",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Pakistan",
+      "name": "University of the Punjab",
+      "type": "University",
+      "website": "https://pu.edu.pk",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Pakistan",
+      "name": "Habib University",
+      "type": "University",
+      "website": "https://habib.edu.pk",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Pakistan",
+      "name": "Information Technology University",
+      "type": "University",
+      "website": "https://itu.edu.pk",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Pakistan",
+      "name": "Pakistan Science Foundation",
+      "type": "Research Agency",
+      "website": "https://www.psf.gov.pk",
+      "level": "All levels",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United Arab Emirates",
+      "name": "Khalifa University",
+      "type": "University",
+      "website": "https://www.ku.ac.ae",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United Arab Emirates",
+      "name": "Mohamed bin Zayed University of AI (MBZUAI)",
+      "type": "University",
+      "website": "https://mbzuai.ac.ae",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United Arab Emirates",
+      "name": "United Arab Emirates University",
+      "type": "University",
+      "website": "https://www.uaeu.ac.ae",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United Arab Emirates",
+      "name": "American University of Sharjah",
+      "type": "University",
+      "website": "https://www.aus.edu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United Arab Emirates",
+      "name": "New York University Abu Dhabi",
+      "type": "University",
+      "website": "https://nyuad.nyu.edu",
+      "level": "Bachelor's",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "United Arab Emirates",
+      "name": "Zayed University",
+      "type": "University",
+      "website": "https://www.zu.ac.ae",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United Arab Emirates",
+      "name": "University of Sharjah",
+      "type": "University",
+      "website": "https://www.sharjah.ac.ae",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "United Arab Emirates",
+      "name": "Higher Colleges of Technology",
+      "type": "University",
+      "website": "https://hct.ac.ae",
+      "level": "Bachelor's",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Saudi Arabia",
+      "name": "Study in Saudi Arabia (Ministry of Education)",
+      "type": "Government",
+      "website": "https://studyinsaudi.moe.gov.sa",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Saudi Arabia",
+      "name": "KAUST",
+      "type": "University",
+      "website": "https://www.kaust.edu.sa",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Saudi Arabia",
+      "name": "KFUPM",
+      "type": "University",
+      "website": "https://www.kfupm.edu.sa",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Saudi Arabia",
+      "name": "King Saud University",
+      "type": "University",
+      "website": "https://ksu.edu.sa",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Saudi Arabia",
+      "name": "King Abdulaziz University",
+      "type": "University",
+      "website": "https://www.kau.edu.sa",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Saudi Arabia",
+      "name": "Islamic University of Madinah",
+      "type": "University",
+      "website": "https://iu.edu.sa",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Saudi Arabia",
+      "name": "Princess Nourah bint Abdulrahman University",
+      "type": "University",
+      "website": "https://www.pnu.edu.sa",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Saudi Arabia",
+      "name": "KACST",
+      "type": "Research Agency",
+      "website": "https://www.kacst.edu.sa",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Saudi Arabia",
+      "name": "Misk Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://misk.org.sa",
+      "level": "All levels",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Saudi Arabia",
+      "name": "Ministry of Education Saudi Arabia",
+      "type": "Government",
+      "website": "https://moe.gov.sa",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Qatar",
+      "name": "Hamad Bin Khalifa University",
+      "type": "University",
+      "website": "https://www.hbku.edu.qa",
+      "level": "Master's, PhD",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Qatar",
+      "name": "Qatar University",
+      "type": "University",
+      "website": "https://www.qu.edu.qa",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Qatar",
+      "name": "Texas A&M University at Qatar",
+      "type": "University",
+      "website": "https://www.qatar.tamu.edu",
+      "level": "Bachelor's",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Qatar",
+      "name": "Qatar Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://www.qf.org.qa",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Qatar",
+      "name": "Weill Cornell Medicine-Qatar",
+      "type": "University",
+      "website": "https://qatar-weill.cornell.edu",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Qatar",
+      "name": "Carnegie Mellon University in Qatar",
+      "type": "University",
+      "website": "https://www.qatar.cmu.edu",
+      "level": "Bachelor's",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Qatar",
+      "name": "Georgetown University in Qatar",
+      "type": "University",
+      "website": "https://qatar.sfs.georgetown.edu",
+      "level": "Bachelor's",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Qatar",
+      "name": "Qatar National Research Fund",
+      "type": "Research Agency",
+      "website": "https://www.qnrf.org",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "South Africa",
+      "name": "National Research Foundation (NRF)",
+      "type": "Research Agency",
+      "website": "https://www.nrf.ac.za",
+      "level": "Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "South Africa",
+      "name": "NSFAS",
+      "type": "Government",
+      "website": "https://www.nsfas.org.za",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "South Africa",
+      "name": "University of the Witwatersrand",
+      "type": "University",
+      "website": "https://www.wits.ac.za",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Africa",
+      "name": "University of Cape Town",
+      "type": "University",
+      "website": "https://www.uct.ac.za",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Africa",
+      "name": "Stellenbosch University",
+      "type": "University",
+      "website": "https://www.sun.ac.za",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Africa",
+      "name": "University of Pretoria",
+      "type": "University",
+      "website": "https://www.up.ac.za",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Africa",
+      "name": "University of KwaZulu-Natal",
+      "type": "University",
+      "website": "https://www.ukzn.ac.za",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Africa",
+      "name": "University of Johannesburg",
+      "type": "University",
+      "website": "https://www.uj.ac.za",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Africa",
+      "name": "Rhodes University",
+      "type": "University",
+      "website": "https://www.ru.ac.za",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Africa",
+      "name": "University of the Free State",
+      "type": "University",
+      "website": "https://www.ufs.ac.za",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Africa",
+      "name": "Nelson Mandela University",
+      "type": "University",
+      "website": "https://www.mandela.ac.za",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "South Africa",
+      "name": "Oppenheimer Memorial Trust",
+      "type": "Foundation / Trust",
+      "website": "https://www.omt.org.za",
+      "level": "Master's, PhD",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "South Africa",
+      "name": "Allan Gray Orbis Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://www.allangrayorbis.org",
+      "level": "Bachelor's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Nigeria",
+      "name": "TETFund",
+      "type": "Government",
+      "website": "https://tetfund.gov.ng",
+      "level": "All levels",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Nigeria",
+      "name": "PTDF (Petroleum Technology Development Fund)",
+      "type": "Government",
+      "website": "https://ptdf.gov.ng",
+      "level": "Master's, PhD",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Nigeria",
+      "name": "Niger Delta Development Commission",
+      "type": "Government",
+      "website": "https://www.nddc.gov.ng",
+      "level": "All levels",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Nigeria",
+      "name": "University of Lagos",
+      "type": "University",
+      "website": "https://unilag.edu.ng",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Nigeria",
+      "name": "University of Ibadan",
+      "type": "University",
+      "website": "https://www.ui.edu.ng",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Nigeria",
+      "name": "Covenant University",
+      "type": "University",
+      "website": "https://covenantuniversity.edu.ng",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Nigeria",
+      "name": "Ahmadu Bello University",
+      "type": "University",
+      "website": "https://abu.edu.ng",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Nigeria",
+      "name": "University of Nigeria Nsukka",
+      "type": "University",
+      "website": "https://www.unn.edu.ng",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Nigeria",
+      "name": "Obafemi Awolowo University",
+      "type": "University",
+      "website": "https://oauife.edu.ng",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Nigeria",
+      "name": "African Development Bank",
+      "type": "International Organization",
+      "website": "https://www.afdb.org",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Nigeria",
+      "name": "African Leadership University",
+      "type": "University",
+      "website": "https://www.alueducation.com",
+      "level": "Bachelor's",
+      "open_to": "International students",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "Nigeria",
+      "name": "Mo Ibrahim Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://mo.ibrahim.foundation",
+      "level": "Master's",
+      "open_to": "International students",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "Brazil",
+      "name": "CAPES",
+      "type": "Government",
+      "website": "https://www.gov.br/capes/pt-br",
+      "level": "Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Brazil",
+      "name": "CNPq",
+      "type": "Government",
+      "website": "https://www.gov.br/cnpq/pt-br",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Brazil",
+      "name": "FAPESP",
+      "type": "Research Agency",
+      "website": "https://fapesp.br",
+      "level": "Master's, PhD, Postdoc",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Brazil",
+      "name": "University of Sao Paulo",
+      "type": "University",
+      "website": "https://www5.usp.br",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Brazil",
+      "name": "UNICAMP",
+      "type": "University",
+      "website": "https://www.unicamp.br",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Brazil",
+      "name": "Federal University of Rio de Janeiro",
+      "type": "University",
+      "website": "https://ufrj.br",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Brazil",
+      "name": "Federal University of Minas Gerais",
+      "type": "University",
+      "website": "https://ufmg.br",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Brazil",
+      "name": "Federal University of Rio Grande do Sul",
+      "type": "University",
+      "website": "https://www.ufrgs.br",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Brazil",
+      "name": "UNESP",
+      "type": "University",
+      "website": "https://www.unesp.br",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Brazil",
+      "name": "Fundacao Getulio Vargas",
+      "type": "University",
+      "website": "https://portal.fgv.br",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Brazil",
+      "name": "Fundacao Estudar",
+      "type": "Foundation / Trust",
+      "website": "https://www.estudar.org.br",
+      "level": "Bachelor's, Master's",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Partial / stipend"
+    },
+    {
+      "country": "Brazil",
+      "name": "Lemann Foundation",
+      "type": "Foundation / Trust",
+      "website": "https://fundacaolemann.org.br",
+      "level": "Master's, PhD",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Brazil",
+      "name": "University of Brasilia",
+      "type": "University",
+      "website": "https://www.unb.br",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Mexico",
+      "name": "SECIHTI (formerly CONAHCYT)",
+      "type": "Government",
+      "website": "https://secihti.mx",
+      "level": "Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Mexico",
+      "name": "AMEXCID Scholarships for Foreigners",
+      "type": "Government",
+      "website": "https://www.gob.mx/amexcid",
+      "level": "All levels",
+      "open_to": "International students",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Mexico",
+      "name": "UNAM",
+      "type": "University",
+      "website": "https://www.unam.mx",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Mexico",
+      "name": "Tecnologico de Monterrey",
+      "type": "University",
+      "website": "https://tec.mx",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Mexico",
+      "name": "Instituto Politecnico Nacional",
+      "type": "University",
+      "website": "https://www.ipn.mx",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Mexico",
+      "name": "Universidad Autonoma Metropolitana",
+      "type": "University",
+      "website": "https://www.uam.mx",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Mexico",
+      "name": "El Colegio de Mexico",
+      "type": "University",
+      "website": "https://www.colmex.mx",
+      "level": "Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Mexico",
+      "name": "CIDE",
+      "type": "University",
+      "website": "https://www.cide.edu",
+      "level": "Master's, PhD",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Mexico",
+      "name": "ITAM",
+      "type": "University",
+      "website": "https://www.itam.mx",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Mexico",
+      "name": "Universidad de Guadalajara",
+      "type": "University",
+      "website": "https://www.udg.mx",
+      "level": "All levels",
+      "open_to": "Mixed (check programme)",
+      "funding_model": "Varies by programme"
+    },
+    {
+      "country": "Mexico",
+      "name": "COMEXUS (Fulbright-Garcia Robles)",
+      "type": "Government",
+      "website": "https://www.comexus.org.mx",
+      "level": "Master's, PhD",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Full / fully funded schemes"
+    },
+    {
+      "country": "Mexico",
+      "name": "Fundacion Carlos Slim",
+      "type": "Foundation / Trust",
+      "website": "https://fundacioncarlosslim.org",
+      "level": "All levels",
+      "open_to": "Citizens / residents only",
+      "funding_model": "Varies by programme"
+    }
+  ]
+}

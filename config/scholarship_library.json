@@ -1,0 +1,1231 @@
+{
+ "version": "1.0",
+ "purpose": "Seed library of legitimate scholarship programs and catalogues. Entries are search seeds, not pre-verified live opportunities. Runtime source-page verification determines current status.",
+ "source": "Imported from the user-provided Opportunity Hub scholarship library.",
+ "entries": [
+  {
+   "name": "DAAD Scholarships",
+   "country": "Germany",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Fully or partially funded",
+   "deadline": "Varies by program, many between Aug and Nov",
+   "note": "Germany's main scholarship body. Use its database to find programs open to your country and field.",
+   "url": "https://www.daad.de/en/study-and-research-in-germany/scholarships/",
+   "source_url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/",
+   "source_kind": "catalogue",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "DAAD Scholarships"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Chevening",
+   "country": "United Kingdom",
+   "level": [
+    "Master"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Fully funded",
+   "deadline": "Usually early November",
+   "note": "UK government scholarship for one-year master's degrees. Requires work experience.",
+   "url": "https://www.chevening.org/",
+   "source_url": "https://www.chevening.org/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Chevening"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Commonwealth Scholarships",
+   "country": "United Kingdom",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Fully funded",
+   "deadline": "Usually between October and December",
+   "note": "For students from eligible Commonwealth countries. Check which track applies to you.",
+   "url": "https://cscuk.fcdo.gov.uk/",
+   "source_url": "https://cscuk.fcdo.gov.uk/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Commonwealth Scholarships"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Gates Cambridge",
+   "country": "United Kingdom",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Fully funded",
+   "deadline": "Usually between October and January",
+   "note": "Full-cost scholarship at the University of Cambridge for applicants from outside the UK.",
+   "url": "https://www.gatescambridge.org/",
+   "source_url": "https://www.gatescambridge.org/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Gates Cambridge"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Clarendon Scholarships (Oxford)",
+   "country": "United Kingdom",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Fully funded",
+   "deadline": "Tied to Oxford's graduate application deadlines (Jan)",
+   "note": "Awarded automatically to strong Oxford graduate applicants. No separate form for most courses.",
+   "url": "https://www.ox.ac.uk/clarendon",
+   "source_url": "https://www.ox.ac.uk/clarendon",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Clarendon Scholarships (Oxford)"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Fulbright Foreign Student Program",
+   "country": "United States",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Fully or partially funded",
+   "deadline": "Varies by country, often spring to autumn",
+   "note": "Applications go through your home country's Fulbright commission or embassy.",
+   "url": "https://foreign.fulbrightonline.org/",
+   "source_url": "https://foreign.fulbrightonline.org/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Fulbright Foreign Student Program"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Knight-Hennessy Scholars (Stanford)",
+   "country": "United States",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Fully funded",
+   "deadline": "Usually autumn",
+   "note": "Leadership-focused funding for any graduate degree at Stanford.",
+   "url": "https://knight-hennessy.stanford.edu/",
+   "source_url": "https://knight-hennessy.stanford.edu/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Knight-Hennessy Scholars (Stanford)"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Chinese Government Scholarship (CSC)",
+   "country": "China",
+   "level": [
+    "Bachelor",
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Fully funded",
+   "deadline": "Usually between January and April",
+   "note": "Apply through the CSC portal or your country's Chinese embassy, plus university applications.",
+   "url": "https://www.campuschina.org/",
+   "source_url": "https://www.campuschina.org/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Chinese Government Scholarship (CSC)"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Türkiye Burslari",
+   "country": "Turkey",
+   "level": [
+    "Bachelor",
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Fully funded",
+   "deadline": "Usually January to February",
+   "note": "Turkish government scholarship with tuition, housing, stipend and a language year.",
+   "url": "https://turkiyeburslari.gov.tr/",
+   "source_url": "https://turkiyeburslari.gov.tr/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Türkiye Burslari"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Study in Saudi (Ministry of Education)",
+   "country": "Saudi Arabia",
+   "level": [
+    "Bachelor",
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Varies by university",
+   "deadline": "Varies by university",
+   "note": "Official portal for international students applying to Saudi universities and scholarships.",
+   "url": "https://studyinsaudi.moe.gov.sa/",
+   "source_url": "https://studyinsaudi.moe.gov.sa/",
+   "source_kind": "catalogue",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Study in Saudi (Ministry of Education)"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "KAUST Graduate Fellowship",
+   "country": "Saudi Arabia",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "Science",
+    "Engineering",
+    "Computing"
+   ],
+   "funding": "Fully funded",
+   "deadline": "Check the KAUST admissions page",
+   "note": "Research university in Saudi Arabia that funds all admitted graduate students.",
+   "url": "https://www.kaust.edu.sa/en/study/financial-support",
+   "source_url": "https://www.kaust.edu.sa/en/study/financial-support",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "KAUST Graduate Fellowship"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Study in Denmark: scholarships guide",
+   "country": "Denmark",
+   "level": [
+    "Bachelor",
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Varies",
+   "deadline": "Varies by university",
+   "note": "Official overview of tuition fees and scholarship options in Denmark.",
+   "url": "https://studyindenmark.dk/study-options/tuition-fees-scholarships",
+   "source_url": "https://studyindenmark.dk/study-options/tuition-fees-scholarships",
+   "source_kind": "catalogue",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Study in Denmark: scholarships guide"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Erasmus Mundus Joint Masters",
+   "country": "European Union",
+   "level": [
+    "Master"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Fully funded",
+   "deadline": "Varies by programme, mostly January to February",
+   "note": "Study in two or more European countries. Browse the official catalogue and apply to each programme.",
+   "url": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
+   "source_url": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters",
+   "source_kind": "catalogue",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Erasmus Mundus Joint Masters"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Swedish Institute Scholarships",
+   "country": "Sweden",
+   "level": [
+    "Master"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Fully funded",
+   "deadline": "Usually January to February",
+   "note": "For students from selected countries. Check the eligible country list.",
+   "url": "https://si.se/en/apply/scholarships/",
+   "source_url": "https://si.se/en/apply/scholarships/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Swedish Institute Scholarships"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Eiffel Excellence Scholarship",
+   "country": "France",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Monthly allowance plus extras",
+   "deadline": "Usually January",
+   "note": "Applications are submitted by the French host institution, not by you directly.",
+   "url": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
+   "source_url": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Eiffel Excellence Scholarship"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Swiss Government Excellence Scholarships",
+   "country": "Switzerland",
+   "level": [
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Fully funded",
+   "deadline": "Usually between September and December",
+   "note": "Research scholarships for foreign postgraduate researchers. Check the eligible countries.",
+   "url": "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html",
+   "source_url": "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Swiss Government Excellence Scholarships"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "ETH Zurich Excellence Scholarship (ESOP)",
+   "country": "Switzerland",
+   "level": [
+    "Master"
+   ],
+   "fields": [
+    "Science",
+    "Engineering"
+   ],
+   "funding": "Living costs and tuition waiver",
+   "deadline": "Usually December",
+   "note": "Merit-based master's funding at ETH Zurich.",
+   "url": "https://ethz.ch/en/studies/financial/scholarships/esop.html",
+   "source_url": "https://ethz.ch/en/studies/financial/scholarships/esop.html",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "ETH Zurich Excellence Scholarship (ESOP)"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Stipendium Hungaricum",
+   "country": "Hungary",
+   "level": [
+    "Bachelor",
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Fully funded",
+   "deadline": "Usually mid-January",
+   "note": "Hungarian government program for students from partner countries.",
+   "url": "https://stipendiumhungaricum.hu/",
+   "source_url": "https://stipendiumhungaricum.hu/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Stipendium Hungaricum"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Holland Scholarship",
+   "country": "Netherlands",
+   "level": [
+    "Bachelor",
+    "Master"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Partially funded (one-time grant)",
+   "deadline": "Varies by university, spring",
+   "note": "Grant for non-EEA students. You apply via your chosen Dutch university.",
+   "url": "https://www.studyinholland.nl/finances/holland-scholarship",
+   "source_url": "https://www.studyinholland.nl/finances/holland-scholarship",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Holland Scholarship"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "MEXT Scholarship",
+   "country": "Japan",
+   "level": [
+    "Bachelor",
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Fully funded",
+   "deadline": "Via embassy or university, varies",
+   "note": "Japanese government scholarship. Apply through the embassy or a recommending university.",
+   "url": "https://www.studyinjapan.go.jp/en/",
+   "source_url": "https://www.studyinjapan.go.jp/en/planning/scholarships/",
+   "source_kind": "catalogue",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "MEXT Scholarship"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Global Korea Scholarship (GKS)",
+   "country": "South Korea",
+   "level": [
+    "Bachelor",
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Fully funded",
+   "deadline": "Usually between February and March",
+   "note": "Korean government scholarship with a language year included.",
+   "url": "https://www.studyinkorea.go.kr/en/main.do",
+   "source_url": "https://www.studyinkorea.go.kr/en/sub/gks/allnew_invite.do",
+   "source_kind": "catalogue",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Global Korea Scholarship (GKS)"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Australia Awards",
+   "country": "Australia",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Fully funded",
+   "deadline": "Varies by country",
+   "note": "Australian government awards for selected countries. Check availability for your country.",
+   "url": "https://www.dfat.gov.au/people-to-people/australia-awards",
+   "source_url": "https://www.dfat.gov.au/people-to-people/australia-awards",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Australia Awards"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Italian Government Scholarships",
+   "country": "Italy",
+   "level": [
+    "Bachelor",
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Partially or fully funded",
+   "deadline": "Usually spring",
+   "note": "Annual call for international students via the Study in Italy portal.",
+   "url": "https://studyinitaly.esteri.it/",
+   "source_url": "https://studyinitaly.esteri.it/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Italian Government Scholarships"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Lester B. Pearson Scholarship (Toronto)",
+   "country": "Canada",
+   "level": [
+    "Bachelor"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Fully funded",
+   "deadline": "Nominated by schools, usually in autumn",
+   "note": "Undergraduate funding at the University of Toronto. Your school must nominate you.",
+   "url": "https://future.utoronto.ca/pearson/about/",
+   "source_url": "https://future.utoronto.ca/pearson/about/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Lester B. Pearson Scholarship (Toronto)"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "HEC Pakistan Scholarships",
+   "country": "Pakistan",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "Varies by scheme",
+   "deadline": "Varies by scheme",
+   "note": "Higher Education Commission's home and overseas scholarship schemes for Pakistani students.",
+   "url": "https://www.hec.gov.pk/english/scholarshipsgrants/",
+   "source_url": "https://www.hec.gov.pk/english/scholarshipsgrants/",
+   "source_kind": "catalogue",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "HEC Pakistan Scholarships"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "EURAXESS Funding & Fellowships",
+   "country": "European Union",
+   "level": [
+    "PhD",
+    "Postdoc"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://euraxess.ec.europa.eu/funding",
+   "source_url": "https://euraxess.ec.europa.eu/funding",
+   "source_kind": "catalogue",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "EURAXESS Funding & Fellowships"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Marie Skłodowska-Curie Actions",
+   "country": "European Union",
+   "level": [
+    "PhD",
+    "Postdoc"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/",
+   "source_url": "https://marie-sklodowska-curie-actions.ec.europa.eu/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Marie Skłodowska-Curie Actions"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Rotary Peace Fellowships",
+   "country": "Global",
+   "level": [
+    "Master"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://www.rotary.org/en/our-programs/peace-fellowships",
+   "source_url": "https://www.rotary.org/en/our-programs/peace-fellowships",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Rotary Peace Fellowships"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Aga Khan Foundation International Scholarship Programme",
+   "country": "Global",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://www.akdn.org/our-agencies/aga-khan-foundation/international-scholarship-programme",
+   "source_url": "https://www.akdn.org/our-agencies/aga-khan-foundation/international-scholarship-programme",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Aga Khan Foundation International Scholarship Programme"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "World Bank Scholarships",
+   "country": "Global",
+   "level": [
+    "Master"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://www.worldbank.org/en/programs/scholarships",
+   "source_url": "https://www.worldbank.org/en/programs/scholarships",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "World Bank Scholarships"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Mastercard Foundation Scholars Program",
+   "country": "Global",
+   "level": [
+    "Bachelor",
+    "Master"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://mastercardfdn.org/all/scholars/",
+   "source_url": "https://mastercardfdn.org/all/scholars/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Mastercard Foundation Scholars Program"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Google PhD Fellowship",
+   "country": "Global",
+   "level": [
+    "PhD"
+   ],
+   "fields": [
+    "Computer Science",
+    "Artificial Intelligence"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://research.google/programs-and-events/phd-fellowship/",
+   "source_url": "https://research.google/programs-and-events/phd-fellowship/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Google PhD Fellowship"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Schwarzman Scholars",
+   "country": "China",
+   "level": [
+    "Master"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://www.schwarzmanscholars.org/",
+   "source_url": "https://www.schwarzmanscholars.org/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Schwarzman Scholars"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Yenching Academy of Peking University",
+   "country": "China",
+   "level": [
+    "Master"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://yenchingacademy.pku.edu.cn/",
+   "source_url": "https://yenchingacademy.pku.edu.cn/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Yenching Academy of Peking University"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Rhodes Scholarship",
+   "country": "United Kingdom",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://www.rhodeshouse.ox.ac.uk/scholarships/the-rhodes-scholarship/",
+   "source_url": "https://www.rhodeshouse.ox.ac.uk/scholarships/the-rhodes-scholarship/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Rhodes Scholarship"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Marshall Scholarship",
+   "country": "United Kingdom",
+   "level": [
+    "Master"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://www.marshallscholarship.org/",
+   "source_url": "https://www.marshallscholarship.org/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Marshall Scholarship"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Heinrich Böll Foundation Scholarships",
+   "country": "Germany",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://www.boell.de/en/scholarships",
+   "source_url": "https://www.boell.de/en/scholarships",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Heinrich Böll Foundation Scholarships"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Study in Finland Scholarships",
+   "country": "Finland",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://www.studyinfinland.fi/scholarships",
+   "source_url": "https://www.studyinfinland.fi/scholarships",
+   "source_kind": "catalogue",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Study in Finland Scholarships"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Study in Sweden Scholarships",
+   "country": "Sweden",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://studyinsweden.se/scholarships/",
+   "source_url": "https://studyinsweden.se/scholarships/",
+   "source_kind": "catalogue",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Study in Sweden Scholarships"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Study in Norway",
+   "country": "Norway",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://www.studyinnorway.no/",
+   "source_url": "https://www.studyinnorway.no/",
+   "source_kind": "catalogue",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Study in Norway"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "OeAD Scholarship Database (Austria)",
+   "country": "Austria",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://www.scholarships.at/",
+   "source_url": "https://www.scholarships.at/",
+   "source_kind": "catalogue",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "OeAD Scholarship Database (Austria)"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "NAWA Poland Scholarships",
+   "country": "Poland",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://nawa.gov.pl/en/",
+   "source_url": "https://nawa.gov.pl/en/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "NAWA Poland Scholarships"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "VLIR-UOS Scholarships (Belgium)",
+   "country": "Belgium",
+   "level": [
+    "Master"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://www.vliruos.be/en/scholarships/",
+   "source_url": "https://www.vliruos.be/en/scholarships/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "VLIR-UOS Scholarships (Belgium)"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Fundación Carolina Scholarships",
+   "country": "Spain",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://www.fundacioncarolina.es/en/",
+   "source_url": "https://www.fundacioncarolina.es/en/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Fundación Carolina Scholarships"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Government of Ireland International Education Scholarship",
+   "country": "Ireland",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://hea.ie/policy/international/government-of-ireland-international-education-scholarship/",
+   "source_url": "https://hea.ie/policy/international/government-of-ireland-international-education-scholarship/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Government of Ireland International Education Scholarship"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Russian Government Scholarship (Education in Russia)",
+   "country": "Russia",
+   "level": [
+    "Bachelor",
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://education-in-russia.com/",
+   "source_url": "https://education-in-russia.com/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Russian Government Scholarship (Education in Russia)"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Vanier Canada Graduate Scholarships",
+   "country": "Canada",
+   "level": [
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://vanier.gc.ca/en/home-accueil.html",
+   "source_url": "https://vanier.gc.ca/en/home-accueil.html",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Vanier Canada Graduate Scholarships"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Singapore International Graduate Award (SINGA)",
+   "country": "Singapore",
+   "level": [
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa",
+   "source_url": "https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Singapore International Graduate Award (SINGA)"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "New Zealand Scholarships",
+   "country": "New Zealand",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://www.nzscholarships.govt.nz/",
+   "source_url": "https://www.nzscholarships.govt.nz/",
+   "source_kind": "catalogue",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "New Zealand Scholarships"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "MBZUAI Graduate Scholarships",
+   "country": "United Arab Emirates",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "Artificial Intelligence",
+    "Computer Science",
+    "Machine Learning"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://mbzuai.ac.ae/study/admissions/",
+   "source_url": "https://mbzuai.ac.ae/study/admissions/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "MBZUAI Graduate Scholarships"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  },
+  {
+   "name": "Fulbright Pakistan (USEF)",
+   "country": "Pakistan",
+   "level": [
+    "Master",
+    "PhD"
+   ],
+   "fields": [
+    "All fields"
+   ],
+   "funding": "See source",
+   "deadline": "See source",
+   "note": "Check the official page for eligibility, funding and the current application window.",
+   "url": "https://www.usef.org.pk/",
+   "source_url": "https://www.usef.org.pk/",
+   "source_kind": "program",
+   "status_policy": "runtime_verify",
+   "current_status": "unknown",
+   "last_verified": null,
+   "search_aliases": [
+    "Fulbright Pakistan (USEF)"
+   ],
+   "deadline_policy": "typical_or_varies_not_for_expiry"
+  }
+ ]
+}

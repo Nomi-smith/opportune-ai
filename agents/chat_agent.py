@@ -5,6 +5,7 @@ from database.db import list_applications, list_documents, load_profile
 from intelligence.skill_taxonomy import extract_skills
 from llm.manager import LLMManager
 from core.actions import execute_action
+from core.session import user_id
 
 SYSTEM_PROMPT = '''You are Opportune AI, an expert personal opportunity and application intelligence agent.
 
@@ -25,18 +26,18 @@ Rules:
 6. Never submit an application, bypass CAPTCHA/MFA, or request/store passwords.
 7. When the user explicitly asks to change saved data, return ONLY JSON in this exact shape:
 {"action":"ACTION_NAME","args":{...}}
-Supported actions: update_profile, add_skills, remove_skills, remove_document, update_application.
+Supported actions: update_profile, add_skills, remove_skills, remove_document, update_application, add_application, remove_application.
 8. For a normal question, answer as an expert using the supplied context. Do not output action JSON.
 9. Be practical and specific. Explain why something matches or does not match rather than giving a shallow generic answer.'''
 
 
 def _context() -> str:
     try:
-        profile = json.loads(load_profile(1))
+        profile = json.loads(load_profile(user_id()))
     except Exception:
         profile = {}
-    docs = list_documents(1)
-    apps = list_applications(1)
+    docs = list_documents(user_id())
+    apps = list_applications(user_id())
     safe_profile = {
         'full_name': profile.get('full_name', ''),
         'country': profile.get('country', ''),
@@ -53,7 +54,7 @@ def _context() -> str:
         'tests': profile.get('tests', []),
     }
     doc_summary = [{'id': row['id'], 'filename': row['filename'], 'type': row['document_type']} for row in docs]
-    app_summary = [{'id': row['id'], 'title': row['title'], 'organization': row['organization'], 'status': row['status']} for row in apps[:30]]
+    app_summary = [{'id': row['id'], 'title': row['title'], 'organization': row['organization'], 'status': row['status'], 'deadline': row['deadline']} for row in apps[:30]]
     return json.dumps({'profile': safe_profile, 'documents': doc_summary, 'applications': app_summary}, ensure_ascii=False)
 
 

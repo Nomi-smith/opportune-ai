@@ -1,0 +1,1840 @@
+{
+  "version": "1.0",
+  "description": "Curated discovery registry of legitimate national, university, government, research and major opportunity portals. Registry sources are prioritized; every returned opportunity is still verified from its actual page.",
+  "countries": {
+    "Germany": [
+      {
+        "domain": "daad.de",
+        "name": "DAAD",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "deutschlandstipendium.de",
+        "name": "Deutschlandstipendium",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "stipendiumplus.de",
+        "name": "StipendiumPlus",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "auswaertiges-amt.de",
+        "name": "German Federal Foreign Office",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "hochschulkompass.de",
+        "name": "Hochschulkompass",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "arbeitsagentur.de",
+        "name": "Federal Employment Agency",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "Sweden": [
+      {
+        "domain": "studyinsweden.se",
+        "name": "Study in Sweden",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "universityadmissions.se",
+        "name": "University Admissions Sweden",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "si.se",
+        "name": "Swedish Institute",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "arbetsformedlingen.se",
+        "name": "Arbetsförmedlingen",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "academicwork.se",
+        "name": "Academic Work",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "euraxess.se",
+        "name": "EURAXESS Sweden",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "Netherlands": [
+      {
+        "domain": "studyinnl.org",
+        "name": "Study in NL",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "studielink.nl",
+        "name": "Studielink",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "nuffic.nl",
+        "name": "Nuffic",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "werk.nl",
+        "name": "Werk.nl",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "werkenbijdeoverheid.nl",
+        "name": "Werken bij de Overheid",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "academictransfer.com",
+        "name": "AcademicTransfer",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "Finland": [
+      {
+        "domain": "studyinfinland.fi",
+        "name": "Study in Finland",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "studyinfo.fi",
+        "name": "Studyinfo Finland",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "opintopolku.fi",
+        "name": "Opintopolku",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "jobmarketfinland.fi",
+        "name": "Job Market Finland",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "valtiolle.fi",
+        "name": "Valtiolle",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "research.fi",
+        "name": "Research.fi",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "Denmark": [
+      {
+        "domain": "studyindenmark.dk",
+        "name": "Study in Denmark",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "ufm.dk",
+        "name": "Danish Agency for Higher Education and Science",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "workindenmark.dk",
+        "name": "Workindenmark",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "jobnet.dk",
+        "name": "Jobnet",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "ku.dk",
+        "name": "University of Copenhagen",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "dtu.dk",
+        "name": "Technical University of Denmark",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "Norway": [
+      {
+        "domain": "studyinnorway.no",
+        "name": "Study in Norway",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "samordnaopptak.no",
+        "name": "Samordna opptak",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "hkdir.no",
+        "name": "Directorate for Higher Education and Skills",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "arbeidsplassen.nav.no",
+        "name": "Arbeidsplassen",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "jobbnorge.no",
+        "name": "Jobbnorge",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "forskningsradet.no",
+        "name": "Research Council of Norway",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "France": [
+      {
+        "domain": "campusfrance.org",
+        "name": "Campus France",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "monmaster.gouv.fr",
+        "name": "Mon Master",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "etudiant.gouv.fr",
+        "name": "Étudiant.gouv.fr",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "francetravail.fr",
+        "name": "France Travail",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "place-emploi-public.gouv.fr",
+        "name": "Place de l’emploi public",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "campusbourses.campusfrance.org",
+        "name": "CampusBourses",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "United Kingdom": [
+      {
+        "domain": "gov.uk",
+        "name": "GOV.UK",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "ucas.com",
+        "name": "UCAS",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "britishcouncil.org",
+        "name": "British Council",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "prospects.ac.uk",
+        "name": "Prospects",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "findaphd.com",
+        "name": "FindAPhD",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "jobs.ac.uk",
+        "name": "jobs.ac.uk",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "Ireland": [
+      {
+        "domain": "educationinireland.com",
+        "name": "Education in Ireland",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "cao.ie",
+        "name": "CAO",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "susi.ie",
+        "name": "SUSI",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "publicjobs.ie",
+        "name": "PublicJobs.ie",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "jobsireland.ie",
+        "name": "JobsIreland",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "research.ie",
+        "name": "Research Ireland",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "Switzerland": [
+      {
+        "domain": "swissuniversities.ch",
+        "name": "swissuniversities",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "sbfi.admin.ch",
+        "name": "State Secretariat for Education, Research and Innovation",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "swissnex.org",
+        "name": "Swissnex",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "job-room.ch",
+        "name": "Job-Room",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "jobs.ch",
+        "name": "Jobs.ch",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "snf.ch",
+        "name": "Swiss National Science Foundation",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "Austria": [
+      {
+        "domain": "studyinaustria.at",
+        "name": "Study in Austria",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "oead.at",
+        "name": "OeAD",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "studieren.at",
+        "name": "Studieren.at",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "ams.at",
+        "name": "AMS Austria",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "karriere.at",
+        "name": "karriere.at",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "fwf.ac.at",
+        "name": "FWF",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "Italy": [
+      {
+        "domain": "universitaly.it",
+        "name": "Universitaly",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "studyinitaly.esteri.it",
+        "name": "Studyinitaly",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "mur.gov.it",
+        "name": "Mur",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "inpa.gov.it",
+        "name": "Inpa",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "cliclavoro.gov.it",
+        "name": "Cliclavoro",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "researchitaly.it",
+        "name": "Researchitaly",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "Spain": [
+      {
+        "domain": "universidades.gob.es",
+        "name": "Universidades",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "becaseducacion.gob.es",
+        "name": "Becaseducacion",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "administracion.gob.es",
+        "name": "Administracion",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "sepe.es",
+        "name": "Sepe",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "universia.net",
+        "name": "Universia",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "fundacioncarolina.es",
+        "name": "Fundacioncarolina",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "Portugal": [
+      {
+        "domain": "studyinportugal.edu.gov.pt",
+        "name": "Studyinportugal",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "dges.gov.pt",
+        "name": "Dges",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "iefp.pt",
+        "name": "Iefp",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "empregopublico.gov.pt",
+        "name": "Empregopublico",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "fct.pt",
+        "name": "Fct",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "erasmus.pt",
+        "name": "Erasmus",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "Poland": [
+      {
+        "domain": "study.gov.pl",
+        "name": "Study",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "nawa.gov.pl",
+        "name": "Nawa",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "gov.pl",
+        "name": "Gov",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "praca.gov.pl",
+        "name": "Praca",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "euraxess.pl",
+        "name": "Euraxess",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "ncbir.gov.pl",
+        "name": "Ncbir",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "Czech Republic": [
+      {
+        "domain": "studyin.cz",
+        "name": "Studyin",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "msmt.gov.cz",
+        "name": "Msmt",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "cuni.cz",
+        "name": "Cuni",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "mpsv.cz",
+        "name": "Mpsv",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "jobs.cz",
+        "name": "Jobs",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "gacr.cz",
+        "name": "Gacr",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "Hungary": [
+      {
+        "domain": "studyinhungary.hu",
+        "name": "Studyinhungary",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "tka.hu",
+        "name": "Tka",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "felvi.hu",
+        "name": "Felvi",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "munka.hu",
+        "name": "Munka",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "profession.hu",
+        "name": "Profession",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "nkfih.gov.hu",
+        "name": "Nkfih",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "Türkiye": [
+      {
+        "domain": "studyinturkiye.gov.tr",
+        "name": "Studyinturkiye",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "yok.gov.tr",
+        "name": "Yok",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "turkiye.gov.tr",
+        "name": "Turkiye",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "iskur.gov.tr",
+        "name": "Iskur",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "kariyerkapisi.cbiko.gov.tr",
+        "name": "Kariyerkapisi",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "tubitak.gov.tr",
+        "name": "Tubitak",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "United States": [
+      {
+        "domain": "educationusa.state.gov",
+        "name": "Educationusa",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "studentaid.gov",
+        "name": "Studentaid",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "usa.gov",
+        "name": "Usa",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "usajobs.gov",
+        "name": "Usajobs",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "nsf.gov",
+        "name": "Nsf",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "nih.gov",
+        "name": "Nih",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "Canada": [
+      {
+        "domain": "educanada.ca",
+        "name": "Educanada",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "canada.ca",
+        "name": "Canada",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "jobbank.gc.ca",
+        "name": "Jobbank",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "mitacs.ca",
+        "name": "Mitacs",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "vanier.gc.ca",
+        "name": "Vanier",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "researchnet-recherchenet.ca",
+        "name": "Researchnet Recherchenet",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "Australia": [
+      {
+        "domain": "studyaustralia.gov.au",
+        "name": "Studyaustralia",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "education.gov.au",
+        "name": "Education",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "my.australia.gov.au",
+        "name": "My",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "workforceaustralia.gov.au",
+        "name": "Workforceaustralia",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "apsjobs.gov.au",
+        "name": "Apsjobs",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "arc.gov.au",
+        "name": "Arc",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "New Zealand": [
+      {
+        "domain": "studywithnewzealand.govt.nz",
+        "name": "Studywithnewzealand",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "education.govt.nz",
+        "name": "Education",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "universitiesnz.ac.nz",
+        "name": "Universitiesnz",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "seek.co.nz",
+        "name": "Seek",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "careers.govt.nz",
+        "name": "Careers",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "royalsociety.org.nz",
+        "name": "Royalsociety",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "Japan": [
+      {
+        "domain": "studyinjapan.go.jp",
+        "name": "Studyinjapan",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "jasso.go.jp",
+        "name": "Jasso",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "mext.go.jp",
+        "name": "Mext",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "japan.go.jp",
+        "name": "Japan",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "hellowork.mhlw.go.jp",
+        "name": "Hellowork",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "jst.go.jp",
+        "name": "Jst",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "South Korea": [
+      {
+        "domain": "studyinkorea.go.kr",
+        "name": "Studyinkorea",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "moe.go.kr",
+        "name": "Moe",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "korea.net",
+        "name": "Korea",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "work.go.kr",
+        "name": "Work",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "saramin.co.kr",
+        "name": "Saramin",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "nrf.re.kr",
+        "name": "Nrf",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ],
+    "China": [
+      {
+        "domain": "campuschina.org",
+        "name": "Campuschina",
+        "best_for": [
+          "study",
+          "scholarship"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "moe.gov.cn",
+        "name": "Moe",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "csc.edu.cn",
+        "name": "Csc",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "gov.cn",
+        "name": "Gov",
+        "best_for": [
+          "scholarship",
+          "study"
+        ],
+        "priority": 1,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "zhipin.com",
+        "name": "Zhipin",
+        "best_for": [
+          "job",
+          "internship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      },
+      {
+        "domain": "nsfc.gov.cn",
+        "name": "Nsfc",
+        "best_for": [
+          "research",
+          "scholarship"
+        ],
+        "priority": 2,
+        "source_kind": "official_or_major"
+      }
+    ]
+  },
+  "global_sources": [
+    {
+      "domain": "erasmus-plus.ec.europa.eu",
+      "name": "Erasmus+",
+      "best_for": [
+        "scholarship",
+        "study"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "education.ec.europa.eu",
+      "name": "European Education Area",
+      "best_for": [
+        "scholarship",
+        "study"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "euraxess.ec.europa.eu",
+      "name": "EURAXESS",
+      "best_for": [
+        "research",
+        "job",
+        "scholarship"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "eures.europa.eu",
+      "name": "EURES",
+      "best_for": [
+        "job",
+        "internship"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "europa.eu",
+      "name": "European Union",
+      "best_for": [
+        "scholarship",
+        "study",
+        "research"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "scholarshipportal.com",
+      "name": "ScholarshipPortal",
+      "best_for": [
+        "scholarship"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "mastersportal.com",
+      "name": "Mastersportal",
+      "best_for": [
+        "study",
+        "scholarship"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "bachelorsportal.com",
+      "name": "Bachelorsportal",
+      "best_for": [
+        "study",
+        "scholarship"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "findamasters.com",
+      "name": "FindAMasters",
+      "best_for": [
+        "study",
+        "scholarship"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "findaphd.com",
+      "name": "FindAPhD",
+      "best_for": [
+        "research",
+        "study"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "iaeste.org",
+      "name": "IAESTE",
+      "best_for": [
+        "internship"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "aiesec.org",
+      "name": "AIESEC",
+      "best_for": [
+        "internship"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "universityworldnews.com",
+      "name": "University World News",
+      "best_for": [
+        "study"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "timeshighereducation.com",
+      "name": "Times Higher Education",
+      "best_for": [
+        "study",
+        "research"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "opportunitiesforafricans.com",
+      "name": "Opportunities for Africans",
+      "best_for": [
+        "scholarship",
+        "internship"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "opportunitiescorners.info",
+      "name": "Opportunities Corners",
+      "best_for": [
+        "scholarship",
+        "internship"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "scholars4dev.com",
+      "name": "Scholars4Dev",
+      "best_for": [
+        "scholarship"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "scholarshiproar.com",
+      "name": "Scholarship Roar",
+      "best_for": [
+        "scholarship"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "opportunitiescircle.com",
+      "name": "Opportunities Circle",
+      "best_for": [
+        "scholarship",
+        "internship"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "careerjet.com",
+      "name": "Careerjet",
+      "best_for": [
+        "job"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "indeed.com",
+      "name": "Indeed",
+      "best_for": [
+        "job"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "glassdoor.com",
+      "name": "Glassdoor",
+      "best_for": [
+        "job",
+        "internship"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "linkedin.com",
+      "name": "LinkedIn",
+      "best_for": [
+        "job",
+        "internship"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "wellfound.com",
+      "name": "Wellfound",
+      "best_for": [
+        "job",
+        "internship"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "jooble.org",
+      "name": "Jooble",
+      "best_for": [
+        "job"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "adzuna.com",
+      "name": "Adzuna",
+      "best_for": [
+        "job"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "gradcracker.com",
+      "name": "Gradcracker",
+      "best_for": [
+        "job",
+        "internship"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "nature.com",
+      "name": "Nature Careers",
+      "best_for": [
+        "research",
+        "job"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    },
+    {
+      "domain": "sciencecareers.org",
+      "name": "Science Careers",
+      "best_for": [
+        "research",
+        "job"
+      ],
+      "priority": 2,
+      "source_kind": "major_or_global"
+    }
+  ]
+}

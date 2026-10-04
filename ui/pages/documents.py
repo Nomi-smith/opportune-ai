@@ -5,6 +5,7 @@ from database.db import delete_document, list_documents, load_profile, save_docu
 from documents.cv_intelligence import extract_cv_signals
 from documents.extract import extract_text
 from intelligence.profile_intelligence import merge_document_into_profile
+from core.session import user_id
 
 
 def render():
@@ -20,18 +21,18 @@ def render():
             text = extract_text(str(path))
         except Exception:
             text = ''
-        save_document(1, safe_name, doc_type, str(path), text)
+        save_document(user_id(), safe_name, doc_type, str(path), text)
 
         # Every uploaded document may add evidence, but only unique/canonical facts are merged.
         if text:
-            current = __import__('json').loads(load_profile(1))
+            current = __import__('json').loads(load_profile(user_id()))
             updated = merge_document_into_profile(text, current, f'{doc_type}: {safe_name}')
-            save_profile(1, __import__('json').dumps(updated))
+            save_profile(user_id(), __import__('json').dumps(updated))
 
         st.success(f'Saved {safe_name}. New information was merged without duplicate skills.')
         st.rerun()
 
-    rows = list_documents(1)
+    rows = list_documents(user_id())
     if not rows:
         st.info('No documents uploaded yet.')
         return
@@ -45,7 +46,7 @@ def render():
                 st.write(f"**{row['filename']}** — {row['document_type']}")
             with c2:
                 if st.button('Remove', key=f"remove_doc_{row['id']}"):
-                    old_path = delete_document(row['id'], 1)
+                    old_path = delete_document(row['id'], user_id())
                     if old_path:
                         try:
                             Path(old_path).unlink(missing_ok=True)

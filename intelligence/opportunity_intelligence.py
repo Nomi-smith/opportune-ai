@@ -42,6 +42,29 @@ def _segment(text, start_terms, end_terms, max_chars=5000):
     return source[start:end].strip(" :-–—")
 
 
+_BAD_SENTENCE = re.compile(r"(skip to|cookie|log ?in|sign ?in|menu|subscribe|©|copyright|all rights reserved|privacy policy|javascript|"
+                           r"share on|follow us|breadcrumb)", re.I)
+
+
+def _good_summary(text: str, limit: int = 650) -> str:
+    """First two real sentences: complete, readable, and not menu / cookie / footer text."""
+    sentences = re.split(r"(?<=[.!?])\s+", text or "")
+    good = []
+    for sent in sentences:
+        sent = sent.strip()
+        words = sent.split()
+        if len(words) < 8 or len(words) > 70 or _BAD_SENTENCE.search(sent):
+            continue
+        # menu runs look like long strings of Capitalised Words with no verbs
+        caps = sum(1 for w in words if w[:1].isupper())
+        if caps / len(words) > 0.7 and len(words) > 8:
+            continue
+        good.append(sent)
+        if len(good) == 2:
+            break
+    return " ".join(good)[:limit]
+
+
 def _has_explicit_detail(value):
     return value not in (None, "", NA, [NA])
 
@@ -156,18 +179,13 @@ def extract_opportunity_details(opportunity):
         r"(?:application fee|application fees|fee to apply)\s*[:\-]?\s*([^\n.;]{1,100})",
     ], text) or NA
 
-    opportunity.deadline = opportunity.deadline or (_first([
-        r"(?:application )?deadline\s*[:\-]?\s*([^\n.;]{2,100})",
-        r"(?:apply by|applications close|closing date)\s*[:\-]?\s*([^\n.;]{2,100})",
-    ], text) or NA)
+    from intelligence.source_content import extract_deadline, extract_funding, extract_tuition
 
-    opportunity.tuition = opportunity.tuition or (_first([
-        r"(?:tuition|tuition fee|fees)\s*[:\-]?\s*([^\n.;]{2,120})",
-    ], text) or NA)
-
-    opportunity.funding = opportunity.funding or (_first([
-        r"(?:funding|funded|scholarship|financial support|stipend)\s*[:\-]?\s*([^\n.;]{2,140})",
-    ], text) or NA)
+    def _have(value):
+        return str(value or "").strip().casefold() not in {"", "n/a", "na", "none", "null", "not stated", "unknown"}
+    opportunity.deadline = opportunity.deadline if _have(opportunity.deadline) else (extract_deadline(text) or NA)
+    opportunity.tuition = opportunity.tuition if _have(opportunity.tuition) else (extract_tuition(text) or NA)
+    opportunity.funding = opportunity.funding if _have(opportunity.funding) else (extract_funding(text) or NA)
 
     # Structured requirement categories.
     # Job-board HTML is often flattened into one long paragraph. Prefer semantic
@@ -283,12 +301,8 @@ def extract_opportunity_details(opportunity):
         "evidence_note": "N/A means the available source text did not state the value. It does not mean the condition does not exist.",
     }
     # Concise source-grounded summary for the UI. No new facts are invented.
-    desc_clean = _clean(opportunity.description)
-    summary_sentences = re.split(r"(?<=[.!?])\s+", desc_clean)
-    summary_sentences = [s.strip() for s in summary_sentences if len(s.strip()) > 25]
-    # Keep the overview genuinely short. Detailed source text remains behind the
-    # full-description expander.
-    meta["summary"] = " ".join(summary_sentences[:2])[:650] if summary_sentences else desc_clean[:650]
+    page_desc = _clean(meta.get("page_description", ""))
+    meta["summary"] = page_desc[:650] if len(page_desc) >= 60 else _good_summary(_clean(opportunity.description))
     opportunity.metadata = meta
     return opportunity
 

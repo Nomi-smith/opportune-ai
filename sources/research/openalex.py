@@ -10,6 +10,9 @@ class OpenAlexSource(BaseSource):
         self, query: str, opportunity_type: str | None = None,
         country: str | None = None
     ) -> list[Opportunity]:
+        # Author profiles are only meaningful for Research searches; elsewhere they are noise.
+        if (opportunity_type or "").lower() != "research":
+            return []
         try:
             async with httpx.AsyncClient(timeout=15) as client:
                 response = await client.get(

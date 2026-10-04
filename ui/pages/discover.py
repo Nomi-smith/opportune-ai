@@ -1,512 +1,322 @@
-import re
-import asyncio
+import asyncio, hashlib, html, json
+
 import streamlit as st
 
-from agents.opportunity_agent import OpportunityAgent
+from agents.application_agent import ApplicationPreparationAgent
 from intelligence.agent_intelligence import analyze_opportunity
-from intelligence.opportunity_intelligence import extract_opportunity_details, enhance_opportunity_with_llm
-from intelligence.discovery_planner import DiscoveryPlanner, ROLE_OPTIONS, COUNTRY_OPTIONS, FIELD_OPTIONS
-from database.db import save_application, list_applications
-from sources.jobs.arbeitnow import ArbeitnowSource
-from sources.research.openalex import OpenAlexSource
-from sources.web import PublicWebSource
-from sources.openrouter_search import OpenRouterWebSearchSource
-from sources.gemini_google_search import GeminiGoogleSearchSource
-from sources.serper import SerperGoogleSource
-from sources.manager import SourceManager
+from intelligence.discovery_planner import (
+    COUNTRY_OPTIONS, FIELD_OPTIONS, RESEARCH_LEVELS, ROLE_OPTIONS,
+)
+from intelligence.discovery_service import search_opportunities  # noqa: F401  (re-exported for callers)
+from intelligence.opportunity_intelligence import enhance_opportunity_with_llm, extract_opportunity_details
+from intelligence.source_facts import apply_source_facts
+from database.db import load_profile
+from models.opportunity import Opportunity
+from sources.webfetch import fetch_url
+from ui import components as c
+from core.session import user_id
+
+# planner type -> page presentation
+TYPES = {
+    "Scholarship": {"label": "Scholarships", "icon": "🎓", "blurb": "Funding, fellowships and grants — checked against the actual source page.", "levels": "study"},
+    "Job": {"label": "Jobs", "icon": "💼", "blurb": "Open vacancies with a real application route.", "levels": None},
+    "Internship": {"label": "Internships", "icon": "🧑‍💻", "blurb": "Internships, placements and trainee roles.", "levels": None},
+    "Master's": {"label": "Admissions", "icon": "🎓", "blurb": "Master's and other study programmes with official admission pages.", "levels": "study"},
+    "Research": {"label": "Research", "icon": "🔬", "blurb": "Research positions, funded PhDs, fellowships and labs.", "levels": "research"},
+}
+_COUNTRIES = [x for x in COUNTRY_OPTIONS if not x.startswith("Other")]
+_FIELDS = [x for x in FIELD_OPTIONS if not x.startswith("Other")]
 
 
-def _manager():
-    return SourceManager([
-        GeminiGoogleSearchSource(),
-        OpenRouterWebSearchSource(),
-        SerperGoogleSource(),
-        ArbeitnowSource(),
-        OpenAlexSource(),
-        PublicWebSource(),
-    ])
+def _key(item):
+    raw = str(item.get("id") or item.get("application_url") or item.get("source_url") or ((item.get("title") or "") + "|" + (item.get("organization") or "")))
+    return hashlib.sha1(raw.encode()).hexdigest()[:16]
 
 
-def search_opportunities(query, opportunity_type=None, roles=None, countries=None, fields=None, profile=None):
+def _profile():
+    try:
+        return json.loads(load_profile(user_id()) or "{}")
+    except Exception:
+        return {}
+
+
+# ------------------------------------------------------------------ analysis
+def _analyze(item_dict):
     async def run():
-        manager = _manager()
-        planner = DiscoveryPlanner(manager)
-        plan = planner.build_plan(
-            opportunity_type or "All",
-            roles=roles or [],
-            countries=countries or [],
-            fields=fields or [],
-            query=query,
-            profile=profile or {},
-        )
-        results = await planner.run(plan)
-        results = [extract_opportunity_details(x) for x in results]
-        # LLM enhancement is optional and only runs when Gemini/Groq/OpenRouter is configured.
-        # Keep the first page responsive by enhancing at most 10 results per search.
-        enhanced = []
-        for index, item in enumerate(results):
-            if index < 10:
-                item = await enhance_opportunity_with_llm(item)
-            enhanced.append(item)
-        return enhanced, manager.diagnostics
-
+        item = Opportunity.model_validate(item_dict)
+        url = c.usable_url(item.application_url, item.source_url)
+        page = await fetch_url(url, timeout=7, max_chars=36000) if url else ""
+        if page:
+            item.description = page
+            item = extract_opportunity_details(item)
+        item = apply_source_facts(item)
+        return await enhance_opportunity_with_llm(item)
     return asyncio.run(run())
 
 
-def _item_key(item):
-    import hashlib
-    raw = str(item.get("id") or item.get("application_url") or item.get("source_url") or ((item.get("title") or "") + "|" + (item.get("organization") or "")))
-    return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:16]
-
-
-def _value(value):
-    if isinstance(value, list):
-        return ", ".join(str(x) for x in value) if value else "N/A"
-    return str(value).strip() if value else "N/A"
-
-
-def _items(values):
-    if not values:
-        return ["N/A"]
-    if isinstance(values, str):
-        return [values]
-    return values
-
-
 def _chips(values):
-    vals = [str(x) for x in _items(values) if str(x).strip()]
-    if not vals:
-        vals = ["N/A"]
-    st.markdown(
-        " ".join(
-            f'<span class="op-chip">{v}</span>' for v in vals[:12]
-        ),
-        unsafe_allow_html=True,
-    )
+    vals = values if isinstance(values, list) else [values]
+    vals = [str(x) for x in vals if str(x).strip() and str(x).lower() != "n/a"]
+    st.write(" • ".join(vals[:12]) if vals else "Not stated · see source")
 
 
-def _section(title, values):
-    st.markdown(f"#### {title}")
-    vals = _items(values)
-    for value in vals[:12]:
-        st.markdown(f"- {value}")
+def _prepare_documents(item_dict):
+    """Hand the analysed opportunity to CV & Letters as pre-filled opportunity details."""
+    item = Opportunity.model_validate(item_dict)
+    lines = [item.title, item.organization]
+    summary = (item.metadata or {}).get("summary") or c.clean_summary(item.description, 1500)
+    if summary:
+        lines += ["", summary]
+    for label, field in [("Education", "education_requirements"), ("Experience", "experience_requirements"),
+                         ("Language", "language_requirements"), ("Tests", "test_requirements"),
+                         ("Required documents", "required_documents")]:
+        vals = [str(v) for v in (getattr(item, field, []) or []) if str(v).strip().lower() != "n/a"]
+        if vals:
+            lines.append(f"{label}: " + "; ".join(vals))
+    st.session_state["cvl_title"] = item.title or ""
+    st.session_state["cvl_org"] = item.organization or ""
+    st.session_state["cvl_details"] = "\n".join(x for x in lines if x is not None).strip()
+    c.go_to(c.NAV_CV)
 
 
-def _apply_css():
-    st.markdown(
-        """
-        <style>
-        .opp-card {
-            padding: 1.1rem 1.2rem;
-            border: 1px solid rgba(128,128,128,.22);
-            border-radius: 16px;
-            margin: .6rem 0 1rem 0;
-        }
-        .opp-meta {
-            color: rgba(128,128,128,.95);
-            font-size: .92rem;
-            margin-bottom: .6rem;
-        }
-        .op-chip {
-            display:inline-block;
-            padding:.28rem .62rem;
-            margin:.16rem .16rem .16rem 0;
-            border-radius:999px;
-            background:rgba(99,102,241,.10);
-            border:1px solid rgba(99,102,241,.18);
-            font-size:.84rem;
-        }
-        .na {
-            color: rgba(128,128,128,.85);
-        }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
+def _render_analysis(item, profile):
+    st.markdown("### 🧠 Opportunity details")
+    summary = (item.metadata or {}).get("summary") or c.clean_summary(item.description, 400)
+    if summary:
+        st.write(summary)
+    a, b, d = st.columns(3)
+    a.metric("Deadline", c.display_value(item.deadline, "Not stated"))
+    b.metric("Funding", c.display_value(item.funding, "Not stated"))
+    d.metric("Verification", item.verification_status or "UNVERIFIED")
+    tabs = st.tabs(["Eligibility", "Funding & Application", "Profile Match", "Checklist"])
+    with tabs[0]:
+        for label, field in [("Education", "education_requirements"), ("Experience", "experience_requirements"),
+                             ("Language", "language_requirements"), ("Tests", "test_requirements"),
+                             ("Nationality", "nationality_restrictions")]:
+            st.markdown(f"**{label}**"); _chips(getattr(item, field, []))
+    with tabs[1]:
+        for label, value in [("Tuition", item.tuition), ("Funding", item.funding), ("Compensation", item.compensation), ("Application fee", item.application_fee)]:
+            st.write(f"**{label}:** {c.display_value(value)}")
+        st.write(f"**Required documents:** {', '.join(item.required_documents) if item.required_documents else 'Not stated · see source'}")
+        url = c.usable_url(item.application_url, item.source_url)
+        if url:
+            st.link_button("Open source page ↗", url)
+    with tabs[2]:
+        if profile:
+            analysis = analyze_opportunity(profile, item); m = analysis["matching"]; e = analysis["eligibility"]
+            x, y, z = st.columns(3)
+            x.metric("Profile match", f"{m.get('score', 0)}/100"); y.metric("Matched skills", len(m.get("matched_skills", []))); z.metric("Missing skills", len(m.get("missing_skills", [])))
+            st.write(f"**Eligibility status:** {e.get('status', 'UNKNOWN')}")
+            if m.get("matched_skills"): st.write("**Matched:** " + ", ".join(m["matched_skills"]))
+            if m.get("missing_skills"): st.write("**Missing:** " + ", ".join(m["missing_skills"]))
+            if analysis.get("missing_data"): st.info("Profile data still needed: " + ", ".join(analysis["missing_data"]))
+        else:
+            st.info("Upload your CV in CV & Letters to calculate a personal match.")
+    with tabs[3]:
+        for i, step in enumerate(ApplicationPreparationAgent().checklist(item), 1):
+            st.write(f"{i}. {step}")
+        st.button("✍️ Prepare documents for this opportunity", key="prep_" + _key(item.model_dump()),
+                  on_click=_prepare_documents, args=(item.model_dump(),), use_container_width=True)
+        st.caption("Applications are always submitted manually by you through the official portal.")
 
 
-def _render_match(item, profile):
-    if not profile:
-        st.info("Add your profile to calculate your personal match.")
+# ------------------------------------------------------------------ search form + results
+def _search_form(ctx, otype):
+    cfg = TYPES[otype]
+    kp = f"{ctx}_{otype}"
+    with st.form(f"form_{kp}"):
+        c1, c2 = st.columns(2)
+        with c1:
+            if otype in {"Job", "Internship"}:
+                roles = st.multiselect("Role", ROLE_OPTIONS, key=f"{kp}_roles", accept_new_options=True,
+                                       placeholder="Choose or type roles — or leave empty for broad discovery")
+                fields = []
+            else:
+                fields = st.multiselect("Field", _FIELDS, key=f"{kp}_fields", accept_new_options=True,
+                                        placeholder="Choose or type a field / research area")
+                roles = []
+        with c2:
+            countries = st.multiselect("Country", _COUNTRIES, key=f"{kp}_countries", accept_new_options=True,
+                                       placeholder="Leave empty for any country")
+        c3, c4 = st.columns(2)
+        study_level, research_level = "Any", "Any"
+        with c3:
+            if cfg["levels"] == "study":
+                study_level = st.selectbox("Study level", ["Any", "Bachelor's", "Master's", "PhD"],
+                                           index=2 if otype == "Master's" else 0, key=f"{kp}_level")
+            elif cfg["levels"] == "research":
+                research_level = st.selectbox("Research level", RESEARCH_LEVELS, key=f"{kp}_rlevel")
+            else:
+                st.caption(" ")
+        with c4:
+            query = st.text_input("Additional keywords (optional)", key=f"{kp}_query",
+                                  placeholder="e.g. computer vision, English-taught, fully funded")
+        if cfg["levels"] in {"study", "research"}:
+            st.caption("Tip: each field is searched in depth (up to 6). For the broadest results pick up to 3 countries, or leave Country empty to search worldwide.")
+        submitted = st.form_submit_button(f"🔍 Search {cfg['label'].lower()}", type="primary", use_container_width=True)
+    if not submitted:
         return
-
-    analysis = analyze_opportunity(profile, type("OpportunityObj", (), item)())
-    matching = analysis["matching"]
-    eligibility = analysis["eligibility"]
-
-    c1, c2, c3 = st.columns(3)
-    with c1:
-        st.metric("Profile match", f"{matching.get('score', 0)}/100")
-    with c2:
-        st.metric("Matched skills", len(matching.get("matched_skills", [])))
-    with c3:
-        st.metric("Missing skills", len(matching.get("missing_skills", [])))
-
-    status = eligibility.get("status", "UNKNOWN")
-    st.write(f"**Eligibility:** {status}")
-
-    if matching.get("matched_skills"):
-        st.markdown("**Matched skills**")
-        _chips(matching["matched_skills"])
-
-    if matching.get("missing_skills"):
-        st.markdown("**Missing skills**")
-        _chips(matching["missing_skills"])
-
-    missing = analysis.get("missing_data", [])
-    if missing:
-        st.caption("Profile information still needed: " + ", ".join(missing))
+    with st.spinner("🌍 Searching sources, then verifying each source page…"):
+        try:
+            results, diag = search_opportunities(query, otype, roles, countries, fields, _profile(), study_level, research_level)
+        except Exception as exc:
+            st.error(f"Search failed: {exc}")
+            return
+    st.session_state[f"res::{otype}"] = [x.model_dump() for x in results]
+    st.session_state[f"diag::{otype}"] = diag
+    st.session_state[f"page::{otype}"] = 1
+    st.session_state["selected_opportunity"] = None
+    st.session_state["discovery_diagnostics"] = diag
 
 
-def render():
-    _apply_css()
+def _set_page(key, value):
+    st.session_state[key] = value
 
-    st.header("🔎 Discover Opportunities")
-    st.caption(
-        "Find opportunities, inspect structured requirements, compare them with your profile, "
-        "and keep N/A when the available source does not state a value."
-    )
 
-    if "discovery_page" not in st.session_state:
-        st.session_state.discovery_page = 1
+def _posted_text(meta):
+    from intelligence.discovery_planner import _days_old
+    age = _days_old(meta.get("posted_date"))
+    if age is None:
+        return ""
+    return "Posted today" if age == 0 else (f"Posted {age} day{'s' if age != 1 else ''} ago" if age < 60 else "Posted 2+ months ago")
 
-    opportunity_type = st.selectbox(
-        "Type",
-        ["All", "Job", "Internship", "Master's", "Scholarship", "Research"],
-    )
 
-    profile = st.session_state.get("profile", {})
+def _render_card(item, otype, idx=0):
+    meta = item.get("metadata", {}) or {}
+    k = _key(item)
+    url = c.usable_url(item.get("application_url"), item.get("source_url"))
+    is_job = otype in {"Job", "Internship"}
+    with st.container(border=True):
+        # badges
+        badges = []
+        if meta.get("structured_listing"):
+            badges.append(c.chip("Live job listing", "ok"))
+        elif meta.get("verification_page_fetched"):
+            badges.append(c.chip("Source page verified", "ok"))
+        else:
+            badges.append(c.chip("Not verified against source", "warn"))
+        if meta.get("country_source_priority") == "preferred":
+            badges.append(c.chip("Preferred source", "info"))
+        elif meta.get("source_tier") in {"official", "preferred"}:
+            badges.append(c.chip("Official source", "info"))
+        if is_job and _posted_text(meta):
+            badges.append(c.chip(_posted_text(meta)))
+        if not is_job:
+            if meta.get("availability") == "confirmed-open":
+                badges.append(c.chip("Open · deadline confirmed", "ok"))
+            elif meta.get("availability") == "open-deadline-not-stated":
+                badges.append(c.chip("Open · confirm deadline on source", "warn"))
+        st.markdown("".join(badges), unsafe_allow_html=True)
 
-    if opportunity_type in {"Job", "Internship"}:
-        c1, c2 = st.columns(2)
-        with c1:
-            roles = st.multiselect(
-                "Roles (choose one or more)",
-                ROLE_OPTIONS,
-                placeholder="Select multiple roles...",
-            )
-            custom_roles = st.text_input(
-                "Custom roles (optional, comma-separated)",
-                placeholder="e.g. AI Automation Intern, Agentic AI Intern",
-            )
-        with c2:
-            countries = st.multiselect(
-                "Countries (choose one or more)",
-                COUNTRY_OPTIONS,
-                placeholder="Select multiple countries...",
-            )
-            custom_countries = st.text_input(
-                "Other countries (optional, comma-separated)",
-                placeholder="e.g. Estonia, UAE",
-            )
-        query = st.text_input(
-            "Extra keywords (optional)",
-            placeholder="e.g. YOLO, LLM, Python",
-        )
-        fields = []
-    elif opportunity_type in {"Master's", "Scholarship", "Research"}:
-        c1, c2 = st.columns(2)
-        with c1:
-            fields = st.multiselect(
-                "Fields / research areas (optional)",
-                FIELD_OPTIONS,
-                placeholder="Leave empty to explore using your profile...",
-            )
-            query = st.text_input(
-                "Extra search terms (optional)",
-                placeholder="e.g. computer vision, AI agents",
-            )
-        with c2:
-            countries = st.multiselect(
-                "Countries (choose one or more, optional)",
-                COUNTRY_OPTIONS,
-                placeholder="Select multiple countries...",
-            )
-            custom_countries = st.text_input(
-                "Other countries (optional, comma-separated)",
-                placeholder="e.g. Estonia, UAE",
-            )
-        roles = []
-        custom_roles = ""
-        st.caption("You do not need to know a program, scholarship, professor, or exact role. Leave the search terms empty and the planner will use your saved profile.")
-    else:
-        c1, c2 = st.columns(2)
-        with c1:
-            roles = st.multiselect("Roles (optional)", ROLE_OPTIONS, placeholder="Select multiple roles...")
-            custom_roles = st.text_input("Custom roles (optional, comma-separated)")
-            query = st.text_input("Keywords (optional)", placeholder="e.g. AI, ML, automation")
-        with c2:
-            countries = st.multiselect("Countries (optional)", COUNTRY_OPTIONS, placeholder="Select multiple countries...")
-            custom_countries = st.text_input("Other countries (optional, comma-separated)")
-        fields = st.multiselect("Fields (optional)", FIELD_OPTIONS, placeholder="Select multiple fields...")
-
-    if st.button("🔍 Search Opportunities", type="primary", use_container_width=True):
-        import re as _re
-        roles = list(roles or []) + [x.strip() for x in _re.split(r"[,\n]", custom_roles or "") if x.strip()]
-        countries = list(countries or []) + [x.strip() for x in _re.split(r"[,\n]", custom_countries or "") if x.strip()]
-
-        with st.spinner("Searching multiple sources in parallel..."):
-            try:
-                results, diagnostics = search_opportunities(
-                    query, opportunity_type, roles, countries, fields, profile
-                )
-                st.session_state.search_results = [x.model_dump() for x in results]
-                st.session_state.discovery_diagnostics = diagnostics
-                st.session_state.discovery_page = 1
-            except Exception as exc:
-                st.error(f"Search failed: {exc}")
-                return
-
-    results = st.session_state.search_results
-    diagnostics = st.session_state.get("discovery_diagnostics", [])
-    if diagnostics:
-        with st.expander("🛠️ Search diagnostics", expanded=not bool(results)):
-            grouped = {}
-            for row in diagnostics:
-                name = row.get("source", "Unknown")
-                grouped.setdefault(name, {"count": 0, "calls": 0, "errors": []})
-                grouped[name]["count"] += int(row.get("count") or 0)
-                grouped[name]["calls"] += 1
-                if row.get("error"):
-                    grouped[name]["errors"].append(row["error"])
-            for name, info in grouped.items():
-                st.write(f"**{name}:** {info['count']} result(s) across {info['calls']} call(s)")
-                for err in list(dict.fromkeys(info["errors"]))[:3]:
-                    st.caption(err)
-    if not results:
-        st.info("No results yet.")
-        return
-
-    st.divider()
-    page_size = 10
-    total = len(results)
-    total_pages = max(1, (total + page_size - 1) // page_size)
-    current_page = min(max(int(st.session_state.get("discovery_page", 1)), 1), total_pages)
-    st.session_state.discovery_page = current_page
-
-    st.subheader(f"Found {total} opportunity(s)")
-    start_idx = (current_page - 1) * page_size
-    end_idx = min(start_idx + page_size, total)
-    st.caption(f"Showing {start_idx + 1}–{end_idx} of {total}")
-
-    for item in results[start_idx:end_idx]:
         title = item.get("title") or "Untitled opportunity"
-        org = item.get("organization") or "N/A"
-        kind = item.get("opportunity_type") or "N/A"
-        location = ", ".join(
-            x for x in [item.get("city"), item.get("country")] if x
-        ) or "N/A"
-        verification = item.get("verification_status") or "UNVERIFIED"
+        st.markdown(f'<div class="oa-title">{html.escape(title)}</div>', unsafe_allow_html=True)
+        place = item.get("city") if is_job else item.get("country")
+        parts = [item.get("organization") if item.get("organization") not in {None, "", "Unknown"} else None,
+                 place or (item.get("country") if is_job else None)]
+        st.markdown(f'<div class="oa-org">{html.escape(" · ".join(x for x in parts if x))}</div>', unsafe_allow_html=True)
 
-        with st.container(border=True):
-            st.markdown(f"### {title}")
-            st.markdown(
-                f'<div class="opp-meta">🏢 {org} &nbsp; • &nbsp; '
-                f'💼 {kind} &nbsp; • &nbsp; 📍 {location} &nbsp; • &nbsp; '
-                f'🔎 {verification}</div>',
-                unsafe_allow_html=True,
-            )
+        summary = c.clean_summary(meta.get("summary") or item.get("description"), 260)
+        if summary:
+            st.markdown(f'<div class="oa-summary">{html.escape(summary)}</div>', unsafe_allow_html=True)
 
-            details = item.get("metadata", {}).get("structured_details", {})
+        if is_job:
+            facts = [("Work mode", c.display_value(item.get("work_mode"), "See posting")),
+                     ("Type", c.display_value(meta.get("job_type"), "See posting")),
+                     ("Pay", c.display_value(item.get("compensation"), "Not stated")),
+                     ("Deadline", c.display_value(item.get("deadline"), "Not stated"))]
+        else:
+            facts = [("Deadline", c.display_value(item.get("deadline"), "Not stated · check source")),
+                     ("Funding", c.display_value(item.get("funding"), "Not stated · check source")),
+                     ("Level", c.display_value(meta.get("study_level") or meta.get("detected_level"), "See source"))]
+        for col, (label, value) in zip(st.columns(len(facts)), facts):
+            col.markdown(c.fact(label, value), unsafe_allow_html=True)
+        st.write("")
+        x, y = st.columns(2)
+        with x:
+            if url:
+                st.link_button("Apply / open source ↗" if is_job else "Open source ↗", url, use_container_width=True)
+        with y:
+            if st.button("Analyze & prepare", key=f"analyze_{otype}_{idx}_{k}", use_container_width=True):
+                with st.spinner("Fetching and analysing the actual opportunity page…"):
+                    analyzed = _analyze(item)
+                st.session_state["selected_opportunity"] = analyzed.model_dump()
+                st.session_state["selected_for"] = otype
 
-            # Only show facts that are actually available. Avoid a wall of N/A values.
-            facts = []
-            if item.get("compensation_status") not in (None, "", "N/A"):
-                facts.append(("Paid", item.get("compensation_status")))
-            if item.get("compensation") not in (None, "", "N/A"):
-                facts.append(("Compensation", item.get("compensation")))
-            if item.get("deadline") not in (None, "", "N/A"):
-                facts.append(("Deadline", item.get("deadline")))
-            if item.get("work_mode") not in (None, "", "N/A"):
-                facts.append(("Work mode", item.get("work_mode")))
-            if item.get("duration") not in (None, "", "N/A"):
-                facts.append(("Duration", item.get("duration")))
 
-            if facts:
-                cols = st.columns(min(4, len(facts)))
-                for i, (label, value) in enumerate(facts):
-                    with cols[i % len(cols)]:
-                        st.caption(label)
-                        st.markdown(f"**{value}**")
-
-            tabs = st.tabs(
-                ["📋 Overview", "🎓 Requirements", "💰 Money & Conditions",
-                 "📝 Application", "👤 Your Match"]
-            )
-
-            with tabs[0]:
-                st.markdown("#### Quick summary")
-                raw_description = item.get("description") or ""
-                summary = item.get("metadata", {}).get("summary")
-
-                if not summary:
-                    sentences = re.split(r"(?<=[.!?])\\s+", raw_description)
-                    sentences = [s.strip() for s in sentences if len(s.strip()) > 25]
-                    summary = " ".join(sentences[:3])[:800] if sentences else raw_description[:800]
-
-                st.write(summary or "No description available.")
-
-                if raw_description and len(raw_description) > len(summary or ""):
-                    with st.expander("📖 View full description"):
-                        st.write(raw_description)
-
-                source_name = item.get("source_name")
-                last_verified = item.get("last_verified")
-                if source_name or last_verified:
-                    source_bits = []
-                    if source_name:
-                        source_bits.append(f"Source: {source_name}")
-                    if last_verified:
-                        source_bits.append(f"Last verified: {last_verified}")
-                    st.caption(" • ".join(source_bits))
-
-            with tabs[1]:
-                req_cols = st.columns(2)
-                with req_cols[0]:
-                    for title, values in [
-                        ("Education", details.get("education", item.get("education_requirements"))),
-                        ("Experience", details.get("experience", item.get("experience_requirements"))),
-                        ("Language", details.get("languages", item.get("language_requirements"))),
-                        ("Tests", details.get("tests", item.get("test_requirements"))),
-                    ]:
-                        if values and values != ["N/A"]:
-                            _section(title, values)
-                with req_cols[1]:
-                    skills = item.get("metadata", {}).get("required_skills")
-                    nationality = details.get("nationality", item.get("nationality_restrictions"))
-                    documents = details.get("documents", item.get("required_documents"))
-                    shown = False
-
-                    if skills:
-                        _section("Required skills", skills)
-                        shown = True
-                    if nationality and nationality != ["N/A"]:
-                        _section("Eligibility / nationality", nationality)
-                        shown = True
-                    if documents and documents != ["N/A"]:
-                        _section("Required documents", documents)
-                        shown = True
-
-                    if not shown:
-                        st.caption("No additional structured requirements were stated.")
-
-            with tabs[2]:
-                money = st.columns(2)
-                with money[0]:
-                    st.markdown("#### Compensation")
-                    any_money = False
-                    for label, key in [
-                        ("Salary / stipend", "compensation"),
-                        ("Funding", "funding"),
-                        ("Tuition", "tuition"),
-                    ]:
-                        value = item.get(key)
-                        if value not in (None, "", "N/A"):
-                            st.write(f"**{label}:** {value}")
-                            any_money = True
-                    if not any_money:
-                        st.caption("No salary, stipend, funding, or tuition amount was stated.")
-
-                with money[1]:
-                    st.markdown("#### Conditions")
-                    any_conditions = False
-                    for label, key in [
-                        ("Duration", "duration"),
-                        ("Work mode", "work_mode"),
-                        ("Application fee", "application_fee"),
-                    ]:
-                        value = item.get(key)
-                        if value not in (None, "", "N/A"):
-                            st.write(f"**{label}:** {value}")
-                            any_conditions = True
-                    benefits = details.get("benefits", item.get("benefits"))
-                    if benefits and benefits != ["N/A"]:
-                        _section("Benefits", benefits)
-                        any_conditions = True
-                    if not any_conditions:
-                        st.caption("No additional conditions were stated.")
-
-            with tabs[3]:
-                app_cols = st.columns(2)
-                with app_cols[0]:
-                    st.markdown("#### Application facts")
-                    deadline = item.get("deadline")
-                    fee = item.get("application_fee")
-                    documents = details.get("documents", item.get("required_documents"))
-                    if deadline not in (None, "", "N/A"):
-                        st.write(f"**Deadline:** {deadline}")
-                    if fee not in (None, "", "N/A"):
-                        st.write(f"**Application fee:** {fee}")
-                    if documents and documents != ["N/A"]:
-                        _section("Required documents", documents)
-                    if (
-                        deadline in (None, "", "N/A")
-                        and fee in (None, "", "N/A")
-                        and not documents
-                    ):
-                        st.caption("No additional application details were stated.")
-
-                with app_cols[1]:
-                    st.markdown("#### Application")
-                    if item.get("application_url"):
-                        st.link_button("🚀 Open application / source", item["application_url"], use_container_width=True)
-                    else:
-                        st.caption("No application link was found.")
-
-            with tabs[4]:
-                _render_match(item, profile)
-
+def _render_results(otype):
+    results = st.session_state.get(f"res::{otype}")
+    if results is None:
+        st.info("Choose your filters above and search. Only current, source-verified opportunities are shown.")
+        return
+    diag = st.session_state.get(f"diag::{otype}") or []
+    if not results:
+        st.warning("No verified current opportunities found. Try a broader field, another country, or leave the country empty for global discovery.")
+    else:
+        page_size = 10
+        total_pages = max(1, (len(results) + page_size - 1) // page_size)
+        pkey = f"page::{otype}"
+        page = min(max(st.session_state.get(pkey, 1), 1), total_pages)
+        st.success(f"{len(results)} {'job postings' if otype in {'Job', 'Internship'} else 'verified current opportunities'} found • page {page} of {total_pages}")
+        for n, item in enumerate(results[(page - 1) * page_size: page * page_size]):
+            _render_card(item, otype, (page - 1) * page_size + n)
+        selected = st.session_state.get("selected_opportunity")
+        if selected and st.session_state.get("selected_for") == otype:
             st.divider()
-            action_cols = st.columns([1, 1, 1])
-            with action_cols[0]:
-                if item.get("application_url"):
-                    st.link_button("🚀 Apply / Open", item["application_url"], use_container_width=True)
-            with action_cols[1]:
-                if st.button("📌 Save Opportunity", key=f"save_{_item_key(item)}", use_container_width=True):
-                    st.session_state.setdefault("saved_opportunities", [])
-                    if item.get("id") not in [x.get("id") for x in st.session_state["saved_opportunities"]]:
-                        st.session_state["saved_opportunities"].append(item)
-                    st.success("Saved to your opportunities.")
-            with action_cols[2]:
-                if st.button("📝 Add to Applications", key=f"app_{_item_key(item)}", use_container_width=True):
-                    user_id = 1
-                    opportunity_key = item.get("id") or item.get("application_url") or item.get("title")
-                    existing = list_applications(user_id)
-                    already_added = any(row["opportunity_key"] == opportunity_key for row in existing)
-                    if not already_added:
-                        save_application(
-                            user_id,
-                            {
-                                "opportunity_key": opportunity_key,
-                                "title": item.get("title") or "Untitled opportunity",
-                                "organization": item.get("organization") or "N/A",
-                                "status": "Saved",
-                                "deadline": item.get("deadline"),
-                                "next_action": "Review requirements and official application page",
-                                "notes": item.get("application_url") or "",
-                            },
-                        )
-                    st.success("Added to Applications." if not already_added else "Already in Applications.")
+            _render_analysis(Opportunity.model_validate(selected), _profile())
+        if total_pages > 1:
+            p1, p2, p3 = st.columns([1, 2, 1])
+            p1.button("← Previous", key=f"prev_{otype}", disabled=page <= 1, on_click=_set_page, args=(pkey, page - 1))
+            p2.write(f"Page {page} / {total_pages}")
+            p3.button("Next →", key=f"next_{otype}", disabled=page >= total_pages, on_click=_set_page, args=(pkey, page + 1))
+    if diag:
+        with st.expander("Search details (sources used)"):
+            for d in diag:
+                line = f"**{d['source']}** — {d['results']} candidate(s) from {d.get('calls', 1)} quer{'y' if d.get('calls', 1) == 1 else 'ies'} • {d['elapsed']}s"
+                st.write(line + (f" • ⚠️ {d['error']}" if d.get("error") else ""))
 
 
-    if total_pages > 1:
-        st.divider()
-        nav = st.columns([1, 1, 2, 1, 1])
-        with nav[0]:
-            if st.button("← Previous", disabled=current_page <= 1, use_container_width=True):
-                st.session_state.discovery_page = current_page - 1
-                st.rerun()
-        with nav[1]:
-            if st.button("1", disabled=current_page == 1, use_container_width=True):
-                st.session_state.discovery_page = 1
-                st.rerun()
-        with nav[2]:
-            st.markdown(f"<div style='text-align:center;padding:.45rem'>Page <b>{current_page}</b> of <b>{total_pages}</b></div>", unsafe_allow_html=True)
-        with nav[3]:
-            if st.button(str(total_pages), disabled=current_page == total_pages, use_container_width=True):
-                st.session_state.discovery_page = total_pages
-                st.rerun()
-        with nav[4]:
-            if st.button("Next →", disabled=current_page >= total_pages, use_container_width=True):
-                st.session_state.discovery_page = current_page + 1
-                st.rerun()
+def _render_library() -> None:
+    """Browse the full scholarship catalogue by country, category and level (no search or API key needed)."""
+    import pandas as pd
+    from intelligence.scholarship_catalog import catalog_options, filter_catalog, load_catalog
+
+    rows = load_catalog()
+    opts = catalog_options(rows)
+    st.caption(f"{len(rows)} scholarship sources and programmes across {len(opts['countries'])} countries and regions. "
+               "These are official sources to check, not verified live calls. Open a source for its current deadline, "
+               "or use the Search tab for verified current opportunities.")
+    f1, f2, f3, f4 = st.columns([2, 2, 2, 1])
+    query = f1.text_input("Search the library", key="lib_q", placeholder="e.g. DAAD, Chevening, engineering")
+    countries = f2.multiselect("Country / region", opts["countries"], key="lib_countries")
+    cats = f3.multiselect("Category", opts["categories"], key="lib_cats")
+    level = f4.selectbox("Level", ["Any", "Bachelor's", "Master's", "PhD"], key="lib_level")
+    found = filter_catalog(rows, query, countries, cats, level)
+    st.write(f"**{len(found)}** of {len(rows)} sources")
+    if not found:
+        st.info("Nothing matches those filters. Remove one to widen the list.")
+        return
+    df = pd.DataFrame([{
+        "Name": r["name"], "Country": r["country"], "Category": r["category"], "Level": r["level"] or "See source",
+        "Funding": r["funding"] or "See source", "Open to": r["open_to"] or "See source", "Website": r["website"],
+    } for r in found])
+    st.dataframe(
+        df, hide_index=True, height=560,
+        column_config={"Website": st.column_config.LinkColumn("Website", display_text="Open ↗"),
+                       "Name": st.column_config.TextColumn("Name", width="large")},
+    )
+
+
+def render_type(otype, ctx="page"):
+    cfg = TYPES[otype]
+    st.header(f"{cfg['icon']} {cfg['label']}")
+    st.caption(cfg["blurb"])
+    if otype == "Scholarship":
+        search_tab, library_tab = st.tabs(["🔎 Search", "📚 Browse library"])
+        with search_tab:
+            _search_form(ctx, otype)
+            _render_results(otype)
+        with library_tab:
+            _render_library()
+        return
+    _search_form(ctx, otype)
+    _render_results(otype)

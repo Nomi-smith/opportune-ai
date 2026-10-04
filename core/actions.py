@@ -1,11 +1,12 @@
 import json
-from database.db import delete_document, delete_application, load_profile, save_profile, update_application_status
+from database.db import delete_document, load_profile, save_profile, update_application_status, save_application, delete_application
 from intelligence.skill_taxonomy import merge_skills
+from core.session import user_id
 
 
 def _profile():
     try:
-        return json.loads(load_profile(1))
+        return json.loads(load_profile(user_id()))
     except Exception:
         return {}
 
@@ -15,14 +16,14 @@ def update_profile_fields(fields: dict):
     profile.update(fields or {})
     if 'skills' in profile:
         profile['skills'] = merge_skills(profile.get('skills', []))
-    save_profile(1, json.dumps(profile))
+    save_profile(user_id(), json.dumps(profile))
     return 'Profile updated successfully.'
 
 
 def add_skills(skills: list[str]):
     profile = _profile()
     profile['skills'] = merge_skills(profile.get('skills', []), skills)
-    save_profile(1, json.dumps(profile))
+    save_profile(user_id(), json.dumps(profile))
     return 'Skills added/merged without duplicates.'
 
 
@@ -30,7 +31,7 @@ def remove_skills(skills: list[str]):
     remove = set(merge_skills(skills))
     profile = _profile()
     profile['skills'] = [x for x in merge_skills(profile.get('skills', [])) if x not in remove]
-    save_profile(1, json.dumps(profile))
+    save_profile(user_id(), json.dumps(profile))
     return 'Skills removed from the profile.'
 
 
@@ -41,13 +42,16 @@ def remove_document(document_id: int):
     return 'Document was not found.'
 
 
-
-def remove_application(application_id: int):
-    return 'Application removed.' if delete_application(int(application_id), 1) else 'Application was not found.'
-
 def update_application(application_id: int, status: str):
     update_application_status(int(application_id), status)
     return 'Application status updated.'
+
+def add_application(title: str, organization: str, deadline: str = '', opportunity_key: str = '', next_action: str = 'Review official opportunity page'):
+    save_application(user_id(), {'opportunity_key': opportunity_key, 'title': title, 'organization': organization, 'status': 'Saved', 'deadline': deadline, 'next_action': next_action})
+    return 'Opportunity added to the application tracker.'
+
+def remove_application(application_id: int):
+    return 'Application removed.' if delete_application(int(application_id), 1) else 'Application was not found.'
 
 
 ACTION_HANDLERS = {
@@ -56,6 +60,7 @@ ACTION_HANDLERS = {
     'remove_skills': remove_skills,
     'remove_document': remove_document,
     'update_application': update_application,
+    'add_application': add_application,
     'remove_application': remove_application,
 }
 

@@ -10,6 +10,7 @@ from documents.extract import extract_text
 from documents.cv_intelligence import extract_cv_signals
 from intelligence.profile_intelligence import build_profile_from_cv, build_profile_from_cv_with_llm
 from llm.manager import LLMManager
+from core.session import user_id
 
 
 def _csv(value):
@@ -145,14 +146,14 @@ def _save_profile(data, fields):
         'education': [{'raw': fields['education_text']}] if fields['education_text'].strip() else data.get('education', []),
         'budget': fields['budget'], 'tests': _dedupe_dicts(tests, ('name', 'score', 'details')),
     })
-    save_profile(1, json.dumps(payload))
+    save_profile(user_id(), json.dumps(payload))
     st.session_state.profile_projects = projects
 
 
 def render():
     st.header('👤 My Profile')
     try:
-        data = json.loads(load_profile(1))
+        data = json.loads(load_profile(user_id()))
     except Exception:
         data = {}
 
@@ -232,8 +233,8 @@ def render():
         if not text.strip():
             st.error('No readable text was extracted from this CV.')
             return
-        save_document(1, safe_name, 'Master CV', str(path), text)
-        current = json.loads(load_profile(1))
+        save_document(user_id(), safe_name, 'Master CV', str(path), text)
+        current = json.loads(load_profile(user_id()))
         updated = build_profile_from_cv(text, current)
         llm_manager = LLMManager()
         if llm_manager.has_external_provider:
@@ -242,7 +243,7 @@ def render():
                 st.caption('LLM-assisted CV understanding was used; only facts explicitly supported by the CV were merged.')
             except Exception as exc:
                 st.warning(f'LLM CV understanding was unavailable, so deterministic extraction was kept: {exc}')
-        save_profile(1, json.dumps(updated))
+        save_profile(user_id(), json.dumps(updated))
         signals = extract_cv_signals(text)
         st.success('Master CV indexed and profile updated.')
         st.write('**Detected/merged skills:** ' + (', '.join(signals['skills']) if signals['skills'] else 'None'))
@@ -252,7 +253,7 @@ def render():
 
     st.divider()
     st.subheader('📚 Uploaded Documents')
-    documents = list_documents(1)
+    documents = list_documents(user_id())
     if not documents:
         st.caption('No uploaded documents yet.')
     else:
@@ -262,7 +263,7 @@ def render():
                 st.write(f"**{row['filename']}** — {row['document_type']}")
             with c2:
                 if st.button('Remove', key=f"remove_doc_{row['id']}"):
-                    path = delete_document(row['id'], 1)
+                    path = delete_document(row['id'], user_id())
                     if path:
                         try:
                             Path(path).unlink(missing_ok=True)

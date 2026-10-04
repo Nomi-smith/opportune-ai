@@ -33,15 +33,6 @@ def test_discovery_plan_queries_are_strings():
 
 def test_deterministic_cv_does_not_create_projects():
     from intelligence.profile_intelligence import extract_profile_facts
-    facts = extract_profile_facts(
-        "Projects\nGame Bot Automation\nBuilt a browser game automation agent using computer vision."
-    )
-    assert facts["projects"] == []
-    assert "Game Bot Automation" in facts["projects"][0]["description"]
-
-
-def test_deterministic_cv_does_not_create_projects():
-    from intelligence.profile_intelligence import extract_profile_facts
     facts = extract_profile_facts("Projects\nGameVision AI\nBuilt a computer vision agent.\nRelevant Coursework\nAlgorithms\nLeadership\n")
     assert facts["projects"] == []
 
