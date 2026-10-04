@@ -1,7 +1,0 @@
-Add these to your existing `.env` if desired:
-
-GEMINI_MODEL=gemini-3.8-flash
-SERPER_API_KEY=
-
-`SERPER_API_KEY` is optional. Gemini Google Search grounding is the primary live-search path when GEMINI_API_KEY is configured.
-Do not replace your existing config/settings.py with a patch file; the consolidation patch intentionally leaves it untouched.
